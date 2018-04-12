@@ -5,6 +5,7 @@ This repository contains a pipeline to annotate features of predicted genes from
 ##### Tools Used by this Pipeline
 	Phaster
 	eggNOG-mapper hmmer/diamond
+	VFDB/Victor Database (virulence factors)
 ##### Usage
       master script located in ./final/pipeline.sh
       
@@ -40,9 +41,7 @@ This repository contains a pipeline to annotate features of predicted genes from
 - - scripts(scripts to run tools. called upon by pipeline.sh)
 - - - append_headers.pl
 - - - run_operon.pl
-- - - converttogff_virfact.py~
 - - - run_eggnog.sh
-- - - virulencemapper.pl~
 - - - sort_by_length.pl~
 - - - reput.pl~
 - - - reput.pl
@@ -59,14 +58,12 @@ This repository contains a pipeline to annotate features of predicted genes from
 - - - eggnog_to_gff.pl
 - - - converttogff_operons.py
 - - - changecol_operons.pl
-- - - virulenceFactors.sh~
 - - - database
 - - - - finalGenes.fas
 - - - - finalGenes.fas.nhr
 - - - - finalGenes.fas.nin
 - - - - finalGenes.fas.nsq
 - - - run_rgi.py
-- - - changecol_vf.pl~
 - - - changecol_vf.pl
 - - - converttogff_virfact.py
 - - clusters (created files upon start of pipeline.sh)
