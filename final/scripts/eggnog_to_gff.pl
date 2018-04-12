@@ -1,0 +1,76 @@
+#!/usr/bin/perl
+use strict; use warnings;
+my $best_hit = $ARGV[1];
+my %queries = ();
+if ($ARGV[2] eq "hmmer"){
+open (my $fh, "<", $best_hit);
+while (my $row = <$fh>){
+	chomp $row;
+	if (!($row =~ /^#/)){
+		my @splitrow = split('\t', $row);
+		my $query_coverage = $splitrow[9];
+		my $seq_start = $splitrow[5];
+		my $seq_end = $splitrow[6];
+		my $query = $splitrow[0];
+		$queries{$query}{"seq_start"} = $seq_start;
+		$queries{$query}{"seq_end"} = $seq_end;
+		$queries{$query}{"coverage"} = $query_coverage;
+	}
+
+
+}
+close $fh;
+}
+
+
+my @array=();
+open (my $fh2, "<", $ARGV[0]);
+while (my $row = <$fh2>){
+	chomp $row;
+	if (! ($row =~ /^#/)){
+		my @splitrow = split('\t', $row);
+		
+		my $st = "";
+		my $KO=""; my $evalue="."; my $hit_score="."; my $annotation=""; my $GO_terms=""; my $ID_match="";
+		if (defined ($splitrow[4])){
+			$st = "predicted_gene_name=".$splitrow[4].";";
+		}
+		if (defined ($splitrow[6])){
+			$KO="KEGG_pathways=".$splitrow[6].";";
+		}
+		if (defined ($splitrow[2])){
+			$evalue=$splitrow[2];
+		}
+		if (defined ($splitrow[3])){
+			$hit_score=$splitrow[3];
+		}
+		if (defined ($splitrow[12])){
+			$annotation="signature_desc=".$splitrow[12].";";
+		}
+		if (defined ($splitrow[5])){
+			$GO_terms="Ontology_term=".$splitrow[5].";";
+		}
+		if (defined ($splitrow[1])){
+			$ID_match="Protein_match=match\$".$splitrow[1].";";
+		}
+		my $query = $splitrow[0];
+		my ( $start ) = $query =~ /:(.+?)\-/;
+		my ( $end ) = $query =~ /\-(.+?)$/;
+		my $string = "";
+		
+		if ($ARGV[2] eq "diamond"){
+			$queries{$query}{"seq_start"} = ".";
+			$queries{$query}{"seq_end"} = ".";
+			$queries{$query}{"coverage"} = ".";
+		}
+		$string = $query."\t"."eggNog"."\t"."protein_match"."\t".$start."\t".$end."\t".$evalue."\t"."."."\t".".";
+		$string .= "\t".$ID_match.$GO_terms; 
+		$string .= $st.$annotation.$KO;
+
+		print $string."\n";
+	}
+
+
+
+}
+

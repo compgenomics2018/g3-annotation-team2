@@ -1,0 +1,24 @@
+#!/usr/bin/bash
+
+echo "virulence factors time"
+
+# perform BLAST
+/projects/data/Func_Annotation/blast_binaries/blastn -query /projects/data/Func_Annotation/g3-annotation-team2/final/clusters/assembled97_nucl.fna -db /projects/data/Func_Annotation/g3-annotation-team2/final/scripts/database/finalGenes.fas -outfmt '6 qseqid qstart qend sseqid evalue sstart send sframe stitle qcovs pident' -max_hsps 1 -max_target_seqs 1 -evalue 1e-10 -out 97_vfdb.txt
+
+# call script to rearrange the columns
+/projects/data/Func_Annotation/g3-annotation-team2/final/scripts/changecol_vf.pl 97_vfdb.txt changed97vf.txt
+
+# call script to convert tabular form to gff
+/projects/data/Func_Annotation/g3-annotation-team2/final/scripts/converttogff_virfact.py changed97vf.txt vf.gff
+
+# map the genes back to the original gff
+/projects/data/Func_Annotation/g3-annotation-team2/final/scripts/virulencemapper.pl -i vf.gff -u /projects/data/Func_Annotation/g3-annotation-team2/final/clusters/assembled97_nucl.uc -t vf
+
+# remove the temp files
+rm 97_vfdb.txt
+rm changed97vf.txt
+rm vf.gff
+
+echo "done mapping virulence factors"
+
+exit
