@@ -27,6 +27,7 @@ for status in $outpath*.out
 do
 	until [[ $(head -n1 $status) =~ Complete ]]
 	do
+	        cat $status
 		ID="$(head -n1 $status | grep -o ZZ_[0-9a-z]* | head -n1)"
 		wget http://phaster.ca/phaster_api?acc=$ID -O $status & sleep 600
 	done
