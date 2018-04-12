@@ -1,22 +1,24 @@
 #!/bin/bash
+
+
 eggNOG_hmmer_database="bact"
 eggNOG_method="diamond"
 while getopts "d:t:" opt; do
   case ${opt} in
     d ) if [ $OPTARG == "diamond" ]; then
-	  eggNOG_method="diamond"
-	elif [ $OPTARG == "hmmer" ]; then
-	  eggNOG_method="hmmer"
-	else
-	echo "invalid eggNOG mode"
-	fi 
+	    eggNOG_method="diamond"
+	    elif [ $OPTARG == "hmmer" ]; then
+	      eggNOG_method="hmmer"
+	      else
+	      echo "invalid eggNOG mode"
+	      fi 
       ;;
     t ) if [ $OPTARG != "gproNOG" ] && [ $OPTARG != "bact"  ]; then
-	  echo "invalid eggNOG hmmer database. Select either gproNOG (gammaproteobacteria) or bact (slow-query time. can take +1 days)";
-	  exit
-	else
-	eggNOG_hmmer_database=$OPTARG
-	fi
+	    echo "invalid eggNOG hmmer database. Select either gproNOG (gammaproteobacteria) or bact (slow-query time. can take +1 days)";
+	      exit
+	      else
+	      eggNOG_hmmer_database=$OPTARG
+	      fi
       ;;
     \? ) echo "Usage: cmd [-d eggNOG query method] [-t hmmer database_eggNOG]"
       ;;
@@ -67,8 +69,8 @@ else
     ./scripts/run_eggnog.sh -i ./clusters/assembled97_proteins.faa -t -o ./tmp/$egg_Name -c 4 -e diamond
     ./scripts/eggnog_to_gff.pl ./tmp/$annotation_file  $seed_orthologs_file $eggNOG_method > ./tmp/$gff
 fi
-
-./scripts/mapper_proteins.pl -i ./tmp/$gff -u ./clusters/assembled97_proteins.uc -t $eggNOG_method
+rm ./tool_gff/eggNOG/*
+./scripts/mapper_proteins.pl -i ./tmp/$gff -u ./clusters/assembled97_proteins.uc -t eggNOG
 
 ################################################################################
 #DOOR
@@ -98,3 +100,8 @@ fi
 #./scripts/run_rgi.py
 ##ERROR: cant find blast+ [HELP]
 ###############################################################################
+
+###############################################################################
+#merge and sort results
+
+./scripts/mergensort.py
