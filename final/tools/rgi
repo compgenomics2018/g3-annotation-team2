@@ -1,0 +1,6 @@
+#!/projects/data/gene_prediction_team2/tools/bin/bin/python
+import sys
+import argparse
+import package.rgi.rgi
+
+package.rgi.rgi.run()
