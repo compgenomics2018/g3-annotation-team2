@@ -60,7 +60,7 @@ do
 								evalue="$(echo $dline | egrep -o '0\.0|N\/A|[0-9]\.*[0-9]*e\-[0-9]+')";
 								description="$(echo "$dline" | awk -F '[[:space:]][[:space:]]+' '{print $2}' | sed 's/\s/\_/g')";
 								features="$(echo "$dline" | awk -F '[[:space:]][[:space:]]+' '{print $2}' | awk -F ';' '{print $1}' | sed 's/\s/\_/g')";
-								echo "$scaffold	phaster	$features	$start	$stop	$evalue	.	.	region$dregion;$description;$score" >> "$outpath"incomplete_"$gff";
+								echo ""$i"_gene.fa # CDS $scaffold	phaster	$features	$start	$stop	$evalue	.	.	region$dregion;$description;$score" >> "$outpath"incomplete_"$gff";
 							fi;
 						elif [ $sregion -gt $dregion ]
 						then
@@ -99,7 +99,7 @@ do
 								evalue="$(echo $dline | egrep -o '0\.0|N\/A|[0-9]\.*[0-9]*e\-[0-9]+')";
 								description="$(echo "$dline" | awk -F '[[:space:]][[:space:]]+' '{print $2}' | sed 's/\s/\_/g')";
 								features="$(echo "$dline" | awk -F '[[:space:]][[:space:]]+' '{print $2}' | awk -F ';' '{print $1}' | sed 's/\s/\_/g')";
-								echo "$scaffold	phaster	$features	$start	$stop	$evalue	.	.	region$dregion;$description;$score" >> $outpath$gff;
+								echo ""$i"_gene.fa # CDS $scaffold	phaster	$features	$start	$stop	$evalue	.	.	region$dregion;$description;$score" >> $outpath$gff;
 							fi;
 						elif [ $sregion -gt $dregion ]
 						then
