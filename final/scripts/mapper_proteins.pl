@@ -21,88 +21,66 @@ while (my $row = <$fh>){
 	my @splitrow = split('\t', $row);
 	my $centroid = $splitrow[0];
 	$centroid =~ s/_[\d]+:/:/;
-	
+	$row =~ s/^.+?\t//;
 	$hash{$centroid} = $row;
-	print $hash{$centroid}."\t".$centroid."\n";
+	#print $hash{$centroid}."\t".$centroid."\n";
 	push @exists, $centroid;
 
 
 }
+
+#print $hash{"SRR5666611_scaffold36|size19481:18625-19479"}."\n";
+
+
+
 close $fh;
+print "size of gff: ";
 print scalar(@exists);
 print "\n";
 open (my $fh2, "<", $uc);
-my $removable_files = "./tool_gff/eggNOG/SRR*_".$tool.".gff";
+my $removable_files = "./$tool/SRR*_".$tool.".gff";
 `rm $removable_files`;
 my $sum = 0; 
 my @uc_array=();
 while (my $row = <$fh2>){
 	chomp $row;
+	
+
 	push @uc_array, $row;
+	
 }
 close $fh2;
 my $seeder="";
+my %cluster_files=();
 foreach my $row (@uc_array){
+    if ($row =~ /^S/){
+	#print $row."\n";
 	my @splitrow = split("\t", $row);
-	my $header = $splitrow[8];
-	
-	if ($splitrow[0] =~ /^S/){
-	    $seeder=$splitrow[8];
-	    my $centroid = $splitrow[8];
-              my ( $SRR ) = $header =~ /^(.+?)_scaffold/;
-               my  ( $sc ) = $header =~ /^SRR.*?_(.+)/;
-	    if (defined $hash{$centroid}){
-		$count_appending{$SRR}++;
-		my $annotation = $hash{$centroid};
-		my @splitrow2 = split(':', $centroid);
-                  my ( $start ) = $splitrow2[1] =~ /^(.+?)\-/;
-                   my ( $end ) = $splitrow2[1] =~ /\-(.+?)$/;
-		my @splitrow3 = split('\t', $annotation);
-		$splitrow3[2] = $start;
-		$splitrow3[3] = $end;
-		my $anno =$sc."\t";
-		foreach (@splitrow3){
-		    $anno .= $_."\t";
-		}
-		open (my $fh_output, ">>", "./tool_gff/eggNOG/".$SRR."_".$tool.".gff");
-		print $fh_output $anno."\n";
-		close $fh_output;
-	    }
-        }
-	elsif ($splitrow[0] =~ /^H/){
-	    my $centroid = $splitrow[9];
+	my ( $SRR ) = $splitrow[8] =~ /^(SRR.+?)_/;
+	my $header = $splitrow[8] =~ /^SRR.+?_(.+?)/;
+	push @{$cluster_files{$splitrow[8]}}, $splitrow[8]; 
+    }
+    elsif ($row =~ /^H/){
+	my @splitrow = split("\t", $row);
+	push @{$cluster_files{$splitrow[9]}}, $splitrow[8];
+    }
 
-	    my $clustered_seq = $splitrow[8];
-            my ( $SRR ) = $clustered_seq =~ /^(.+?)_scaffold/;
-
-            my  ( $sc ) = $clustered_seq =~ /^SRR.*?_(.+)$/;    
-                        
-	    if (defined $hash{$centroid} && !(defined($hash{$clustered_seq}))){
-		$count_appending{$SRR}++;
-		my $annotation = $hash{$centroid};
-		my @splitrow2 = split(':', $clustered_seq);
-		my ( $start ) = $splitrow2[1] =~ /^(.+?)\-/;
-		my ( $end ) = $splitrow2[1] =~ /\-(.+?)$/;
-		my @splitrow3 = split('\t', $annotation);
-		$splitrow3[0] = $sc;
-		$splitrow3[3] = $start;
-		$splitrow3[4] = $end;
-		my $anno ="";
-		foreach (@splitrow3){
-		    $anno .= $_."\t";
-		}
-		
-
-		$sum++;
-		#print $clustered_seq."\t".$sc."\n";
-                open (my $fh_output, ">>", "./tool_gff/eggNOG/".$SRR."_".$tool.".gff");
-                print $fh_output $anno."\n";
-		close $fh_output;
-	    }
-	    
-
-        }
-
-	
 }
-print $sum."\n";
+my $size = keys %cluster_files;
+print "size of uc seeds: ".$size."\n";
+
+foreach my $keys (keys %cluster_files){
+    #print $keys."\n";
+    foreach my $keys2 (@{$cluster_files{$keys}}){
+	#print $keys2."\t";
+	my ( $SRR ) = $keys2 =~ /^(SRR.+?)_/;
+        my ( $header) = $keys2 =~ /^SRR.+?_(.+?)$/;
+	if (defined $hash{$keys}){
+	open (my $fh_output, ">>", "./".$tool."/".$SRR."_".$tool.".gff");
+	
+	print $fh_output $header."\t".$hash{$keys}."\n"; 
+	close $fh_output;
+	}
+    }
+    #print "\n";
+}
