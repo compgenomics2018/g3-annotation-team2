@@ -14,6 +14,8 @@ This repository contains a pipeline to annotate features of predicted genes from
       ./pipeline.sh -d diamond -t hmmer (runs all tools and eggNOG-mapper in hmmer mode)
 ##### Inputs and Outputs
       Inputs: Automated. Takes in Nucleotide sequences and Translated proteins files from Gene Prediction and genome files from Genome Assembly.
+      Output(s): GFF files for each tool (divided by SRR)
+      		 Merged GFF annotation file for all tools.
 ##### Directory Structure
 -scripts(additional set of scripts)
 - - phaster2gff.sh
