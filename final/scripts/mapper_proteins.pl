@@ -76,7 +76,7 @@ foreach my $keys (keys %cluster_files){
 	my ( $SRR ) = $keys2 =~ /^(SRR.+?)_/;
         my ( $header) = $keys2 =~ /^SRR.+?_(.+?)$/;
 	if (defined $hash{$keys}){
-	open (my $fh_output, ">>", "./".$tool."/".$SRR."_".$tool.".gff");
+	open (my $fh_output, ">>", "./tool_gff/".$tool."/".$SRR."_".$tool.".gff");
 	
 	print $fh_output $header."\t".$hash{$keys}."\n"; 
 	close $fh_output;
