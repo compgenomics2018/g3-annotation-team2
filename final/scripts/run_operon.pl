@@ -94,7 +94,7 @@ my $operon_gff = $final_output.".operon.gff";
 system "/projects/data/Func_Annotation/g3-annotation-team2/final/scripts/converttogff_operons.py $changecol_file $operon_gff";
 
 # map the genes back to the original gff
-system "/projects/data/Func_Annotation/g3-annotation-team2/final/scripts/virulencemapper.pl -i $operon_gff -u /projects/data/Func_Annotation/g3-annotation-team2/final/clusters/assembled97_proteins.uc -t DOOR";
+system "/projects/data/Func_Annotation/g3-annotation-team2/final/scripts/mapper_proteins.pl -i $operon_gff -u /projects/data/Func_Annotation/g3-annotation-team2/final/clusters/assembled97_proteins.uc -t DOOR";
 
 print "FINALLY done with operon.gff";
 
