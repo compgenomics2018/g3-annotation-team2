@@ -1,0 +1,10 @@
+#! /usr/bin/python                                                              
+
+import os
+
+os.system("tools/rgi -i clusters/assembled100_proteins.faa -t protein -n \
+1 -o tmp/rgiOUT")
+
+os.system("python scripts/rgi2gff.py")
+
+
