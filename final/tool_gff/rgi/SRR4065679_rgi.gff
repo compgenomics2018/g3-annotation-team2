@@ -1,0 +1,17 @@
+scaffold16|size99674:57489-58187	rgi	AMR_gene	41476	42174	3.37574e-153	.	0	Escherichia coli CpxR : efflux pump complex or subunit conferring antibiotic resistance; protein(s) and two-component regulatory system modulating antibiotic efflux
+scaffold2|size438927:428030-428752	rgi	AMR_gene	121272	121994	2.27319e-166	.	0	baeR : efflux pump complex or subunit conferring antibiotic resistance; protein(s) and two-component regulatory system modulating antibiotic efflux
+scaffold64|size5107:455-1270	rgi	AMR_gene	1002	1850	0.0	.	0	sul2 : antibiotic target replacement protein; determinant of sulfonamide resistance
+scaffold5|size361849:347220-347639	rgi	AMR_gene	347220	347639	4.01994e-103	.	0	FosA5 : antibiotic inactivation enzyme; determinant of fosfomycin resistance
+scaffold70|size3687:1764-2600	rgi	AMR_gene	1595	2431	0.0	.	0	APH(6)-Id : antibiotic inactivation enzyme; determinant of aminoglycoside resistance
+scaffold48|size10006:7202-8083	rgi	AMR_gene	7202	8083	0.0	.	0	KPC-3 : antibiotic inactivation enzyme; determinant of beta-lactam resistance
+scaffold82|size2247:1314-2174	rgi	AMR_gene	939	1799	0.0	.	0	SHV-160 : antibiotic inactivation enzyme; determinant of beta-lactam resistance
+scaffold10|size212462:111648-112802	rgi	AMR_gene	59273	60427	0.0	.	0	Klebsiella pneumoniae OmpK37 : protein modulating permeability to antibiotic
+scaffold77|size2799:493-2112	rgi	AMR_gene	493	2112	0.0	.	0	MCR-3 : determinant of polymyxin resistance; gene altering cell wall charge
+scaffold85|size1567:566-1135	rgi	AMR_gene	566	1135	3.81757e-143	.	0	dfrA19 : antibiotic target replacement protein; determinant of diaminopyrimidine resistance
+scaffold5|size361849:255432-256301	rgi	AMR_gene	160987	161856	0.0	.	0	Enterobacter cloacae rob : efflux pump complex or subunit conferring antibiotic resistance; protein(s) and two-component regulatory system modulating antibiotic efflux
+scaffold8|size250445:159819-161210	rgi	AMR_gene	89266	90657	0.0	.	0	Escherichia coli UhpT with mutation conferring resistance to fosfomycin : determinant of fosfomycin resistance; antibiotic resistant gene variant or mutant
+scaffold4|size378858:41765-42940	rgi	AMR_gene	41765	42940	0.0	.	0	oqxA : efflux pump complex or subunit conferring antibiotic resistance
+scaffold14|size108716:20062-20436	rgi	AMR_gene	23484	23858	3.70927e-86	.	0	marA : efflux pump complex or subunit conferring antibiotic resistance; protein modulating permeability to antibiotic; protein(s) and two-component regulatory system modulating antibiotic efflux
+scaffold81|size2569:325-969	rgi	AMR_gene	325	969	5.23438e-160	.	0	QnrB13 : antibiotic target protection protein; determinant of fluoroquinolone resistance
+scaffold4|size378858:42964-46116	rgi	AMR_gene	42964	46116	0.0	.	0	oqxB : efflux pump complex or subunit conferring antibiotic resistance
+scaffold11|size205476:15550-16182	rgi	AMR_gene	15208	15840	1.77949e-158	.	0	CRP : efflux pump complex or subunit conferring antibiotic resistance; protein(s) and two-component regulatory system modulating antibiotic efflux

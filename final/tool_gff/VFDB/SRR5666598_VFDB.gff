@@ -1,0 +1,39 @@
+scaffold3|size415237:384363-385359	VFDB	virulence_factor	384363	385359	0.0	+	.	Name=VFG043624(gi:238896387) (mrkD) fimbrial adhesin protein precursor [type 3 fimbriae (biofilm formation) (AI076)] [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	
+scaffold7|size217389:142629-143430	VFDB	virulence_factor	142629	143430	0.0	+	.	Name=VFG040971(gi:206576910) (pulO) pullulanase secretion protein PulO [pul (SS215)] [Klebsiella pneumoniae 342]	
+scaffold7|size217389:146803-147400	VFDB	virulence_factor	146803	147400	0.0	+	.	Name=VFG040966(gi:206581080) (pulJ) pullulanase secretion protein PulJ [pul (SS215)] [Klebsiella pneumoniae 342]	
+scaffold3|size415237:396695-397232	VFDB	virulence_factor	396695	397232	0.0	+	.	Name=VFG043618(gi:206579140) (fimI) fimbrial protein [type 1 fimbriae (AI075)] [Klebsiella pneumoniae 342]	
+scaffold3|size415237:400690-401218	VFDB	virulence_factor	400690	401218	0.0	+	.	Name=VFG043615(gi:206577173) (fimF) fimbrial protein FimF [type 1 fimbriae (AI075)] [Klebsiella pneumoniae 342]	
+scaffold3|size415237:398067-400680	VFDB	virulence_factor	398067	400680	0.0	+	.	Name=VFG043616(gi:206577896) (fimD) outer membrane usher protein fimD [type 1 fimbriae (AI075)] [Klebsiella pneumoniae 342]	
+scaffold15|size132971:33980-34865	VFDB	virulence_factor	33980	34865	0.0	+	.	Name=VFG043545(gi:218560235) (ECS88_3547) lipoprotein NlpI [NlpI (AI331)] [Escherichia coli O45:K1:H7 str. S88]	
+scaffold8|size216733:210788-211376	VFDB	virulence_factor	210788	211376	0.0	+	.	Name=VFG034408(gi:260842499) (ecpA) fimbrillin precursor [E. coli common pilus (ECP) (CVF625)] [Escherichia coli O103:H2 str. 12009]	
+scaffold7|size217389:147758-148274	VFDB	virulence_factor	147758	148274	0.0	+	.	Name=VFG040964(gi:206579603) (pulH) pullulanase secretion protein PulH [pul (SS215)] [Klebsiella pneumoniae 342]	
+scaffold7|size217389:148273-148696	VFDB	virulence_factor	148273	148696	0.0	+	.	Name=VFG040963(gi:206579617) (pulG) pullulanase secretion protein PulG [pul (SS215)] [Klebsiella pneumoniae 342]	
+scaffold7|size217389:147396-147762	VFDB	virulence_factor	147396	147762	5.88e-166	+	.	Name=VFG040965(gi:206580315) (pulI) pullulanase secretion protein PulI [pul (SS215)] [Klebsiella pneumoniae 342]	
+scaffold6|size226047:49811-50120	VFDB	virulence_factor	49811	50120	4.12e-107	+	.	Name=gi|207855516:4459867-4460175 Salmonella enterica subsp. enterica serovar Enteritidis str. P125109 chromosome, complete genome	
+scaffold28|size34501:25972-30001	VFDB	virulence_factor	25972	30001	0.0	+	.	Name=gi|16763390:4365907-4369935 Salmonella enterica subsp. enterica serovar Typhimurium str. LT2 chromosome, complete genome	
+scaffold7|size217389:145820-146807	VFDB	virulence_factor	145820	146807	0.0	+	.	Name=VFG040967(gi:206579421) (pulK) pullulanase secretion protein PulK [pul (SS215)] [Klebsiella pneumoniae 342]	
+scaffold7|size217389:143426-144173	VFDB	virulence_factor	143426	144173	0.0	+	.	Name=VFG040970(gi:206577876) (pulN) pullulanase secretion protein PulN [pul (SS215)] [Klebsiella pneumoniae 342]	
+scaffold3|size415237:397281-397986	VFDB	virulence_factor	397281	397986	0.0	+	.	Name=VFG043617(gi:206578956) (fimC) chaperone protein FimC [type 1 fimbriae (AI075)] [Klebsiella pneumoniae 342]	
+scaffold3|size415237:387847-388549	VFDB	virulence_factor	387847	388549	0.0	+	.	Name=VFG043626(gi:238896389) (mrkB) fimbrial chaperone protein mrkB precursor [type 3 fimbriae (biofilm formation) (AI076)] [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	
+scaffold3|size415237:401230-401731	VFDB	virulence_factor	401230	401731	0.0	+	.	Name=VFG043614(gi:206576049) (fimG) fimbrial protein FimG [type 1 fimbriae (AI075)] [Klebsiella pneumoniae 342]	
+scaffold7|size217389:149932-151426	VFDB	virulence_factor	149932	151426	0.0	+	.	Name=VFG040961(gi:206578391) (pulE) pullulanase secretion protein PulE [pul (SS215)] [Klebsiella pneumoniae 342]	
+scaffold7|size217389:148716-149931	VFDB	virulence_factor	148716	149931	0.0	+	.	Name=VFG040962(gi:206578970) (pulF) pullulanase secretion protein PulF [pul (SS215)] [Klebsiella pneumoniae 342]	
+scaffold3|size415237:393917-394523	VFDB	virulence_factor	393917	394523	0.0	+	.	Name=VFG043622(gi:206577666) (fimB) tyrosine recombinase [type 1 fimbriae (AI075)] [Klebsiella pneumoniae 342]	
+scaffold15|size132971:33980-34583	VFDB	virulence_factor	33980	34583	0.0	+	.	Name=VFG043545(gi:218560235) (ECS88_3547) lipoprotein NlpI [NlpI (AI331)] [Escherichia coli O45:K1:H7 str. S88]	
+scaffold24|size70023:49302-49596	VFDB	virulence_factor	49302	49596	0.0	+	.	Name=VFG012785(gi:3776756) (ospC4) - [Mxi-Spa TTSS effectors controlled by VirB (CVF463)] [Shigella boydii Sb227]	
+scaffold21|size78245:19301-19568	VFDB	virulence_factor	19301	19568	0.0	+	.	Name=VFG012785(gi:3776756) (ospC4) - [Mxi-Spa TTSS effectors controlled by VirB (CVF463)] [Shigella boydii Sb227]	
+scaffold7|size217389:151422-153378	VFDB	virulence_factor	151422	153378	0.0	+	.	Name=VFG040960(gi:206577210) (pulD) pullulanase secretion envelope protein PulD [pul (SS215)] [Klebsiella pneumoniae 342]	
+scaffold1|size977515:691987-692917	VFDB	virulence_factor	691987	692917	0.0	+	.	Name=VFG044322(gi:238894719) (iroE) hypothetical protein [Salmochelin (IA015)] [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	
+scaffold3|size415237:383714-384350	VFDB	virulence_factor	383714	384350	0.0	+	.	Name=VFG043623(gi:238896386) (mrkF) fimbriae stability-associated protein [type 3 fimbriae (biofilm formation) (AI076)] [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	
+scaffold3|size415237:388644-389253	VFDB	virulence_factor	388644	389253	0.0	+	.	Name=VFG043627(gi:238896390) (mrkA) type 3 fimbrial protein mrkA precursor [type 3 fimbriae (biofilm formation) (AI076)] [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	
+scaffold3|size415237:396076-396625	VFDB	virulence_factor	396076	396625	0.0	+	.	Name=VFG043619(gi:206579227) (fimA) type-1 fimbrial protein [type 1 fimbriae (AI075)] [Klebsiella pneumoniae 342]	
+scaffold3|size415237:394157-394523	VFDB	virulence_factor	394157	394523	0.0	+	.	Name=VFG043622(gi:206577666) (fimB) tyrosine recombinase [type 1 fimbriae (AI075)] [Klebsiella pneumoniae 342]	
+scaffold7|size217389:158715-159060	VFDB	virulence_factor	158715	159060	9.43e-149	+	.	Name=VFG040957(gi:206579648) (pulS) pullulanase secretion protein PulS [pul (SS215)] [Klebsiella pneumoniae 342]	
+scaffold3|size415237:385349-387836	VFDB	virulence_factor	385349	387836	0.0	+	.	Name=VFG043625(gi:238896388) (mrkC) fimbrial biogenesis outer membrane usher protein mrkC precursor [type 3 fimbriae (biofilm formation) (AI076)] [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	
+scaffold23|size75042:21731-23273	VFDB	virulence_factor	21731	23273	0.0	+	.	Name=gi|16763390:4076433-4077974 Salmonella enterica subsp. enterica serovar Typhimurium str. LT2 chromosome, complete genome	
+scaffold7|size217389:144640-145804	VFDB	virulence_factor	144640	145804	0.0	+	.	Name=VFG040968(gi:206576722) (pulL) pullulanase secretion protein PulL [pul (SS215)] [Klebsiella pneumoniae 342]	
+scaffold3|size415237:401745-402654	VFDB	virulence_factor	401745	402654	0.0	+	.	Name=VFG043613(gi:206575974) (fimH) fimbrial protein FimH [type 1 fimbriae (AI075)] [Klebsiella pneumoniae 342]	
+scaffold7|size217389:158119-158677	VFDB	virulence_factor	158119	158677	0.0	+	.	Name=VFG040958(gi:206580997) (pulB) general secretion pathway protein B [pul (SS215)] [Klebsiella pneumoniae 342]	
+scaffold7|size217389:144162-144648	VFDB	virulence_factor	144162	144648	0.0	+	.	Name=VFG040969(gi:206579795) (pulM) pullulanase secretion protein PulM [pul (SS215)] [Klebsiella pneumoniae 342]	
+scaffold7|size217389:138209-138665	VFDB	virulence_factor	138209	138665	0.0	+	.	Name=gi|110804074:151601-152056 Shigella flexneri 5 str. 8401, complete genome	
+scaffold37|size6790:1-193	VFDB	virulence_factor	1	193	2.11e-72	+	.	Name=VFG012785(gi:3776756) (ospC4) - [Mxi-Spa TTSS effectors controlled by VirB (CVF463)] [Shigella boydii Sb227]	

@@ -1,0 +1,56 @@
+scaffold1|size613696:38420-40223	SRR5666567_scaffold1|size613696:38420-40223	VFDB	38420	40223	40223	0.0	+	.	Name=VFG000366(gb|NP_405475) (ybtQ) inner membrane ABC-transporter YbtQ [Yersiniabactin (VF0136)] [Yersinia pestis CO92]	
+scaffold1|size613696:41523-42828	VFDB	virulence_factor	41523	42828	0.0	+	.	Name=VFG003509(gi:123442834) (ybtS) putative salicylate synthetase [Yersiniabactin (CVF051)] [Yersinia enterocolitica subsp. enterocolitica 8081]	
+scaffold1|size613696:40215-41496	VFDB	virulence_factor	40215	41496	0.0	+	.	Name=VFG003508(gi:123442835) (ybtX) putative signal transducer [Yersiniabactin (CVF051)] [Yersinia enterocolitica subsp. enterocolitica 8081]	
+scaffold3|size462445:384363-385359	VFDB	virulence_factor	384363	385359	0.0	+	.	Name=VFG043624(gi:238896387) (mrkD) fimbrial adhesin protein precursor [type 3 fimbriae (biofilm formation) (AI076)] [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	
+scaffold3|size462445:401745-402654	VFDB	virulence_factor	401745	402654	0.0	+	.	Name=VFG043613(gi:206575974) (fimH) fimbrial protein FimH [type 1 fimbriae (AI075)] [Klebsiella pneumoniae 342]	
+scaffold6|size378364:303605-304406	VFDB	virulence_factor	303605	304406	0.0	+	.	Name=VFG040971(gi:206576910) (pulO) pullulanase secretion protein PulO [pul (SS215)] [Klebsiella pneumoniae 342]	
+scaffold6|size378364:307779-308376	VFDB	virulence_factor	307779	308376	0.0	+	.	Name=VFG040966(gi:206581080) (pulJ) pullulanase secretion protein PulJ [pul (SS215)] [Klebsiella pneumoniae 342]	
+scaffold3|size462445:396695-397232	VFDB	virulence_factor	396695	397232	0.0	+	.	Name=VFG043618(gi:206579140) (fimI) fimbrial protein [type 1 fimbriae (AI075)] [Klebsiella pneumoniae 342]	
+scaffold3|size462445:400690-401218	VFDB	virulence_factor	400690	401218	0.0	+	.	Name=VFG043615(gi:206577173) (fimF) fimbrial protein FimF [type 1 fimbriae (AI075)] [Klebsiella pneumoniae 342]	
+scaffold1|size613696:19628-29120	VFDB	virulence_factor	19628	29120	0.0	+	.	Name=VFG000362(gb|NP_405471) (irp1) yersiniabactin biosynthetic protein Irp1 [Yersiniabactin (VF0136)] [Yersinia pestis CO92]	
+scaffold3|size462445:398067-400680	VFDB	virulence_factor	398067	400680	0.0	+	.	Name=VFG043616(gi:206577896) (fimD) outer membrane usher protein fimD [type 1 fimbriae (AI075)] [Klebsiella pneumoniae 342]	
+scaffold8|size308074:209124-210009	VFDB	virulence_factor	209124	210009	0.0	+	.	Name=VFG043545(gi:218560235) (ECS88_3547) lipoprotein NlpI [NlpI (AI331)] [Escherichia coli O45:K1:H7 str. S88]	
+scaffold5|size378559:372615-373203	VFDB	virulence_factor	372615	373203	0.0	+	.	Name=VFG034408(gi:260842499) (ecpA) fimbrillin precursor [E. coli common pilus (ECP) (CVF625)] [Escherichia coli O103:H2 str. 12009]	
+scaffold6|size378364:308734-309250	VFDB	virulence_factor	308734	309250	0.0	+	.	Name=VFG040964(gi:206579603) (pulH) pullulanase secretion protein PulH [pul (SS215)] [Klebsiella pneumoniae 342]	
+scaffold6|size378364:309249-309672	VFDB	virulence_factor	309249	309672	0.0	+	.	Name=VFG040963(gi:206579617) (pulG) pullulanase secretion protein PulG [pul (SS215)] [Klebsiella pneumoniae 342]	
+scaffold6|size378364:308372-308738	VFDB	virulence_factor	308372	308738	5.88e-166	+	.	Name=VFG040965(gi:206580315) (pulI) pullulanase secretion protein PulI [pul (SS215)] [Klebsiella pneumoniae 342]	
+scaffold10|size226134:49796-50105	VFDB	virulence_factor	49796	50105	4.12e-107	+	.	Name=gi|207855516:4459867-4460175 Salmonella enterica subsp. enterica serovar Enteritidis str. P125109 chromosome, complete genome	
+scaffold31|size20041:11356-11650	VFDB	virulence_factor	11356	11650	4.95e-121	+	.	Name=VFG012785(gi:3776756) (ospC4) - [Mxi-Spa TTSS effectors controlled by VirB (CVF463)] [Shigella boydii Sb227]	
+scaffold43|size6787:0-162	VFDB	virulence_factor	0	162	2.11e-72	+	.	Name=VFG012785(gi:3776756) (ospC4) - [Mxi-Spa TTSS effectors controlled by VirB (CVF463)] [Shigella boydii Sb227]	
+scaffold24|size34501:25972-30001	VFDB	virulence_factor	25972	30001	0.0	+	.	Name=gi|16763390:4365907-4369935 Salmonella enterica subsp. enterica serovar Typhimurium str. LT2 chromosome, complete genome	
+scaffold1|size613696:36721-38434	VFDB	virulence_factor	36721	38434	0.0	+	.	Name=gi|22123922:2651522-2653324 Yersinia pestis KIM 10 chromosome, complete genome	
+scaffold1|size613696:16150-17728	VFDB	virulence_factor	16150	17728	0.0	+	.	Name=VFG003381(gi:51595929) (ybtE) yersiniabactin siderophore biosynthetic protein [Yersiniabactin (CVF051)] [Yersinia pseudotuberculosis IP 32953]	
+scaffold1|size613696:18531-19632	VFDB	virulence_factor	18531	19632	0.0	+	.	Name=VFG002743(gi:22126285) (ybtU) thiazolinyl-S-HMWP1 reductase [Yersiniabactin (CVF051)] [Yersinia pestis KIM 10]	
+scaffold6|size378364:306796-307783	VFDB	virulence_factor	306796	307783	0.0	+	.	Name=VFG040967(gi:206579421) (pulK) pullulanase secretion protein PulK [pul (SS215)] [Klebsiella pneumoniae 342]	
+scaffold1|size613696:35505-36465	VFDB	virulence_factor	35505	36465	0.0	+	.	Name=VFG003386(gi:51595934) (ybtA) transcriptional regulator YbtA [Yersiniabactin (CVF051)] [Yersinia pseudotuberculosis IP 32953]	
+scaffold6|size378364:304402-305149	VFDB	virulence_factor	304402	305149	0.0	+	.	Name=VFG040970(gi:206577876) (pulN) pullulanase secretion protein PulN [pul (SS215)] [Klebsiella pneumoniae 342]	
+scaffold3|size462445:397281-397986	VFDB	virulence_factor	397281	397986	0.0	+	.	Name=VFG043617(gi:206578956) (fimC) chaperone protein FimC [type 1 fimbriae (AI075)] [Klebsiella pneumoniae 342]	
+scaffold3|size462445:387847-388549	VFDB	virulence_factor	387847	388549	0.0	+	.	Name=VFG043626(gi:238896389) (mrkB) fimbrial chaperone protein mrkB precursor [type 3 fimbriae (biofilm formation) (AI076)] [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	
+scaffold3|size462445:401230-401731	VFDB	virulence_factor	401230	401731	0.0	+	.	Name=VFG043614(gi:206576049) (fimG) fimbrial protein FimG [type 1 fimbriae (AI075)] [Klebsiella pneumoniae 342]	
+scaffold49|size4558:3814-4081	VFDB	virulence_factor	3814	4081	0.0	+	.	Name=VFG012785(gi:3776756) (ospC4) - [Mxi-Spa TTSS effectors controlled by VirB (CVF463)] [Shigella boydii Sb227]	
+scaffold89|size674:546-672	VFDB	virulence_factor	546	672	0.0	+	.	Name=gi|117622295:3273504-3275495 Escherichia coli APEC O1, complete genome	
+scaffold1|size613696:13998-16020	VFDB	virulence_factor	13998	16020	0.0	+	.	Name=VFG003114(gi:45441463) (psn/fyuA) pesticin/yersiniabactin receptor protein [Yersiniabactin (CVF051)] [Yersinia pestis biovar Microtus str. 91001]	
+scaffold6|size378364:310908-312402	VFDB	virulence_factor	310908	312402	0.0	+	.	Name=VFG040961(gi:206578391) (pulE) pullulanase secretion protein PulE [pul (SS215)] [Klebsiella pneumoniae 342]	
+scaffold6|size378364:309692-310907	VFDB	virulence_factor	309692	310907	0.0	+	.	Name=VFG040962(gi:206578970) (pulF) pullulanase secretion protein PulF [pul (SS215)] [Klebsiella pneumoniae 342]	
+scaffold1|size613696:17731-18535	VFDB	virulence_factor	17731	18535	0.0	+	.	Name=VFG034152(gi:218705475) (ybtT) putative thioesterase YbtT [Yersiniabactin siderophore (CVF458)] [Escherichia coli O17:K52:H18 str. UMN026]	
+scaffold89|size674:0-672	VFDB	virulence_factor	0	672	0.0	+	.	Name=gi|117622295:3273504-3275495 Escherichia coli APEC O1, complete genome	
+scaffold3|size462445:393917-394523	VFDB	virulence_factor	393917	394523	0.0	+	.	Name=VFG043622(gi:206577666) (fimB) tyrosine recombinase [type 1 fimbriae (AI075)] [Klebsiella pneumoniae 342]	
+scaffold8|size308074:209124-209727	VFDB	virulence_factor	209124	209727	0.0	+	.	Name=VFG043545(gi:218560235) (ECS88_3547) lipoprotein NlpI [NlpI (AI331)] [Escherichia coli O45:K1:H7 str. S88]	
+scaffold41|size7553:5665-5959	VFDB	virulence_factor	5665	5959	4.74e-151	+	.	Name=VFG012785(gi:3776756) (ospC4) - [Mxi-Spa TTSS effectors controlled by VirB (CVF463)] [Shigella boydii Sb227]	
+scaffold18|size69760:10846-11113	VFDB	virulence_factor	10846	11113	0.0	+	.	Name=VFG012785(gi:3776756) (ospC4) - [Mxi-Spa TTSS effectors controlled by VirB (CVF463)] [Shigella boydii Sb227]	
+scaffold37|size12226:11482-11749	VFDB	virulence_factor	11482	11749	0.0	+	.	Name=VFG012785(gi:3776756) (ospC4) - [Mxi-Spa TTSS effectors controlled by VirB (CVF463)] [Shigella boydii Sb227]	
+scaffold6|size378364:312398-314354	VFDB	virulence_factor	312398	314354	0.0	+	.	Name=VFG040960(gi:206577210) (pulD) pullulanase secretion envelope protein PulD [pul (SS215)] [Klebsiella pneumoniae 342]	
+scaffold3|size462445:383714-384350	VFDB	virulence_factor	383714	384350	0.0	+	.	Name=VFG043623(gi:238896386) (mrkF) fimbriae stability-associated protein [type 3 fimbriae (biofilm formation) (AI076)] [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	
+scaffold3|size462445:388644-389253	VFDB	virulence_factor	388644	389253	0.0	+	.	Name=VFG043627(gi:238896390) (mrkA) type 3 fimbrial protein mrkA precursor [type 3 fimbriae (biofilm formation) (AI076)] [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	
+scaffold89|size674:0-579	VFDB	virulence_factor	0	579	0.0	+	.	Name=gi|117622295:3273504-3275495 Escherichia coli APEC O1, complete genome	
+scaffold3|size462445:396076-396625	VFDB	virulence_factor	396076	396625	0.0	+	.	Name=VFG043619(gi:206579227) (fimA) type-1 fimbrial protein [type 1 fimbriae (AI075)] [Klebsiella pneumoniae 342]	
+scaffold3|size462445:394157-394523	VFDB	virulence_factor	394157	394523	0.0	+	.	Name=VFG043622(gi:206577666) (fimB) tyrosine recombinase [type 1 fimbriae (AI075)] [Klebsiella pneumoniae 342]	
+scaffold6|size378364:319691-320036	VFDB	virulence_factor	319691	320036	9.43e-149	+	.	Name=VFG040957(gi:206579648) (pulS) pullulanase secretion protein PulS [pul (SS215)] [Klebsiella pneumoniae 342]	
+scaffold1|size613696:29207-35315	VFDB	virulence_factor	29207	35315	0.0	+	.	Name=gi|45439865:1812792-1818917 Yersinia pestis biovar Microtus str. 91001 chromosome, complete genome	
+scaffold3|size462445:385349-387836	VFDB	virulence_factor	385349	387836	0.0	+	.	Name=VFG043625(gi:238896388) (mrkC) fimbrial biogenesis outer membrane usher protein mrkC precursor [type 3 fimbriae (biofilm formation) (AI076)] [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	
+scaffold14|size101426:21731-23273	VFDB	virulence_factor	21731	23273	0.0	+	.	Name=gi|16763390:4076433-4077974 Salmonella enterica subsp. enterica serovar Typhimurium str. LT2 chromosome, complete genome	
+scaffold6|size378364:305616-306780	VFDB	virulence_factor	305616	306780	0.0	+	.	Name=VFG040968(gi:206576722) (pulL) pullulanase secretion protein PulL [pul (SS215)] [Klebsiella pneumoniae 342]	
+scaffold4|size683422:430306-431236	VFDB	virulence_factor	430306	431236	0.0	+	.	Name=VFG044322(gi:238894719) (iroE) hypothetical protein [Salmochelin (IA015)] [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]	
+scaffold6|size378364:319095-319653	VFDB	virulence_factor	319095	319653	0.0	+	.	Name=VFG040958(gi:206580997) (pulB) general secretion pathway protein B [pul (SS215)] [Klebsiella pneumoniae 342]	
+scaffold6|size378364:305138-305624	VFDB	virulence_factor	305138	305624	0.0	+	.	Name=VFG040969(gi:206579795) (pulM) pullulanase secretion protein PulM [pul (SS215)] [Klebsiella pneumoniae 342]	
+scaffold6|size378364:299185-299641	VFDB	virulence_factor	299185	299641	0.0	+	.	Name=gi|110804074:151601-152056 Shigella flexneri 5 str. 8401, complete genome	

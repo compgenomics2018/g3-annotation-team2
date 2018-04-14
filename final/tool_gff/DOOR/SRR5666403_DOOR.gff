@@ -1,0 +1,715 @@
+scaffold15	DOOR	operon	43641	44349	0.0	.	.	Name=operon ID = 2085698;COG1982E;ornithine decarboxylase
+scaffold4	DOOR	operon	213086	214023	0.0	.	.	Name=operon ID = 471549;COG0060J;isoleucyl-tRNA synthetase
+scaffold20	DOOR	operon	66866	67057	7.96e-142	.	.	Name=operon ID = 328676;COG3079S;hypothetical protein
+scaffold2	DOOR	operon	43537	44549	0.0	.	.	Name=operon ID = 328956;COG3696P;hypothetical protein
+scaffold5	DOOR	operon	312440	312747	0.0	.	.	Name=operon ID = 471487;COG3221P;phosphonate ABC transporter periplasmic phosphonate-binding protein
+scaffold7	DOOR	operon	169984	170295	0.0	.	.	Name=operon ID = 2085270;COG0583K;DNA-binding transcriptional activator TdcA
+scaffold8	DOOR	operon	15339	15693	0.0	.	.	Name=operon ID = 328532;COG0584C;glycerophosphodiester phosphodiesterase
+scaffold9	DOOR	operon	139055	139186	9.41e-93	.	.	Name=operon ID = 328782;COG0864K;nickel responsive regulator
+scaffold6	DOOR	operon	189388	189615	1.53e-169	.	.	Name=operon ID = 328297;COG0284F;orotidine 5'-phosphate decarboxylase
+scaffold10	DOOR	operon	91685	91757	1.26e-42	.	.	Name=operon ID = 2387095;-;hypothetical protein
+scaffold1	DOOR	operon	434214	434426	9.02e-147	.	.	Name=operon ID = 2387024;COG0321H;lipoyltransferase
+scaffold3	DOOR	operon	247533	247745	9.02e-147	.	.	Name=operon ID = 2387024;COG0321H;lipoyltransferase
+scaffold15	DOOR	operon	81202	81330	3.67e-90	.	.	Name=operon ID = 328693;COG3111S;hypothetical protein
+scaffold5	DOOR	operon	191156	191272	1.95e-83	.	.	Name=operon ID = 328446;COG0251J;putative translation initiation inhibitor
+scaffold2	DOOR	operon	231326	231433	2.52e-78	.	.	Name=operon ID = 2388560;COG2105S;hypothetical protein
+scaffold20	DOOR	operon	7363	7537	2.35e-128	.	.	Name=operon ID = 328661;COG3539NU;fimbrial protein
+scaffold11	DOOR	operon	184712	184909	2.60e-149	.	.	Name=operon ID = 328500;COG0139E;bifunctional phosphoribosyl-AMP cyclohydrolase/phosphoribosyl-ATP pyrophosphatase protein
+scaffold7	DOOR	operon	251965	252197	6.45e-177	.	.	Name=operon ID = 2084926;-;hypothetical protein
+scaffold9	DOOR	operon	98824	98940	1.79e-47	.	.	Name=operon ID = 2386956;-;hypothetical protein
+scaffold11	DOOR	operon	135063	135706	0.0	.	.	Name=operon ID = 328509;COG2205T;putative signal transduction histidine kinase
+scaffold7	DOOR	operon	308411	308655	0.0	.	.	Name=operon ID = 2085162;COG2990S;putative enzyme
+scaffold17	DOOR	operon	19706	20004	0.0	.	.	Name=operon ID = 328366;COG0524G;ribokinase
+scaffold5	DOOR	operon	58527	59098	0.0	.	.	Name=operon ID = 328153;COG3119P;putative arylsulfatase
+scaffold33	DOOR	operon	3202	3646	0.0	.	.	Name=operon ID = 329003;COG0642T;sensor kinase (silver resistance)
+scaffold10	DOOR	operon	111348	112130	0.0	.	.	Name=operon ID = 471238;COG3501S;type VI secretion system Vgr family protein
+scaffold16	DOOR	operon	58849	59179	0.0	.	.	Name=operon ID = 471628;-;hypothetical protein
+scaffold12	DOOR	operon	93259	93464	6.84e-141	.	.	Name=operon ID = 2085036;COG0406G;phosphoglycerate mutase
+scaffold12	DOOR	operon	140227	140432	6.84e-141	.	.	Name=operon ID = 2085036;COG0406G;phosphoglycerate mutase
+scaffold9	DOOR	operon	283240	283482	2.16e-176	.	.	Name=operon ID = 2086381;COG4974L;resolvase-like protein
+scaffold24	DOOR	operon	32416	32600	1.50e-127	.	.	Name=operon ID = 328995;-;hypothetical protein
+scaffold7	DOOR	operon	197005	197405	0.0	.	.	Name=operon ID = 328071;COG0545O;hypothetical protein
+scaffold3	DOOR	operon	188521	188616	4.27e-60	.	.	Name=operon ID = 2086143;-;hypothetical protein
+scaffold23	DOOR	operon	47328	47780	0.0	.	.	Name=operon ID = 329047;-;conjugal transfer pilus assembly protein TraH
+scaffold11	DOOR	operon	169311	169763	0.0	.	.	Name=operon ID = 329047;-;conjugal transfer pilus assembly protein TraH
+scaffold1	DOOR	operon	62032	62142	3.69e-76	.	.	Name=operon ID = 2388405;COG1366T;anti-anti-sigma factor
+scaffold1	DOOR	operon	510101	510419	0.0	.	.	"Name=operon ID = 2084497;COG5464S;""putative transposase, YhgA-like protein"""
+scaffold1	DOOR	operon	514141	514603	0.0	.	.	"Name=operon ID = 328165;COG2407G;""putative L-fucose isomerase, C-terminal"""
+scaffold6	DOOR	operon	131983	132093	3.56e-73	.	.	Name=operon ID = 471240;COG1366T;anti-anti-sigma factor
+scaffold39	DOOR	operon	6939	7364	0.0	.	.	Name=operon ID = 328997;COG1055P;hypothetical protein
+scaffold1	DOOR	operon	49509	49613	1.77e-71	.	.	Name=operon ID = 329050;-;hypothetical protein
+scaffold18	DOOR	operon	39956	40060	1.77e-71	.	.	Name=operon ID = 329050;-;hypothetical protein
+scaffold38	DOOR	operon	9123	9354	4.53e-159	.	.	Name=operon ID = 470621;-;type-F conjugative transfer system pilin acetylase TraX
+scaffold2	DOOR	operon	195891	196075	9.29e-135	.	.	Name=operon ID = 328306;-;hypothetical protein
+scaffold6	DOOR	operon	131260	131320	2.71e-39	.	.	Name=operon ID = 2386833;-;hypothetical protein
+scaffold1	DOOR	operon	327586	327889	0.0	.	.	Name=operon ID = 328319;COG3728L;hypothetical protein
+scaffold13	DOOR	operon	150397	150626	2.06e-159	.	.	Name=operon ID = 2086026;COG1811R;putative transport protein
+scaffold10	DOOR	operon	283675	284007	0.0	.	.	Name=operon ID = 2388480;COG0451MG;uridine diphosphate galacturonate 4-epimerase
+scaffold5	DOOR	operon	85630	85962	0.0	.	.	Name=operon ID = 2388480;COG0451MG;uridine diphosphate galacturonate 4-epimerase
+scaffold1	DOOR	operon	264938	265021	1.08e-55	.	.	Name=operon ID = 329039;-;hypothetical protein
+scaffold8	DOOR	operon	77896	78118	1.48e-146	.	.	Name=operon ID = 470900;COG3121NU;gram-negative pili assembly chaperone protein
+scaffold17	DOOR	operon	61380	62107	0.0	.	.	Name=operon ID = 328985;COG1201R;ATP-dependent helicase
+scaffold28	DOOR	operon	20942	21106	5.94e-117	.	.	Name=operon ID = 2084966;-;hypothetical protein
+scaffold2	DOOR	operon	163163	163876	0.0	.	.	Name=operon ID = 328417;COG4656C;electron transport complex protein RnfC
+scaffold24	DOOR	operon	17558	17801	1.98e-179	.	.	Name=operon ID = 2086381;COG4974L;resolvase-like protein
+scaffold29	DOOR	operon	6839	7171	0.0	.	.	Name=operon ID = 329009;COG0389L;DNA polymerase V subunit UmuC
+scaffold12	DOOR	operon	191696	192467	0.0	.	.	Name=operon ID = 328464;COG3501S;hypothetical protein
+scaffold2	DOOR	operon	11084	11242	1.02e-113	.	.	Name=operon ID = 328071;COG0545O;hypothetical protein
+scaffold10	DOOR	operon	309915	310102	7.67e-129	.	.	Name=operon ID = 2387883;COG1961L;DNA-invertase hin
+scaffold19	DOOR	operon	27921	28071	5.38e-104	.	.	Name=operon ID = 2084834;-;hypothetical protein
+scaffold41	DOOR	operon	6942	7029	5.12e-61	.	.	Name=operon ID = 2086298;COG1662L;putative transposase
+scaffold4	DOOR	operon	70075	70268	4.60e-138	.	.	Name=operon ID = 328079;COG4795U;pullulanase J protein
+scaffold15	DOOR	operon	49191	49341	7.71e-107	.	.	Name=operon ID = 470663;-;ribbon-helix-helix protein, copG family
+scaffold4	DOOR	operon	294792	295080	0.0	.	.	Name=operon ID = 328183;-;putative filamentous haemagglutinin
+scaffold13	DOOR	operon	42700	43039	0.0	.	.	Name=operon ID = 2085489;COG1167KE;putative regulatory protein
+scaffold11	DOOR	operon	157311	157730	0.0	.	.	Name=operon ID = 470997;-;hypothetical protein
+scaffold10	DOOR	operon	49949	50260	0.0	.	.	Name=operon ID = 471431;COG3539NU;fimbrial protein
+scaffold1	DOOR	operon	179584	179895	0.0	.	.	Name=operon ID = 471431;COG3539NU;fimbrial protein
+scaffold40	DOOR	operon	7167	7414	0.0	.	.	Name=operon ID = 329054;COG3547L;putative transposase
+scaffold13	DOOR	operon	72773	73129	0.0	.	.	Name=operon ID = 328251;COG2200T;putative protease
+scaffold9	DOOR	operon	184072	184626	0.0	.	.	Name=operon ID = 329028;COG1249C;putative mercuric reductase
+scaffold6	DOOR	operon	114093	114912	0.0	.	.	Name=operon ID = 328304;COG3501S;hypothetical protein
+scaffold36	DOOR	operon	6840	6922	1.26e-56	.	.	Name=operon ID = 329039;-;hypothetical protein
+scaffold7	DOOR	operon	157622	157954	0.0	.	.	Name=operon ID = 2388480;COG0451MG;uridine diphosphate galacturonate 4-epimerase
+scaffold25	DOOR	operon	9814	10236	0.0	.	.	Name=operon ID = 471577;COG2733S;hypothetical protein
+scaffold1	DOOR	operon	105832	106254	0.0	.	.	Name=operon ID = 471577;COG2733S;hypothetical protein
+scaffold8	DOOR	operon	83600	83976	0.0	.	.	Name=operon ID = 328507;COG1596M;CPS export - outer membrane protein
+scaffold24	DOOR	operon	40633	41295	0.0	.	.	Name=operon ID = 2386474;COG0021G;transketolase
+scaffold9	DOOR	operon	128067	128720	0.0	.	.	Name=operon ID = 2386474;COG0021G;transketolase
+scaffold31	DOOR	operon	90	290	5.60e-126	.	.	Name=operon ID = 328702;COG4540R;putative prophage baseplate assembly protein
+scaffold38	DOOR	operon	12	149	3.20e-96	.	.	Name=operon ID = 2086355;-;conjugal transfer surface exclusion protein TraT
+scaffold1	DOOR	operon	219855	220219	0.0	.	.	Name=operon ID = 471194;COG4977K;transcriptional activator FtrA
+scaffold16	DOOR	operon	100547	100911	0.0	.	.	Name=operon ID = 471194;COG4977K;transcriptional activator FtrA
+scaffold17	DOOR	operon	65902	66699	0.0	.	.	Name=operon ID = 470718;-;cellulose synthase regulator protein
+scaffold6	DOOR	operon	330920	331099	1.64e-124	.	.	Name=operon ID = 2387883;COG1961L;DNA-invertase hin
+scaffold2	DOOR	operon	230086	230228	6.06e-104	.	.	Name=operon ID = 328430;COG3088O;subunit of heme lyase
+scaffold3	DOOR	operon	278741	278883	6.06e-104	.	.	Name=operon ID = 328430;COG3088O;subunit of heme lyase
+scaffold25	DOOR	operon	11149	11725	0.0	.	.	Name=operon ID = 470633;COG0003P;arsenite-activated ATPase, ArsA family
+scaffold36	DOOR	operon	12518	13330	0.0	.	.	Name=operon ID = 329046;COG3451U;conjugal transfer ATP-binding protein TraC
+scaffold7	DOOR	operon	122286	122530	0.0	.	.	Name=operon ID = 328307;COG0491R;hypothetical protein
+scaffold10	DOOR	operon	178010	178334	0.0	.	.	Name=operon ID = 2086273;COG3039L;IS5 transposase
+scaffold15	DOOR	operon	25975	26216	6.02e-161	.	.	Name=operon ID = 2386393;-;plasmid SOS inhibition protein A
+scaffold6	DOOR	operon	327111	327330	1.06e-156	.	.	Name=operon ID = 2084856;COG2135S;hypothetical protein
+scaffold12	DOOR	operon	12449	12519	1.34e-47	.	.	Name=operon ID = 2085030;COG4405S;hypothetical protein
+scaffold9	DOOR	operon	120659	120729	1.34e-47	.	.	Name=operon ID = 2085030;COG4405S;hypothetical protein
+scaffold7	DOOR	operon	57321	57684	0.0	.	.	Name=operon ID = 328310;COG0673R;putative oxidoreductase
+scaffold22	DOOR	operon	54443	54682	9.11e-164	.	.	Name=operon ID = 2086381;COG4974L;resolvase-like protein
+scaffold9	DOOR	operon	272133	272450	0.0	.	.	Name=operon ID = 470699;COG0859M;ADP-heptose:LPS heptosyl transferase I
+scaffold16	DOOR	operon	28359	28963	0.0	.	.	Name=operon ID = 328647;COG0849D;propanediol utilization: diol dehydratase reactivation
+scaffold13	DOOR	operon	8110	8708	0.0	.	.	Name=operon ID = 328647;COG0849D;propanediol utilization: diol dehydratase reactivation
+scaffold5	DOOR	operon	251956	252548	0.0	.	.	Name=operon ID = 328647;COG0849D;propanediol utilization: diol dehydratase reactivation
+scaffold6	DOOR	operon	110791	110848	3.31e-34	.	.	Name=operon ID = 471593;-;IS3 family element, transposase orfA
+scaffold6	DOOR	operon	110949	110980	4.77e-15	.	.	Name=operon ID = 471593;-;IS3 family element, transposase orfA
+scaffold36	DOOR	operon	5502	5745	6.22e-153	.	.	Name=operon ID = 471017;-;mobC protein
+scaffold8	DOOR	operon	298497	298582	7.93e-59	.	.	Name=operon ID = 471238;-;lipoprotein
+scaffold3	DOOR	operon	140219	140304	7.93e-59	.	.	Name=operon ID = 471238;-;lipoprotein
+scaffold10	DOOR	operon	238553	238620	2.74e-38	.	.	Name=operon ID = 2388088;-;hypothetical protein
+scaffold10	DOOR	operon	132358	132547	9.50e-133	.	.	Name=operon ID = 2085660;COG3539NU;putative fimbrial-like protein
+scaffold1	DOOR	operon	160502	160661	7.17e-108	.	.	Name=operon ID = 471284;COG3685S;hypothetical protein
+scaffold1	DOOR	operon	21165	21324	7.17e-108	.	.	Name=operon ID = 471284;COG3685S;hypothetical protein
+scaffold8	DOOR	operon	4	41	1.51e-17	.	.	Name=operon ID = 2386776;COG3203M;porin
+scaffold4	DOOR	operon	336612	336762	4.62e-98	.	.	Name=operon ID = 2085925;-;hypothetical protein
+scaffold12	DOOR	operon	149417	149986	0.0	.	.	Name=operon ID = 328211;COG1131V;putative ATP-binding component of a transport system
+scaffold3	DOOR	operon	226285	226854	0.0	.	.	Name=operon ID = 328211;COG1131V;putative ATP-binding component of a transport system
+scaffold11	DOOR	operon	75111	75660	0.0	.	.	Name=operon ID = 2388543;COG1626G;trehalase
+scaffold30	DOOR	operon	15596	16145	0.0	.	.	Name=operon ID = 2388543;COG1626G;trehalase
+scaffold12	DOOR	operon	155359	155908	0.0	.	.	Name=operon ID = 2388543;COG1626G;trehalase
+scaffold1	DOOR	operon	34082	34255	1.23e-128	.	.	Name=operon ID = 328458;COG1262S;sulfatase modifying factor 1 precursor-like protein
+scaffold4	DOOR	operon	199191	199803	0.0	.	.	Name=operon ID = 2386533;COG0754E;bifunctional glutathionylspermidine amidase/glutathionylspermidine synthetase
+scaffold13	DOOR	operon	10987	11523	0.0	.	.	Name=operon ID = 470993;COG0747E;ABC transporter substrate-binding protein
+scaffold10	DOOR	operon	228956	229573	0.0	.	.	Name=operon ID = 471267;COG0550L;DNA topoisomerase III
+scaffold7	DOOR	operon	237611	237770	4.70e-114	.	.	Name=operon ID = 2085077;COG3226S;TetR family transcriptional regulator
+scaffold10	DOOR	operon	66254	66951	0.0	.	.	Name=operon ID = 471401;COG1966T;carbon starvation protein A
+scaffold11	DOOR	operon	196264	196958	0.0	.	.	Name=operon ID = 471401;COG1966T;carbon starvation protein A
+scaffold17	DOOR	operon	32398	32994	0.0	.	.	Name=operon ID = 2086253;-;putative prophage protein
+scaffold12	DOOR	operon	152986	153687	0.0	.	.	Name=operon ID = 471629;COG2274V;microcin H47 ABC transporter permease/ATP-binding protein
+scaffold7	DOOR	operon	151303	151378	9.06e-49	.	.	Name=operon ID = 2086331;COG4644L;transposase
+scaffold10	DOOR	operon	312665	312834	2.54e-119	.	.	Name=operon ID = 471250;-;hypothetical protein
+scaffold44	DOOR	operon	4903	5074	2.52e-107	.	.	Name=operon ID = 2388555;COG0456R;acetyltransferase GNAT family
+scaffold30	DOOR	operon	12	110	4.79e-69	.	.	Name=operon ID = 328702;COG3628R;putative prophage baseplate protein
+scaffold5	DOOR	operon	67037	67162	1.62e-92	.	.	Name=operon ID = 328969;COG0251J;hypothetical protein
+scaffold33	DOOR	operon	5655	5765	3.70e-73	.	.	Name=operon ID = 328304;COG3501S;hypothetical protein
+scaffold29	DOOR	operon	21153	21259	7.72e-72	.	.	Name=operon ID = 328158;COG1309K;putative regulatory protein
+scaffold16	DOOR	operon	66918	67046	7.61e-81	.	.	Name=operon ID = 2084418;COG1167KE;GntR family transcriptional regulator
+scaffold5	DOOR	operon	341759	341870	4.72e-76	.	.	Name=operon ID = 328101;-;putative fimbriae; usher
+scaffold16	DOOR	operon	74655	74759	5.90e-62	.	.	Name=operon ID = 329061;-;hypothetical protein
+scaffold13	DOOR	operon	356	462	1.42e-73	.	.	Name=operon ID = 2388351;COG2200T;cyclic diguanylate phosphodiesterase
+scaffold2	DOOR	operon	78592	78737	1.33e-105	.	.	Name=operon ID = 2086179;COG2731G;hypothetical protein
+scaffold8	DOOR	operon	176547	177569	0.0	.	.	Name=operon ID = 2085169;COG0841V;acridine efflux pump
+scaffold1	DOOR	operon	497106	498383	0.0	.	.	Name=operon ID = 2386571;COG1643L;ATP-dependent RNA helicase HrpA
+scaffold3	DOOR	operon	71323	71405	4.07e-54	.	.	Name=operon ID = 328392;-;putative glycosyltransferase
+scaffold29	DOOR	operon	25401	25459	1.24e-37	.	.	Name=operon ID = 329015;COG5499K;putative DNA-binding protein
+scaffold1	DOOR	operon	71862	71994	7.82e-77	.	.	Name=operon ID = 329030;COG1487R;putative DNA binding protein
+scaffold2	DOOR	operon	156684	156962	6.97e-147	.	.	Name=operon ID = 328393;COG1173EP;putative ABC transport system permease protein
+scaffold13	DOOR	operon	111003	111281	6.97e-147	.	.	Name=operon ID = 328393;COG1173EP;putative ABC transport system permease protein
+scaffold10	DOOR	operon	54418	54670	6.38e-159	.	.	Name=operon ID = 2388421;COG0596R;pimeloyl-BioC--CoA transferase BioH
+scaffold4	DOOR	operon	287470	287722	6.38e-159	.	.	Name=operon ID = 2388421;COG0596R;pimeloyl-BioC--CoA transferase BioH
+scaffold1	DOOR	operon	124798	125050	6.38e-159	.	.	Name=operon ID = 2388421;COG0596R;pimeloyl-BioC--CoA transferase BioH
+scaffold14	DOOR	operon	43788	44058	6.01e-179	.	.	Name=operon ID = 2085227;-;putative potassium channel protein
+scaffold14	DOOR	operon	72935	73205	6.01e-179	.	.	Name=operon ID = 2085227;-;putative potassium channel protein
+scaffold1	DOOR	operon	328810	329076	1.31e-178	.	.	Name=operon ID = 2085081;COG2207K;positive regulator for rhaBAD operon
+scaffold5	DOOR	operon	214987	215253	1.31e-178	.	.	Name=operon ID = 2085081;COG2207K;positive regulator for rhaBAD operon
+scaffold5	DOOR	operon	301678	301944	1.31e-178	.	.	Name=operon ID = 2085081;COG2207K;positive regulator for rhaBAD operon
+scaffold10	DOOR	operon	21736	22002	1.31e-178	.	.	Name=operon ID = 2085081;COG2207K;positive regulator for rhaBAD operon
+scaffold1	DOOR	operon	285885	286030	1.12e-87	.	.	Name=operon ID = 2387068;COG1846K;transcriptional regulator MarR family
+scaffold3	DOOR	operon	33760	34043	0.0	.	.	Name=operon ID = 471492;COG0535R;radical SAM protein
+scaffold10	DOOR	operon	278051	278334	0.0	.	.	Name=operon ID = 471492;COG0535R;radical SAM protein
+scaffold2	DOOR	operon	7603	7884	0.0	.	.	Name=operon ID = 328871;COG0248FP;guanosine pentaphosphate phosphohydrolase
+scaffold12	DOOR	operon	113729	113983	9.17e-172	.	.	Name=operon ID = 2386329;COG2207K;transcriptional regulator, AraC family
+scaffold5	DOOR	operon	63922	64174	8.24e-177	.	.	Name=operon ID = 328239;COG2227H;putative metallothionein SmtA
+scaffold19	DOOR	operon	52571	52850	0.0	.	.	Name=operon ID = 471682;COG0796M;glutamate racemase
+scaffold17	DOOR	operon	92978	93257	0.0	.	.	Name=operon ID = 471682;COG0796M;glutamate racemase
+scaffold5	DOOR	operon	166078	166357	0.0	.	.	Name=operon ID = 471682;COG0796M;glutamate racemase
+scaffold1	DOOR	operon	487746	488025	0.0	.	.	Name=operon ID = 471682;COG0796M;glutamate racemase
+scaffold2	DOOR	operon	262041	262310	0.0	.	.	Name=operon ID = 2086052;COG1414K;transcriptional repressor IclR
+scaffold6	DOOR	operon	241975	242244	0.0	.	.	Name=operon ID = 2086052;COG1414K;transcriptional repressor IclR
+scaffold3	DOOR	operon	302878	303119	1.47e-179	.	.	Name=operon ID = 328369;COG0667C;putative aldo/keto reductase
+scaffold12	DOOR	operon	99076	99128	2.29e-33	.	.	Name=operon ID = 2387695;COG3539NU;mrkF protein
+scaffold23	DOOR	operon	25974	26297	0.0	.	.	Name=operon ID = 328251;COG2200T;putative protease
+scaffold5	DOOR	operon	235974	236292	0.0	.	.	Name=operon ID = 2086028;COG0513LKJ;ATP-dependent RNA helicase RhlB
+scaffold25	DOOR	operon	40041	40359	0.0	.	.	Name=operon ID = 2086028;COG0513LKJ;ATP-dependent RNA helicase RhlB
+scaffold31	DOOR	operon	9705	10048	0.0	.	.	Name=operon ID = 328705;COG5518R;putative prophage presumed portal protein
+scaffold7	DOOR	operon	96921	97250	0.0	.	.	Name=operon ID = 328859;COG1172G;putative ABC transport system permease protein
+scaffold13	DOOR	operon	178528	178857	0.0	.	.	Name=operon ID = 328859;COG1172G;putative ABC transport system permease protein
+scaffold10	DOOR	operon	60037	60368	0.0	.	.	Name=operon ID = 2388044;COG1064R;alcohol dehydrogenase
+scaffold13	DOOR	operon	90333	90664	0.0	.	.	Name=operon ID = 2388044;COG1064R;alcohol dehydrogenase
+scaffold1	DOOR	operon	494254	494585	0.0	.	.	Name=operon ID = 2388044;COG1064R;alcohol dehydrogenase
+scaffold1	DOOR	operon	445621	445801	1.51e-108	.	.	Name=operon ID = 2086358;COG1961L;putative resolvase
+scaffold15	DOOR	operon	102454	102655	4.45e-144	.	.	Name=operon ID = 2387624;COG0357M;16S rRNA methyltransferase GidB
+scaffold3	DOOR	operon	209046	209247	4.45e-144	.	.	Name=operon ID = 2387624;COG0357M;16S rRNA methyltransferase GidB
+scaffold7	DOOR	operon	85527	85740	8.32e-153	.	.	Name=operon ID = 2085050;COG1285S;putative Mg(2+) transport ATPase
+scaffold12	DOOR	operon	133501	133726	2.85e-142	.	.	Name=operon ID = 470863;COG2011P;ABC transporter permease
+scaffold7	DOOR	operon	154422	154647	2.85e-142	.	.	Name=operon ID = 470863;COG2011P;ABC transporter permease
+scaffold1	DOOR	operon	198980	199289	0.0	.	.	Name=operon ID = 471676;COG0181H;porphobilinogen deaminase
+scaffold4	DOOR	operon	227427	227736	0.0	.	.	Name=operon ID = 471676;COG0181H;porphobilinogen deaminase
+scaffold5	DOOR	operon	62845	63154	0.0	.	.	Name=operon ID = 471676;COG0181H;porphobilinogen deaminase
+scaffold18	DOOR	operon	22349	22658	0.0	.	.	Name=operon ID = 471676;COG0181H;porphobilinogen deaminase
+scaffold10	DOOR	operon	9519	9828	0.0	.	.	Name=operon ID = 471676;COG0181H;porphobilinogen deaminase
+scaffold4	DOOR	operon	14017	14331	0.0	.	.	Name=operon ID = 2086226;COG5464S;putative cytoplasmic protein
+scaffold12	DOOR	operon	20971	21244	0.0	.	.	Name=operon ID = 2085437;COG3203M;outer membrane porin protein C
+scaffold4	DOOR	operon	115845	116118	0.0	.	.	Name=operon ID = 2085437;COG3203M;outer membrane porin protein C
+scaffold13	DOOR	operon	164798	165099	0.0	.	.	Name=operon ID = 471158;COG0726G;urate catabolism protein
+scaffold6	DOOR	operon	92889	93190	0.0	.	.	Name=operon ID = 471158;COG0726G;urate catabolism protein
+scaffold1	DOOR	operon	342363	342675	0.0	.	.	Name=operon ID = 2388198;COG4227L;antirestriction protein
+scaffold3	DOOR	operon	91885	92318	0.0	.	.	Name=operon ID = 471138;COG2141C;Ytnj protein
+scaffold4	DOOR	operon	9947	10380	0.0	.	.	Name=operon ID = 471138;COG2141C;Ytnj protein
+scaffold5	DOOR	operon	103713	104138	0.0	.	.	Name=operon ID = 2386960;COG0161H;adenosylmethionine--8-amino-7-oxononanoate transaminase
+scaffold1	DOOR	operon	407600	408070	0.0	.	.	Name=operon ID = 328408;COG1012C;gamma-aminobutyraldehyde dehydrogenase
+scaffold41	DOOR	operon	4205	4675	0.0	.	.	Name=operon ID = 328408;COG1012C;gamma-aminobutyraldehyde dehydrogenase
+scaffold10	DOOR	operon	133930	134340	0.0	.	.	Name=operon ID = 2085845;COG0814E;aromatic amino acid transporter
+scaffold22	DOOR	operon	50137	50547	0.0	.	.	Name=operon ID = 2085845;COG0814E;aromatic amino acid transporter
+scaffold5	DOOR	operon	244156	244603	0.0	.	.	Name=operon ID = 2386802;COG3264M;transporter small conductance mechanosensitive ion channel (MscS) family
+scaffold10	DOOR	operon	63038	63512	0.0	.	.	Name=operon ID = 2085346;COG0534V;hypothetical protein
+scaffold3	DOOR	operon	347574	348048	0.0	.	.	Name=operon ID = 2085346;COG0534V;hypothetical protein
+scaffold2	DOOR	operon	228272	228707	0.0	.	.	Name=operon ID = 328647;COG4656C;propanediol utilization: polyhedral bodies
+scaffold6	DOOR	operon	122616	123030	0.0	.	.	Name=operon ID = 471325;COG1092R;hypothetical protein
+scaffold6	DOOR	operon	289275	289633	0.0	.	.	Name=operon ID = 328441;COG0841V;putative efflux protein
+scaffold20	DOOR	operon	68942	69347	0.0	.	.	Name=operon ID = 2084595;COG2814G;major facilitator superfamily multidrug/chloramphenicol efflux transporter
+scaffold8	DOOR	operon	192627	192742	1.97e-81	.	.	Name=operon ID = 2386610;COG3112S;hypothetical protein
+scaffold8	DOOR	operon	119255	119370	1.97e-81	.	.	Name=operon ID = 2386610;COG3112S;hypothetical protein
+scaffold2	DOOR	operon	115001	115116	1.97e-81	.	.	Name=operon ID = 2386610;COG3112S;hypothetical protein
+scaffold9	DOOR	operon	268722	269064	0.0	.	.	Name=operon ID = 2086311;-;hypothetical protein
+scaffold11	DOOR	operon	36398	36764	0.0	.	.	"Name=operon ID = 328600;COG3188NU;""putative export and assembly of type 1 fimbriae, usher"""
+scaffold26	DOOR	operon	38548	38914	0.0	.	.	"Name=operon ID = 328600;COG3188NU;""putative export and assembly of type 1 fimbriae, usher"""
+scaffold26	DOOR	operon	5212	5615	0.0	.	.	Name=operon ID = 2388208;COG0671I;PAP2 family protein
+scaffold1	DOOR	operon	456740	457235	0.0	.	.	Name=operon ID = 470665;COG4248R;hypothetical protein
+scaffold14	DOOR	operon	22719	23208	0.0	.	.	Name=operon ID = 328441;COG0841V;putative efflux protein
+scaffold1	DOOR	operon	81345	81921	0.0	.	.	Name=operon ID = 2386608;COG0358L;DNA primase
+scaffold4	DOOR	operon	144083	144667	0.0	.	.	Name=operon ID = 471631;COG4232OC;thiol:disulfide interchange protein precursor
+scaffold1	DOOR	operon	364073	364657	0.0	.	.	Name=operon ID = 471631;COG4232OC;thiol:disulfide interchange protein precursor
+scaffold8	DOOR	operon	281421	281918	0.0	.	.	Name=operon ID = 2086146;COG1960I;isovaleryl CoA dehydrogenase
+scaffold17	DOOR	operon	14013	14472	0.0	.	.	Name=operon ID = 329017;-;conjugal transfer pilus assembly protein TraB
+scaffold7	DOOR	operon	253194	253665	0.0	.	.	Name=operon ID = 2386585;COG2814G;transporter major facilitator family
+scaffold12	DOOR	operon	52149	52620	0.0	.	.	Name=operon ID = 2386585;COG2814G;transporter major facilitator family
+scaffold12	DOOR	operon	42759	42830	4.32e-47	.	.	Name=operon ID = 2085979;COG0746H;molybdopterin-guanine dinucleotide biosynthesis protein MobA
+scaffold7	DOOR	operon	47298	47369	4.32e-47	.	.	Name=operon ID = 2085979;COG0746H;molybdopterin-guanine dinucleotide biosynthesis protein MobA
+scaffold4	DOOR	operon	41824	42303	0.0	.	.	Name=operon ID = 2084705;COG0318IQ;crotonobetaine/carnitine-CoA ligase
+scaffold10	DOOR	operon	298578	299034	0.0	.	.	Name=operon ID = 2085289;COG2200T;hypothetical protein
+scaffold4	DOOR	operon	142609	143065	0.0	.	.	Name=operon ID = 2085289;COG2200T;hypothetical protein
+scaffold4	DOOR	operon	226735	226925	2.98e-114	.	.	Name=operon ID = 2388262;COG1309K;tetracycline repressor protein class A from transposon 1721
+scaffold10	DOOR	operon	27299	27489	2.98e-114	.	.	Name=operon ID = 2388262;COG1309K;tetracycline repressor protein class A from transposon 1721
+scaffold6	DOOR	operon	311155	311623	0.0	.	.	Name=operon ID = 471515;COG0038P;chloride channel protein
+scaffold10	DOOR	operon	52535	52597	1.70e-42	.	.	Name=operon ID = 2085256;-;hypothetical protein
+scaffold9	DOOR	operon	197807	198137	0.0	.	.	Name=operon ID = 328560;COG0280C;phosphotransacetylase
+scaffold13	DOOR	operon	104912	104967	1.44e-35	.	.	Name=operon ID = 2387177;-;glycogen synthesis protein GlgS
+scaffold3	DOOR	operon	219286	219341	1.44e-35	.	.	Name=operon ID = 2387177;-;glycogen synthesis protein GlgS
+scaffold26	DOOR	operon	24868	25097	1.84e-153	.	.	Name=operon ID = 328720;COG1929G;glycerate kinase I
+scaffold19	DOOR	operon	7954	8183	1.84e-153	.	.	Name=operon ID = 328720;COG1929G;glycerate kinase I
+scaffold23	DOOR	operon	42855	43259	0.0	.	.	Name=operon ID = 328370;COG1840P;phosphoglycerate transporter
+scaffold10	DOOR	operon	119911	120251	0.0	.	.	Name=operon ID = 328633;COG0814E;serine transporter
+scaffold26	DOOR	operon	13	349	0.0	.	.	Name=operon ID = 328101;-;putative fimbriae; usher
+scaffold22	DOOR	operon	44253	44387	8.92e-89	.	.	Name=operon ID = 2084970;-;putative glyoxalase/bleomycin resistance protein/dioxygenas
+scaffold4	DOOR	operon	215934	216238	0.0	.	.	Name=operon ID = 2386511;COG0385R;sodium/bile acid symporter family protein
+scaffold13	DOOR	operon	158312	158616	0.0	.	.	Name=operon ID = 2386511;COG0385R;sodium/bile acid symporter family protein
+scaffold3	DOOR	operon	217672	217914	1.51e-173	.	.	Name=operon ID = 2387383;COG2188K;GntR family transcriptional regulator
+scaffold1	DOOR	operon	466108	466508	0.0	.	.	Name=operon ID = 2388165;COG0436E;aminotransferase
+scaffold6	DOOR	operon	227652	227777	9.72e-64	.	.	Name=operon ID = 328782;COG0864K;nickel responsive regulator
+scaffold9	DOOR	operon	113881	114096	2.34e-133	.	.	Name=operon ID = 471186;COG2011P;methionine uptake ABC transporter (MUT) family, permease
+scaffold12	DOOR	operon	40238	40453	2.34e-133	.	.	Name=operon ID = 471186;COG2011P;methionine uptake ABC transporter (MUT) family, permease
+scaffold3	DOOR	operon	211479	211670	6.56e-142	.	.	Name=operon ID = 328896;COG0169E;shikimate 5-dehydrogenase
+scaffold4	DOOR	operon	88175	88366	6.56e-142	.	.	Name=operon ID = 328896;COG0169E;shikimate 5-dehydrogenase
+scaffold1	DOOR	operon	268648	269062	0.0	.	.	Name=operon ID = 471051;COG2995S;hypothetical protein
+scaffold6	DOOR	operon	169601	169986	0.0	.	.	Name=operon ID = 471156;COG0673R;oxidoreductase, NAD-binding
+scaffold18	DOOR	operon	6562	6945	0.0	.	.	Name=operon ID = 2386604;COG3135Q;benzoate transporter family protein
+scaffold8	DOOR	operon	125661	125786	9.86e-89	.	.	Name=operon ID = 2387280;COG0251J;endoribonuclease L-PSP family protein
+scaffold28	DOOR	operon	8577	8702	9.86e-89	.	.	Name=operon ID = 2387280;COG0251J;endoribonuclease L-PSP family protein
+scaffold7	DOOR	operon	261227	261569	0.0	.	.	"Name=operon ID = 328346;COG0243C;""putative dimethyl sulfoxide reductase, major subunit"""
+scaffold27	DOOR	operon	9168	9514	0.0	.	.	Name=operon ID = 328310;COG0673R;putative oxidoreductase
+scaffold1	DOOR	operon	191776	192003	4.20e-169	.	.	"Name=operon ID = 2085939;COG2188K;""2-aminoethylphosphonate transport, repressor"""
+scaffold1	DOOR	operon	195631	195858	4.20e-169	.	.	"Name=operon ID = 2085939;COG2188K;""2-aminoethylphosphonate transport, repressor"""
+scaffold18	DOOR	operon	36435	36662	4.20e-169	.	.	"Name=operon ID = 2085939;COG2188K;""2-aminoethylphosphonate transport, repressor"""
+scaffold10	DOOR	operon	243929	244281	0.0	.	.	Name=operon ID = 2387300;COG2055C;hypothetical protein
+scaffold10	DOOR	operon	265597	265918	0.0	.	.	Name=operon ID = 328590;COG2199T;hypothetical protein
+scaffold8	DOOR	operon	85923	86299	0.0	.	.	Name=operon ID = 470925;COG1520S;outer membrane protein assembly complex subunit YfgL
+scaffold2	DOOR	operon	357325	357701	0.0	.	.	Name=operon ID = 470925;COG1520S;outer membrane protein assembly complex subunit YfgL
+scaffold1	DOOR	operon	490240	490616	0.0	.	.	Name=operon ID = 470925;COG1520S;outer membrane protein assembly complex subunit YfgL
+scaffold21	DOOR	operon	34596	35005	0.0	.	.	Name=operon ID = 471501;COG0412Q;fermentation/respiration switch protein
+scaffold1	DOOR	operon	221842	222251	0.0	.	.	Name=operon ID = 471501;COG0412Q;fermentation/respiration switch protein
+scaffold8	DOOR	operon	187737	188022	0.0	.	.	Name=operon ID = 328275;COG3546P;putative catalase
+scaffold6	DOOR	operon	161950	162245	0.0	.	.	Name=operon ID = 2388529;COG0583K;transcriptional regulator LysR family
+scaffold10	DOOR	operon	61961	62252	0.0	.	.	Name=operon ID = 2387159;-;hypothetical protein
+scaffold4	DOOR	operon	96867	97147	0.0	.	.	Name=operon ID = 328070;COG0421E;spermidine synthase
+scaffold13	DOOR	operon	98672	98982	0.0	.	.	Name=operon ID = 470759;COG0223J;methionyl-tRNA formyltransferase
+scaffold1	DOOR	operon	455745	456067	0.0	.	.	Name=operon ID = 2085674;COG0354R;putative global regulator
+scaffold12	DOOR	operon	122479	122780	0.0	.	.	"Name=operon ID = 328435;COG0715P;""putative ABC-type transport systems, periplasmic components"""
+scaffold3	DOOR	operon	270802	271106	0.0	.	.	Name=operon ID = 328792;COG0524G;putative kinase
+scaffold13	DOOR	operon	15548	16181	0.0	.	.	Name=operon ID = 2084780;COG4776K;exoribonuclease II
+scaffold14	DOOR	operon	626	1278	0.0	.	.	Name=operon ID = 328315;COG0270L;putative site-specific DNA methylase
+scaffold10	DOOR	operon	91932	92572	0.0	.	.	Name=operon ID = 328315;COG0270L;putative site-specific DNA methylase
+scaffold31	DOOR	operon	12831	13431	0.0	.	.	Name=operon ID = 2086253;-;putative prophage protein
+scaffold8	DOOR	operon	19649	20063	0.0	.	.	Name=operon ID = 2388360;COG0582L;site-specific recombinase, phage integrase family
+scaffold7	DOOR	operon	302798	303237	0.0	.	.	Name=operon ID = 328305;-;putative membrane proteins
+scaffold9	DOOR	operon	48940	49330	0.0	.	.	Name=operon ID = 2387634;-;transporter major facilitator family
+scaffold2	DOOR	operon	22994	23492	0.0	.	.	Name=operon ID = 328303;COG2885M;putative outer membrane protein
+scaffold11	DOOR	operon	178068	178682	0.0	.	.	"Name=operon ID = 328346;COG0243C;""putative dimethyl sulfoxide reductase, major subunit"""
+scaffold12	DOOR	operon	74074	74630	0.0	.	.	Name=operon ID = 2085367;-;glycosylhydrolase
+scaffold2	DOOR	operon	71742	72298	0.0	.	.	Name=operon ID = 2085367;-;glycosylhydrolase
+scaffold6	DOOR	operon	296689	296833	9.25e-103	.	.	Name=operon ID = 471548;COG1047O;FKBP-type 16 kDa peptidyl-prolyl cis-trans isomerase
+scaffold2	DOOR	operon	210736	210853	4.70e-71	.	.	Name=operon ID = 328158;COG2315S;hypothetical protein
+scaffold4	DOOR	operon	93844	93959	4.54e-78	.	.	Name=operon ID = 328806;COG0463M;putative glycosyl transferase
+scaffold9	DOOR	operon	87794	88018	7.10e-155	.	.	Name=operon ID = 328051;COG4565KT;putative transcription regulator sensor for citrate
+scaffold27	DOOR	operon	6684	6908	7.10e-155	.	.	Name=operon ID = 328051;COG4565KT;putative transcription regulator sensor for citrate
+scaffold7	DOOR	operon	47638	47862	7.10e-155	.	.	Name=operon ID = 328051;COG4565KT;putative transcription regulator sensor for citrate
+scaffold2	DOOR	operon	371353	371581	1.23e-158	.	.	Name=operon ID = 471338;COG2360O;leucyl/phenylalanyl-tRNA--protein transferase
+scaffold16	DOOR	operon	280	508	1.23e-158	.	.	Name=operon ID = 471338;COG2360O;leucyl/phenylalanyl-tRNA--protein transferase
+scaffold10	DOOR	operon	50917	51143	7.24e-159	.	.	Name=operon ID = 328871;COG0248FP;guanosine pentaphosphate phosphohydrolase
+scaffold13	DOOR	operon	69869	70095	7.24e-159	.	.	Name=operon ID = 328871;COG0248FP;guanosine pentaphosphate phosphohydrolase
+scaffold21	DOOR	operon	6277	6521	3.66e-169	.	.	Name=operon ID = 2085670;COG2814G;putative transport protein
+scaffold8	DOOR	operon	81711	81977	0.0	.	.	Name=operon ID = 2084588;COG0561R;hypothetical protein
+scaffold2	DOOR	operon	287068	287334	0.0	.	.	Name=operon ID = 2084588;COG0561R;hypothetical protein
+scaffold10	DOOR	operon	223485	223737	2.99e-168	.	.	Name=operon ID = 2386994;COG0428P;zinc transporter ZupT
+scaffold14	DOOR	operon	6284	6434	3.29e-101	.	.	Name=operon ID = 2084834;-;hypothetical protein
+scaffold6	DOOR	operon	226744	226946	2.02e-143	.	.	Name=operon ID = 328147;COG0531E;lysine/cadaverine antiporter
+scaffold7	DOOR	operon	282509	282710	9.30e-123	.	.	Name=operon ID = 471531;COG0237H;dephospho-CoA kinase
+scaffold12	DOOR	operon	47204	47481	0.0	.	.	Name=operon ID = 2086201;COG3440V;hypothetical protein
+scaffold21	DOOR	operon	12275	12669	0.0	.	.	Name=operon ID = 471477;COG0420L;exonuclease subunit SbcD
+scaffold10	DOOR	operon	209979	210415	0.0	.	.	Name=operon ID = 328306;COG3523S;hypothetical protein
+scaffold10	DOOR	operon	22918	23023	3.73e-74	.	.	Name=operon ID = 328395;-;hypothetical protein
+scaffold1	DOOR	operon	453047	453793	0.0	.	.	Name=operon ID = 2084871;COG1643L;ATP-dependent RNA helicase HrpA
+scaffold9	DOOR	operon	61759	62427	0.0	.	.	Name=operon ID = 2387158;COG0210L;ATP-dependent DNA helicase Rep
+scaffold15	DOOR	operon	18752	19399	0.0	.	.	Name=operon ID = 328781;COG0223J;bifunctional UDP-glucuronic acid decarboxylase/UDP-4-amino-4-deoxy-L-arabinose formyltransferase
+scaffold19	DOOR	operon	56259	56682	0.0	.	.	Name=operon ID = 329054;COG4644L;putative transposase
+scaffold6	DOOR	operon	261467	261897	0.0	.	.	Name=operon ID = 2388639;COG2271G;transporter major facilitator family
+scaffold21	DOOR	operon	22843	23270	0.0	.	.	Name=operon ID = 2388639;COG2271G;transporter major facilitator family
+scaffold10	DOOR	operon	31281	31735	0.0	.	.	Name=operon ID = 328324;-;hypothetical protein
+scaffold8	DOOR	operon	261154	261567	0.0	.	.	Name=operon ID = 2386589;-;nucleoside permease NupG
+scaffold2	DOOR	operon	304652	305065	0.0	.	.	Name=operon ID = 2386589;-;nucleoside permease NupG
+scaffold14	DOOR	operon	124104	124515	0.0	.	.	Name=operon ID = 2388360;COG0582L;site-specific recombinase, phage integrase family
+scaffold9	DOOR	operon	264514	264925	0.0	.	.	Name=operon ID = 2388360;COG0582L;site-specific recombinase, phage integrase family
+scaffold9	DOOR	operon	243390	243801	0.0	.	.	Name=operon ID = 2388360;COG0582L;site-specific recombinase, phage integrase family
+scaffold1	DOOR	operon	102099	102506	0.0	.	.	Name=operon ID = 471163;COG0075E;aminotransferase class V
+scaffold1	DOOR	operon	104565	104972	0.0	.	.	Name=operon ID = 471163;COG0075E;aminotransferase class V
+scaffold7	DOOR	operon	236373	236774	0.0	.	.	Name=operon ID = 471095;COG0520E;bifunctional cysteine desulfurase/selenocysteine lyase
+scaffold1	DOOR	operon	127575	127973	0.0	.	.	Name=operon ID = 471163;COG0624E;allantoate amidohydrolase
+scaffold6	DOOR	operon	259206	259713	0.0	.	.	Name=operon ID = 471350;COG0747E;glutathione ABC transporter substrate--binding protein
+scaffold6	DOOR	operon	20456	20927	0.0	.	.	Name=operon ID = 471342;COG0702MG;NAD dependent epimerase/dehydratase family protein
+scaffold1	DOOR	operon	393089	393543	0.0	.	.	Name=operon ID = 328110;COG0833E;S-methylmethionine transporter
+scaffold18	DOOR	operon	736	1209	0.0	.	.	Name=operon ID = 328581;COG0642T;putative 2-component sensor protein
+scaffold2	DOOR	operon	199508	199597	6.54e-62	.	.	Name=operon ID = 471264;COG1440G;PTS system N,N'-diacetylchitobiose-specific transporter subunit IIB
+scaffold5	DOOR	operon	303928	304158	6.13e-159	.	.	Name=operon ID = 2386911;COG2866E;murein peptide amidase A
+scaffold9	DOOR	operon	219838	220068	6.13e-159	.	.	Name=operon ID = 2386911;COG2866E;murein peptide amidase A
+scaffold19	DOOR	operon	55420	55662	1.68e-177	.	.	Name=operon ID = 2388660;COG0149G;triosephosphate isomerase
+scaffold11	DOOR	operon	15798	16042	3.92e-174	.	.	Name=operon ID = 328783;-;putative methyltransferase
+scaffold26	DOOR	operon	20439	20643	2.78e-149	.	.	Name=operon ID = 329062;-;hypothetical protein
+scaffold9	DOOR	operon	88611	88922	0.0	.	.	Name=operon ID = 328294;-;hypothetical protein
+scaffold22	DOOR	operon	65128	65479	0.0	.	.	Name=operon ID = 471677;-;4-alpha-L-fucosyltransferase
+scaffold9	DOOR	operon	86685	87012	0.0	.	.	Name=operon ID = 471398;COG1172G;sugar ABC transporter permease
+scaffold8	DOOR	operon	225719	226046	0.0	.	.	Name=operon ID = 471398;COG1172G;sugar ABC transporter permease
+scaffold4	DOOR	operon	21589	21926	0.0	.	.	Name=operon ID = 2387414;COG1609K;DNA-binding transcriptional regulator CytR
+scaffold9	DOOR	operon	12652	12985	0.0	.	.	Name=operon ID = 328156;COG1082G;putative xylose isomerase-like TIM barrel
+scaffold50	DOOR	operon	52	361	0.0	.	.	Name=operon ID = 2084473;COG1012C;putative aldehyde dehydrogenase
+scaffold2	DOOR	operon	42353	42726	0.0	.	.	Name=operon ID = 328224;COG3842E;putrescine transporter ATP-binding subunit
+scaffold11	DOOR	operon	182036	182410	0.0	.	.	Name=operon ID = 328507;COG1596M;CPS export - outer membrane protein
+scaffold2	DOOR	operon	120304	120678	0.0	.	.	Name=operon ID = 328507;COG1596M;CPS export - outer membrane protein
+scaffold17	DOOR	operon	18353	18632	0.0	.	.	Name=operon ID = 470826;COG4974L;site-specific recombinase, phage integrase family
+scaffold17	DOOR	operon	73798	74084	2.38e-177	.	.	Name=operon ID = 2388124;COG5006R;hypothetical protein
+scaffold5	DOOR	operon	300867	301132	0.0	.	.	Name=operon ID = 2387211;COG0561R;sugar phosphatase
+scaffold3	DOOR	operon	343255	343520	0.0	.	.	Name=operon ID = 2387211;COG0561R;sugar phosphatase
+scaffold15	DOOR	operon	104398	104659	0.0	.	.	Name=operon ID = 2085437;COG3203M;outer membrane porin protein C
+scaffold5	DOOR	operon	210402	210663	0.0	.	.	Name=operon ID = 2085437;COG3203M;outer membrane porin protein C
+scaffold2	DOOR	operon	159928	160237	0.0	.	.	Name=operon ID = 2388198;COG4227L;antirestriction protein
+scaffold1	DOOR	operon	230657	230966	0.0	.	.	Name=operon ID = 2388198;COG4227L;antirestriction protein
+scaffold1	DOOR	operon	505769	506078	0.0	.	.	Name=operon ID = 2388198;COG4227L;antirestriction protein
+scaffold12	DOOR	operon	22000	22309	0.0	.	.	Name=operon ID = 2388198;COG4227L;antirestriction protein
+scaffold1	DOOR	operon	23800	24105	0.0	.	.	Name=operon ID = 471138;COG0834ET;ABC transporter substrate-binding protein
+scaffold9	DOOR	operon	216413	216716	0.0	.	.	Name=operon ID = 2387025;COG0583K;transcriptional regulator LysR family
+scaffold10	DOOR	operon	213238	213529	0.0	.	.	Name=operon ID = 470933;COG1940KG;beta-glucoside kinase
+scaffold7	DOOR	operon	165596	165894	0.0	.	.	"Name=operon ID = 2086001;COG1575H;""1,4-dihydroxy-2-naphthoate octaprenyltransferase"""
+scaffold14	DOOR	operon	87999	88288	0.0	.	.	Name=operon ID = 2388564;COG0583K;transcriptional regulator LysR family
+scaffold9	DOOR	operon	199811	200100	0.0	.	.	Name=operon ID = 2388564;COG0583K;transcriptional regulator LysR family
+scaffold9	DOOR	operon	289637	289928	0.0	.	.	Name=operon ID = 2085906;COG3386G;putative outer membrane protein; gluconolactonase
+scaffold2	DOOR	operon	225559	225997	0.0	.	.	Name=operon ID = 2388613;COG1253R;transporter
+scaffold6	DOOR	operon	264129	264572	0.0	.	.	"Name=operon ID = 328289;COG1486G;""phospho-beta-glucosidase, NAD(P)-binding (cellobiose-6-phosphate hydrolase)"""
+scaffold15	DOOR	operon	82404	82847	0.0	.	.	"Name=operon ID = 328289;COG1486G;""phospho-beta-glucosidase, NAD(P)-binding (cellobiose-6-phosphate hydrolase)"""
+scaffold10	DOOR	operon	57588	58021	0.0	.	.	Name=operon ID = 328676;COG0006E;proline aminopeptidase P II
+scaffold5	DOOR	operon	291592	292044	0.0	.	.	Name=operon ID = 471080;-;hypothetical protein
+scaffold2	DOOR	operon	282409	282864	0.0	.	.	Name=operon ID = 470850;COG1797H;cobyrinic acid a,c-diamide synthase
+scaffold1	DOOR	operon	249498	249953	0.0	.	.	Name=operon ID = 470850;COG1797H;cobyrinic acid a,c-diamide synthase
+scaffold4	DOOR	operon	141254	141702	0.0	.	.	Name=operon ID = 470741;COG0642T;osmolarity sensor protein
+scaffold5	DOOR	operon	75952	76404	0.0	.	.	Name=operon ID = 471684;COG0165E;argininosuccinate lyase
+scaffold2	DOOR	operon	235749	236153	0.0	.	.	Name=operon ID = 2388546;COG2199T;sensory box-containing diguanylate cyclase
+scaffold5	DOOR	operon	134664	135094	0.0	.	.	Name=operon ID = 2386888;COG2897P;thiosulfate sulfurtransferase homolog
+scaffold4	DOOR	operon	92112	92638	0.0	.	.	Name=operon ID = 328365;COG4670I;bifunctional putative acetyl-CoA:acetoacetyl-CoA transferase: alpha subunit/beta subunit
+scaffold3	DOOR	operon	26325	26805	0.0	.	.	Name=operon ID = 2085087;COG1113E;L-asparagine permease
+scaffold10	DOOR	operon	7762	8325	0.0	.	.	Name=operon ID = 2388115;-;AsmA family protein
+scaffold14	DOOR	operon	71044	71515	0.0	.	.	Name=operon ID = 2387840;COG0246G;mannitol dehydrogenase
+scaffold9	DOOR	operon	231479	231944	0.0	.	.	Name=operon ID = 2387840;COG0246G;mannitol dehydrogenase
+scaffold13	DOOR	operon	19288	19636	0.0	.	.	Name=operon ID = 470731;COG2177D;cell division protein FtsX
+scaffold4	DOOR	operon	335538	335889	0.0	.	.	Name=operon ID = 471107;COG3842E;ABC transporter ATP-binding protein
+scaffold3	DOOR	operon	27962	28351	0.0	.	.	Name=operon ID = 2085417;COG2814G;major facilitator superfamily lactose/glucose:proton efflux pump
+scaffold2	DOOR	operon	330431	330811	0.0	.	.	Name=operon ID = 471676;COG3071H;protoheme IX biogenesis protein
+scaffold9	DOOR	operon	154779	155159	0.0	.	.	Name=operon ID = 471676;COG3071H;protoheme IX biogenesis protein
+scaffold3	DOOR	operon	204663	205043	0.0	.	.	Name=operon ID = 471676;COG3071H;protoheme IX biogenesis protein
+scaffold9	DOOR	operon	21932	22307	0.0	.	.	Name=operon ID = 328080;COG4773P;ferrichrome outer membrane transporter
+scaffold11	DOOR	operon	88769	89134	0.0	.	.	"Name=operon ID = 328826;COG3842E;""2-aminoethylphosphonate transporter,ATPase component"""
+scaffold9	DOOR	operon	103310	103675	0.0	.	.	"Name=operon ID = 328826;COG3842E;""2-aminoethylphosphonate transporter,ATPase component"""
+scaffold5	DOOR	operon	276814	277178	0.0	.	.	Name=operon ID = 470720;COG3405G;endo-1,4-D-glucanase
+scaffold17	DOOR	operon	74748	75107	0.0	.	.	Name=operon ID = 328112;-;hypothetical protein
+scaffold16	DOOR	operon	94307	94666	0.0	.	.	Name=operon ID = 328112;-;hypothetical protein
+scaffold41	DOOR	operon	4	79	1.71e-41	.	.	Name=operon ID = 329046;COG3451U;conjugal transfer ATP-binding protein TraC
+scaffold4	DOOR	operon	99168	100029	0.0	.	.	Name=operon ID = 471080;COG0243C;nitrate reductase
+scaffold4	DOOR	operon	34801	35665	0.0	.	.	Name=operon ID = 470912;COG1042C;CoA binding domain/acetyltransferase domain protein
+scaffold2	DOOR	operon	309913	311081	0.0	.	.	Name=operon ID = 470847;COG1074L;exonuclease V subunit beta
+scaffold9	DOOR	operon	210302	210490	3.50e-125	.	.	Name=operon ID = 470820;COG3079S;hypothetical protein
+scaffold12	DOOR	operon	141916	142087	4.20e-110	.	.	Name=operon ID = 471590;-;lipoprotein
+scaffold10	DOOR	operon	123273	123408	3.55e-89	.	.	Name=operon ID = 328960;COG0346E;putative glyoxalase/bleomycin resistance protein/dioxygenase
+scaffold33	DOOR	operon	3	145	2.19e-101	.	.	Name=operon ID = 2086294;COG0845M;copper/silver efflux system membrane fusion protein CusB
+scaffold1	DOOR	operon	202697	202849	1.16e-91	.	.	Name=operon ID = 470608;COG2801L;IS3 family element, transposase OrfB
+scaffold8	DOOR	operon	149984	150270	0.0	.	.	Name=operon ID = 2386718;COG0583K;transcriptional regulator LysR family
+scaffold23	DOOR	operon	57389	57669	0.0	.	.	Name=operon ID = 470686;COG0697GER;hypothetical protein
+scaffold1	DOOR	operon	142782	143062	0.0	.	.	Name=operon ID = 470686;COG0697GER;hypothetical protein
+scaffold9	DOOR	operon	136682	136930	3.30e-173	.	.	Name=operon ID = 471677;COG3765M;lipopolysaccharide biosynthesis protein WzzE
+scaffold13	DOOR	operon	127986	128308	0.0	.	.	Name=operon ID = 471147;COG2141C;monooxygenase, luciferase family
+scaffold10	DOOR	operon	83092	83387	0.0	.	.	Name=operon ID = 2084977;COG0583K;transcriptional regulator LysR
+scaffold15	DOOR	operon	25177	25410	8.10e-157	.	.	Name=operon ID = 328496;COG1309K;putative regulatory protein TetR
+scaffold1	DOOR	operon	285162	285368	1.35e-130	.	.	Name=operon ID = 470634;COG0431R;arsenical resistance protein ArsH
+scaffold2	DOOR	operon	58414	58643	1.19e-153	.	.	Name=operon ID = 471593;COG2801L;IS3 family element, transposase orfB
+scaffold3	DOOR	operon	13505	13716	3.55e-150	.	.	Name=operon ID = 2084470;COG1028IQR;putative 3-ketoacyl-(acyl-carrier-protein) reductase
+scaffold24	DOOR	operon	22891	23118	2.88e-171	.	.	Name=operon ID = 2386420;-;hypothetical protein
+scaffold13	DOOR	operon	7256	7517	0.0	.	.	Name=operon ID = 471506;COG3021S;hypothetical protein
+scaffold1	DOOR	operon	19767	20028	0.0	.	.	Name=operon ID = 471506;COG3021S;hypothetical protein
+scaffold9|size290541:289636-290541	DOOR	operon	289637	289928	0.0	.	.	Name=operon ID = 2085906;COG3386G;putative outer membrane protein; gluconolactonase
+scaffold4|size355720:285566-286627	DOOR	operon	203578	203926	0.0	.	.	Name=operon ID = 328972;COG0449M;putative glucosamine-fructose-6-phosphate aminotransferase
+scaffold4|size355720:71666-72829	DOOR	operon	71748	72144	0.0	.	.	Name=operon ID = 328078;COG3297U;pullulanase L protein
+scaffold11|size211557:141002-142849	DOOR	operon	585950	586556	0.0	.	.	Name=operon ID = 328508;COG2982M;putative assembly protein
+scaffold5|size342116:28604-29185	DOOR	operon	48334	48526	2.16e-142	.	.	Name=operon ID = 328158;COG1309K;putative regulatory protein
+scaffold10|size313203:91684-91914	DOOR	operon	173523	173595	1.26e-42	.	.	Name=operon ID = 2387095;-;hypothetical protein
+scaffold33|size17104:2-457	DOOR	operon	3	145	2.19e-101	.	.	Name=operon ID = 2086294;COG0845M;copper/silver efflux system membrane fusion protein CusB
+scaffold10|size313203:102227-104071	DOOR	operon	106083	106633	0.0	.	.	Name=operon ID = 471131;COG3131P;glucan biosynthesis protein D
+scaffold16|size101655:92292-93485	DOOR	operon	15	411	0.0	.	.	Name=operon ID = 2085940;COG2814G;ribonucleoside transporter
+scaffold38|size11216:1-447	DOOR	operon	12	149	3.20e-96	.	.	Name=operon ID = 2086355;-;conjugal transfer surface exclusion protein TraT
+scaffold13|size193725:781-1071	DOOR	operon	108085	108180	6.16e-68	.	.	Name=operon ID = 2085739;-;hypothetical protein
+scaffold17|size94404:76768-77754	DOOR	operon	16444	16731	0.0	.	.	Name=operon ID = 2086013;COG4753T;putative ARAC-type regulatory protein
+scaffold8|size300842:108054-109250	DOOR	operon	107843	108240	0.0	.	.	Name=operon ID = 328548;COG2807P;putative cyanate transporter
+scaffold10|size313203:86502-87914	DOOR	operon	90314	90783	0.0	.	.	Name=operon ID = 2085099;COG1167KE;transcription regulator GntR
+scaffold24|size50450:19569-19904	DOOR	operon	6774	6872	2.40e-61	.	.	Name=operon ID = 329031;-;hypothetical protein
+scaffold33|size17104:13354-14190	DOOR	operon	3155	3537	0.0	.	.	Name=operon ID = 329006;COG4943T;hypothetical protein
+scaffold42|size6749:4012-4761	DOOR	operon	2890	3137	7.80e-178	.	.	Name=operon ID = 471250;-;hypothetical protein
+scaffold7|size330267:178051-179208	DOOR	operon	60840	61224	0.0	.	.	Name=operon ID = 2084971;-;putative sugar transport protein
+scaffold1|size534453:62031-62372	DOOR	operon	135806	135916	3.69e-76	.	.	Name=operon ID = 2388405;COG1366T;anti-anti-sigma factor
+scaffold35|size15089:14758-15087	DOOR	operon	7	328	0.0	.	.	"Name=operon ID = 2084810;-;""putative transposase, IS4"""
+scaffold52|size1015:3-980	DOOR	operon	7	328	0.0	.	.	"Name=operon ID = 2084810;-;""putative transposase, IS4"""
+scaffold11|size211557:56925-58445	DOOR	operon	411568	411923	0.0	.	.	Name=operon ID = 470983;COG1129G;galactose/methyl galaxtoside transporter ATP-binding protein
+scaffold39|size9920:8757-9479	DOOR	operon	10681	10917	2.96e-148	.	.	Name=operon ID = 470634;COG0431R;arsenical resistance protein ArsH
+scaffold7|size330267:123895-124836	DOOR	operon	59726	60024	0.0	.	.	Name=operon ID = 328366;COG0524G;ribokinase
+scaffold2|size372913:17569-18933	DOOR	operon	17625	18077	0.0	.	.	Name=operon ID = 2387778;COG0541U;signal recognition particle protein
+scaffold10|size313203:117492-118715	DOOR	operon	591679	592062	0.0	.	.	Name=operon ID = 2085112;COG2814G;major facilitator family transporter
+scaffold19|size81559:76778-77743	DOOR	operon	178165	178459	0.0	.	.	Name=operon ID = 328810;COG1566V;hypothetical protein
+scaffold9|size290541:182322-183875	DOOR	operon	114901	115399	0.0	.	.	Name=operon ID = 328787;-;hypothetical protein
+scaffold24|size50450:32410-32982	DOOR	operon	32416	32600	1.50e-127	.	.	Name=operon ID = 328995;-;hypothetical protein
+scaffold1|size534453:19763-20566	DOOR	operon	136189	136454	0.0	.	.	Name=operon ID = 328256;COG0596R;putative hydrolase
+scaffold6|size331507:54013-56058	DOOR	operon	25080	25758	0.0	.	.	Name=operon ID = 2084869;COG1012C;bifunctional aldehyde dehydrogenase/enoyl-CoA hydratase
+scaffold2|size372913:320149-320556	DOOR	operon	14035	14163	6.08e-89	.	.	Name=operon ID = 328651;-;hypothetical protein
+scaffold8|size300842:84846-85823	DOOR	operon	749868	750176	0.0	.	.	Name=operon ID = 2386948;-;flagella biosynthesis regulator
+scaffold16|size101655:94301-95404	DOOR	operon	31616	31982	0.0	.	.	Name=operon ID = 328827;COG0075E;2-aminoethylphosphonate--pyruvate transaminase
+scaffold33|size17104:3201-4676	DOOR	operon	1691	2135	0.0	.	.	Name=operon ID = 329003;COG0642T;sensor kinase (silver resistance)
+scaffold15|size110091:43637-45775	DOOR	operon	44047	44755	0.0	.	.	Name=operon ID = 2085698;COG1982E;ornithine decarboxylase
+scaffold12|size196425:99656-100666	DOOR	operon	94911	95232	0.0	.	.	Name=operon ID = 2085304;COG2990S;putative enzyme
+scaffold11|size211557:135059-137002	DOOR	operon	135063	135706	0.0	.	.	Name=operon ID = 328509;COG2205T;putative signal transduction histidine kinase
+scaffold7|size330267:4984-5664	DOOR	operon	24638	24851	3.57e-154	.	.	Name=operon ID = 2085050;COG1285S;putative Mg(2+) transport ATPase
+scaffold8|size300842:236712-237569	DOOR	operon	56826	57109	0.0	.	.	Name=operon ID = 2085512;COG2897P;3-mercaptopyruvate sulfurtransferase
+scaffold9|size290541:139054-139455	DOOR	operon	139684	139815	9.41e-93	.	.	Name=operon ID = 328782;COG0864K;nickel responsive regulator
+scaffold7|size330267:206565-206939	DOOR	operon	169823	169946	1.84e-89	.	.	Name=operon ID = 328352;COG4977K;DNA-binding transcriptional activator MarA
+scaffold2|size372913:80129-81481	DOOR	operon	73817	74265	0.0	.	.	Name=operon ID = 2386975;COG1167KE;GntR family transcriptional regulator/aminotransferase family protein
+scaffold22|size66633:54423-55211	DOOR	operon	9063	9302	9.11e-164	.	.	Name=operon ID = 2086381;COG4974L;resolvase-like protein
+scaffold30|size22545:3-326	DOOR	operon	12	110	4.79e-69	.	.	Name=operon ID = 328702;COG3628R;putative prophage baseplate protein
+scaffold5|size342116:53758-54873	DOOR	operon	56538	56907	0.0	.	.	Name=operon ID = 2084472;COG0123BQ;putative deacetylase
+scaffold13|size193725:80131-82239	DOOR	operon	76881	77544	0.0	.	.	Name=operon ID = 328725;COG3107R;putative enzyme
+scaffold2|size372913:82810-84951	DOOR	operon	71137	71829	0.0	.	.	Name=operon ID = 328602;COG0209F;ribonucleotide-diphosphate reductase subunit alpha
+scaffold31|size20574:89-724	DOOR	operon	90	290	5.60e-126	.	.	Name=operon ID = 328702;COG4540R;putative prophage baseplate assembly protein
+scaffold1|size534453:392131-392646	DOOR	operon	173473	173648	2.36e-120	.	.	Name=operon ID = 2084535;COG2223P;putative citrate utilization protein A
+scaffold20|size79518:7359-7895	DOOR	operon	13668	13842	2.35e-128	.	.	Name=operon ID = 328661;COG3539NU;fimbrial protein
+scaffold7|size330267:308353-309261	DOOR	operon	165826	166127	0.0	.	.	Name=operon ID = 2084901;COG0583K;putative DNA-binding transcriptional regulator
+scaffold17|size94404:69571-71127	DOOR	operon	14	497	0.0	.	.	"Name=operon ID = 2086008;COG0737F;""putative 5'-nucleotidase/2',3'-cyclic phosphodiesterase"""
+scaffold3|size372531:144384-145634	DOOR	operon	10686	11100	0.0	.	.	Name=operon ID = 2086122;COG0531E;inner membrane protein YjeH
+scaffold6|size331507:31024-31971	DOOR	operon	221242	221540	0.0	.	.	Name=operon ID = 2084872;COG0583K;LysR family transcriptional regulator
+scaffold13|size193725:142843-143775	DOOR	operon	704404	704713	0.0	.	.	Name=operon ID = 2085790;COG1242R;putative enzyme
+scaffold1|size534453:505768-506709	DOOR	operon	6252	6551	0.0	.	.	Name=operon ID = 328166;COG1879G;D-ribose periplasmic binding protein
+scaffold7|size330267:138178-139053	DOOR	operon	11942	12218	0.0	.	.	Name=operon ID = 2084988;COG2084I;putative dehydrogenase
+scaffold1|size534453:102098-103336	DOOR	operon	142167	142571	0.0	.	.	Name=operon ID = 2387690;COG1488H;nicotinate phosphoribosyltransferase
+scaffold5|size342116:23445-26168	DOOR	operon	85249	86152	0.0	.	.	"Name=operon ID = 328159;COG0474P;""Mg2+ transport ATPase, P-type 1"""
+scaffold10|size313203:199854-201272	DOOR	operon	717209	717677	0.0	.	.	Name=operon ID = 328423;COG0402FR;amidohydrolase
+scaffold12|size196425:186647-186976	DOOR	operon	96254	96361	2.52e-78	.	.	Name=operon ID = 2388560;COG2105S;hypothetical protein
+scaffold6|size331507:109940-110644	DOOR	operon	8338	8570	8.12e-158	.	.	Name=operon ID = 471593;COG2801L;IS3 family element, transposase orfB
+scaffold7|size330267:295445-296878	DOOR	operon	148753	149230	0.0	.	.	Name=operon ID = 2388288;COG0471P;tartrate carrier
+scaffold2|size372913:158855-159742	DOOR	operon	147333	147625	0.0	.	.	Name=operon ID = 328621;COG0583K;putative transcriptional regulator LYSR-type
+scaffold4|size355720:247698-249365	DOOR	operon	30550	31104	0.0	.	.	Name=operon ID = 2387757;COG0488R;ABC transporter ATP-binding protein
+scaffold36|size14978:6613-6861	DOOR	operon	3095	3176	9.35e-56	.	.	Name=operon ID = 329046;-;hypothetical protein
+scaffold4|size355720:273694-274368	DOOR	operon	68247	68453	5.27e-155	.	.	Name=operon ID = 328976;COG2197TK;DNA-binding transcriptional activator BglJ
+scaffold2|size372913:86281-87483	DOOR	operon	10	409	0.0	.	.	"Name=operon ID = 328603;COG4175E;""ATP-binding component of transport system for glycine, betaine and proline"""
+scaffold8|size300842:53375-53734	DOOR	operon	151240	151385	6.07e-105	.	.	Name=operon ID = 470965;COG0838C;NADH dehydrogenase subunit A
+scaffold18|size86716:40409-43039	DOOR	operon	40482	41331	0.0	.	.	Name=operon ID = 2386490;COG3072F;adenylate cyclase
+scaffold7|size330267:261213-262283	DOOR	operon	261227	261569	0.0	.	.	"Name=operon ID = 328346;COG0243C;""putative dimethyl sulfoxide reductase, major subunit"""
+scaffold3|size372531:366077-366421	DOOR	operon	6134	6247	2.66e-81	.	.	Name=operon ID = 328956;COG5569S;periplasmic copper-binding protein
+scaffold16|size101655:26804-28174	DOOR	operon	26771	27221	0.0	.	.	Name=operon ID = 2085970;COG1207M;bifunctional N-acetylglucosamine-1-phosphate uridyltransferase/glucosamine-1-phosphate acetyltransferase
+scaffold10|size313203:91927-93888	DOOR	operon	175658	176310	0.0	.	.	Name=operon ID = 2388111;COG0826O;peptidase, U32 family
+scaffold1|size534453:520352-520798	DOOR	operon	116848	116994	5.74e-106	.	.	Name=operon ID = 2388461;-;C-lysozyme inhibitor
+scaffold7|size330267:154421-155116	DOOR	operon	28	258	4.18e-172	.	.	Name=operon ID = 328359;COG3121NU;putative fimbrial chaperone
+scaffold16|size101655:68012-68572	DOOR	operon	67891	68097	1.65e-152	.	.	Name=operon ID = 2085948;-;DNA-damage-inducible protein D
+scaffold30|size22545:21350-22060	DOOR	operon	266011	266234	2.54e-163	.	.	Name=operon ID = 328699;COG0830O;urease accessory protein ureF
+scaffold1|size534453:434213-434857	DOOR	operon	220145	220357	9.02e-147	.	.	Name=operon ID = 2387024;COG0321H;lipoyltransferase
+scaffold2|size372913:65188-67743	DOOR	operon	53518	54346	0.0	.	.	"Name=operon ID = 328600;COG3188NU;""putative export and assembly of type 1 fimbriae, usher"""
+scaffold1|size534453:513146-514096	DOOR	operon	228334	228648	0.0	.	.	Name=operon ID = 328165;COG3958G;putative transketolase C-terminal section
+scaffold1|size534453:310050-311309	DOOR	operon	346514	346918	0.0	.	.	Name=operon ID = 328205;COG1228Q;imidazolonepropionase
+scaffold7|size330267:202916-203710	DOOR	operon	83312	83574	0.0	.	.	Name=operon ID = 2084955;COG0384R;putative oxidoreductase
+scaffold31|size20574:17482-18483	DOOR	operon	148796	149126	0.0	.	.	Name=operon ID = 328708;COG4974L;putative prophage gp Int for integrase
+scaffold18|size86716:13260-14900	DOOR	operon	13217	13761	0.0	.	.	Name=operon ID = 471670;COG0661R;ubiquinone biosynthesis protein UbiB
+scaffold41|size7761:3-236	DOOR	operon	4	79	1.71e-41	.	.	Name=operon ID = 329046;COG3451U;conjugal transfer ATP-binding protein TraC
+scaffold19|size81559:58522-59124	DOOR	operon	109620	109807	4.31e-137	.	.	Name=operon ID = 2085917;-;hypothetical protein
+scaffold3|size372531:157825-158388	DOOR	operon	72116	72294	3.00e-95	.	.	Name=operon ID = 2086128;-;pytative periplasmic chaperone
+scaffold3|size372531:98148-99065	DOOR	operon	98336	98626	0.0	.	.	Name=operon ID = 2086103;COG2253S;hypothetical protein
+scaffold7|size330267:231742-232524	DOOR	operon	1782	2032	0.0	.	.	Name=operon ID = 328348;COG3622G;putative epimerase/isomerase
+scaffold4|size355720:103815-104621	DOOR	operon	103909	104164	0.0	.	.	Name=operon ID = 328069;-;hypothetical protein
+scaffold7|size330267:65229-65885	DOOR	operon	76392	76609	2.10e-158	.	.	Name=operon ID = 471163;COG0765E;amino acid ABC transporter permease
+scaffold11|size211557:156171-157325	DOOR	operon	15476	15858	0.0	.	.	Name=operon ID = 470997;COG0438M;glycosyl transferase group 1 family protein
+scaffold9|size290541:38292-39092	DOOR	operon	37950	38206	0.0	.	.	Name=operon ID = 328766;COG4972NU;hypothetical protein
+scaffold5|size342116:255384-256703	DOOR	operon	113754	114192	0.0	.	.	Name=operon ID = 2084385;COG1114E;branched chain amino acid transport system II carrier protein
+scaffold11|size211557:115634-116497	DOOR	operon	117454	117733	0.0	.	.	Name=operon ID = 328511;COG0444EP;peptide ABC transporter ATP-binding protein
+scaffold31|size20574:12727-14853	DOOR	operon	12831	13431	0.0	.	.	Name=operon ID = 2086253;-;putative prophage protein
+scaffold14|size153592:72930-73763	DOOR	operon	719279	719553	0.0	.	.	Name=operon ID = 2085227;-;putative potassium channel protein
+scaffold20|size79518:66863-67447	DOOR	operon	90486	90677	7.96e-142	.	.	Name=operon ID = 328676;COG3079S;hypothetical protein
+scaffold6|size331507:189370-190107	DOOR	operon	26899	27126	1.53e-169	.	.	Name=operon ID = 328297;COG0284F;orotidine 5'-phosphate decarboxylase
+scaffold4|size355720:213073-215925	DOOR	operon	213169	214106	0.0	.	.	Name=operon ID = 471549;COG0060J;isoleucyl-tRNA synthetase
+scaffold1|size534453:190280-191008	DOOR	operon	244754	244995	0.0	.	.	Name=operon ID = 328226;COG4161E;arginine transporter ATP-binding subunit
+scaffold4|size355720:218535-219758	DOOR	operon	13082	13476	0.0	.	.	Name=operon ID = 328048;COG3004P;pH-dependent sodium/proton antiporter
+scaffold11|size211557:157309-158574	DOOR	operon	157311	157730	0.0	.	.	Name=operon ID = 470997;-;hypothetical protein
+scaffold29|size25607:8792-10225	DOOR	operon	5737	6159	0.0	.	.	Name=operon ID = 2086306;COG3344L;putative reverse transcriptase
+scaffold5|size342116:172775-173095	DOOR	operon	501440	501543	1.39e-70	.	.	Name=operon ID = 2084421;COG1937S;hypothetical protein
+scaffold31|size20574:9704-10741	DOOR	operon	9705	10048	0.0	.	.	Name=operon ID = 328705;COG5518R;putative prophage presumed portal protein
+scaffold3|size372531:20982-21491	DOOR	operon	21445	21596	7.87e-112	.	.	Name=operon ID = 328898;-;ribosomal-protein-alanine N-acetyltransferase
+scaffold11|size211557:196262-198364	DOOR	operon	197812	198510	0.0	.	.	Name=operon ID = 2085364;COG0480J;elongation factor EF-2
+scaffold31|size20574:5036-5779	DOOR	operon	76792	77030	2.46e-175	.	.	Name=operon ID = 328704;-;putative prophage small terminase subunit
+scaffold11|size211557:61546-62241	DOOR	operon	187065	187295	1.71e-166	.	.	Name=operon ID = 328521;COG1346M;hypothetical protein
+scaffold10|size313203:239631-240701	DOOR	operon	12742	13096	0.0	.	.	Name=operon ID = 328432;COG3842E;putative ABC transporter
+scaffold5|size342116:52449-52991	DOOR	operon	25932	26110	1.62e-129	.	.	Name=operon ID = 471421;-;hypothetical protein
+scaffold6|size331507:327110-327781	DOOR	operon	327111	327330	1.06e-156	.	.	Name=operon ID = 2084856;COG2135S;hypothetical protein
+scaffold6|size331507:225981-226658	DOOR	operon	650924	651147	1.35e-167	.	.	Name=operon ID = 328291;COG3128S;putative hydroxylase
+scaffold36|size14978:15-2876	DOOR	operon	608	1555	0.0	.	.	Name=operon ID = 329047;-;conjugal transfer mating pair stabilization protein TraG
+scaffold12|size196425:102075-103463	DOOR	operon	375554	376015	0.0	.	.	Name=operon ID = 2085300;COG0144J;rRNA (cytosine-C(5)-)-methyltransferase RsmF
+scaffold15|size110091:108373-110091	DOOR	operon	617542	618107	0.0	.	.	Name=operon ID = 328699;COG0804E;urease subunit alpha
+scaffold1|size534453:8369-9586	DOOR	operon	39213	39606	0.0	.	.	Name=operon ID = 2084666;COG1972F;NupC family nucleoside transporter
+scaffold2|size372913:57294-58055	DOOR	operon	51993	52274	0.0	.	.	Name=operon ID = 2085569;COG0834ET;hypothetical protein
+scaffold9|size290541:107352-108596	DOOR	operon	1680	2093	0.0	.	.	Name=operon ID = 2085845;COG0814E;aromatic amino acid transporter
+scaffold1|size534453:510100-511071	DOOR	operon	546269	546587	0.0	.	.	"Name=operon ID = 2084497;COG5464S;""putative transposase, YhgA-like protein"""
+scaffold2|size372913:149355-150626	DOOR	operon	149430	149879	0.0	.	.	Name=operon ID = 2085599;COG1455G;PEP-dependent phosphotransferase enzyme II
+scaffold29|size25607:6838-7887	DOOR	operon	7944	8276	0.0	.	.	Name=operon ID = 329009;COG0389L;DNA polymerase V subunit UmuC
+scaffold11|size211557:7243-8481	DOOR	operon	656633	657032	0.0	.	.	Name=operon ID = 2085434;COG0659P;putative sulfate transporter
+scaffold10|size313203:211854-212762	DOOR	operon	233429	233673	0.0	.	.	Name=operon ID = 2085162;COG2990S;putative enzyme
+scaffold26|size41865:2-1045	DOOR	operon	13	349	0.0	.	.	Name=operon ID = 328101;-;putative fimbriae; usher
+scaffold10|size313203:22917-23240	DOOR	operon	22918	23023	3.73e-74	.	.	Name=operon ID = 328395;-;hypothetical protein
+scaffold7|size330267:123194-123883	DOOR	operon	10489	10706	1.25e-162	.	.	Name=operon ID = 328366;COG0036G;allulose-6-phosphate 3-epimerase
+scaffold6|size331507:300065-300574	DOOR	operon	658376	658533	2.01e-113	.	.	Name=operon ID = 328279;COG1683S;hypothetical protein
+scaffold14|size153592:22718-24244	DOOR	operon	22719	23208	0.0	.	.	Name=operon ID = 328441;COG0841V;putative efflux protein
+scaffold10|size313203:309914-310483	DOOR	operon	309915	310102	7.67e-129	.	.	Name=operon ID = 2387883;COG1961L;DNA-invertase hin
+scaffold7|size330267:220851-223958	DOOR	operon	28238	29272	0.0	.	.	Name=operon ID = 328349;COG3250G;beta-D-galactosidase
+scaffold7|size330267:251961-252671	DOOR	operon	223110	223342	6.45e-177	.	.	Name=operon ID = 2084926;-;hypothetical protein
+scaffold18|size86716:39605-39829	DOOR	operon	39614	39680	1.05e-43	.	.	Name=operon ID = 328874;COG5567N;hypothetical protein
+scaffold10|size313203:163919-164671	DOOR	operon	37175	37420	5.03e-176	.	.	Name=operon ID = 2085141;COG4221R;short chain dehydrogenase
+scaffold7|size330267:302033-302797	DOOR	operon	10615	10868	0.0	.	.	Name=operon ID = 328339;COG0596R;putative 3-oxoadipate enol-lactonase II
+scaffold40|size7933:7156-7932	DOOR	operon	7167	7414	0.0	.	.	Name=operon ID = 329054;COG3547L;putative transposase
+scaffold18|size86716:66659-68167	DOOR	operon	66692	67190	0.0	.	.	Name=operon ID = 328871;COG0248FP;guanosine pentaphosphate phosphohydrolase
+scaffold7|size330267:105741-107132	DOOR	operon	10825	11260	0.0	.	.	Name=operon ID = 2085002;COG2271G;phosphoglycerate transporter
+scaffold11|size211557:184711-185310	DOOR	operon	219353	219550	2.60e-149	.	.	Name=operon ID = 328500;COG0139E;bifunctional phosphoribosyl-AMP cyclohydrolase/phosphoribosyl-ATP pyrophosphatase protein
+scaffold13|size193725:167291-171088	DOOR	operon	264234	265490	0.0	.	.	Name=operon ID = 328745;COG3164S;hypothetical protein
+scaffold4|size355720:329357-330649	DOOR	operon	8	416	0.0	.	.	Name=operon ID = 328964;COG2733S;putative transmembrane protein
+scaffold14|size153592:140516-143911	DOOR	operon	160071	161189	0.0	.	.	Name=operon ID = 328457;COG3523S;hypothetical protein
+scaffold6|size331507:110948-111052	DOOR	operon	36754	36785	4.77e-15	.	.	Name=operon ID = 471593;-;IS3 family element, transposase orfA
+scaffold6|size331507:131259-131447	DOOR	operon	221191	221251	2.71e-39	.	.	Name=operon ID = 2386833;-;hypothetical protein
+scaffold6|size331507:135937-137754	DOOR	operon	68510	69111	0.0	.	.	Name=operon ID = 471241;COG1215M;glycosyl transferase group 2 family protein
+scaffold1|size534453:446595-447344	DOOR	operon	232540	232775	2.40e-172	.	.	Name=operon ID = 2387460;COG1651O;thiol:disulfide interchange protein DsbG
+scaffold3|size372531:81793-82332	DOOR	operon	53017	53193	6.40e-127	.	.	Name=operon ID = 328907;COG3539NU;putative fimbrial-like protein
+scaffold6|size331507:102955-106410	DOOR	operon	329818	330941	0.0	.	.	Name=operon ID = 328306;COG3523S;hypothetical protein
+scaffold5|size342116:334543-336105	DOOR	operon	813746	814248	0.0	.	.	Name=operon ID = 2084352;COG4943T;diguanylate cyclase/phosphodiesterase domain-containing protein
+scaffold9|size290541:124797-125177	DOOR	operon	78564	78688	4.74e-84	.	.	Name=operon ID = 328781;-;hypothetical protein
+scaffold8|size300842:3-137	DOOR	operon	4	41	1.51e-17	.	.	Name=operon ID = 2386776;COG3203M;porin
+scaffold1|size534453:467339-468577	DOOR	operon	163353	163763	0.0	.	.	Name=operon ID = 328176;COG0402FR;putative cytosine deaminase and related metal-dependent hydrolases
+scaffold3|size372531:361609-364758	DOOR	operon	7902	8950	0.0	.	.	Name=operon ID = 328956;COG3696P;hypothetical protein
+scaffold24|size50450:1129-1449	DOOR	operon	257	361	1.77e-71	.	.	Name=operon ID = 329050;-;hypothetical protein
+scaffold7|size330267:79797-80333	DOOR	operon	41695	41858	5.86e-116	.	.	Name=operon ID = 2085017;COG1670J;putative acetyltransferase
+scaffold10|size313203:138529-139890	DOOR	operon	142417	142868	0.0	.	.	Name=operon ID = 2386630;COG3706T;diguanylate cyclase (GGDEF) domain protein
+scaffold21|size73086:50734-51657	DOOR	operon	228241	228543	0.0	.	.	Name=operon ID = 328261;COG0673R;putative NAD(P)-binding virulence factor
+scaffold19|size81559:2786-3730	DOOR	operon	143638	143950	0.0	.	.	Name=operon ID = 2085936;COG1609K;LacI transcriptional regulator
+scaffold24|size50450:17542-18321	DOOR	operon	45105	45348	1.98e-179	.	.	Name=operon ID = 2086381;COG4974L;resolvase-like protein
+scaffold3|size372531:300089-301159	DOOR	operon	58524	58873	0.0	.	.	Name=operon ID = 328944;COG3839G;putative ABC transporter
+scaffold30|size22545:10651-11811	DOOR	operon	538901	539281	0.0	.	.	Name=operon ID = 328700;COG3500R;putative prophage tail protein
+scaffold5|size342116:312435-313373	DOOR	operon	169896	170203	0.0	.	.	Name=operon ID = 471487;COG3221P;phosphonate ABC transporter periplasmic phosphonate-binding protein
+scaffold6|size331507:43162-44097	DOOR	operon	233553	233860	0.0	.	.	Name=operon ID = 471227;COG3327K;phenylacetic acid degradation operon negative regulatory protein PaaX
+scaffold36|size14978:11484-12119	DOOR	operon	802	1007	1.91e-152	.	.	Name=operon ID = 329046;-;conjugal transfer pilus assembly protein TraW
+scaffold15|size110091:64224-65642	DOOR	operon	58050	58505	0.0	.	.	Name=operon ID = 328690;COG2211G;putative permease
+scaffold7|size330267:47297-47521	DOOR	operon	409650	409722	1.13e-46	.	.	Name=operon ID = 2388073;-;hypothetical protein
+scaffold4|size355720:293632-294654	DOOR	operon	293639	293975	0.0	.	.	Name=operon ID = 471568;COG1063ER;TRAP transporter DctM family
+scaffold14|size153592:6258-6794	DOOR	operon	6284	6434	3.29e-101	.	.	Name=operon ID = 2084834;-;hypothetical protein
+scaffold1|size534453:65374-67026	DOOR	operon	139166	139698	0.0	.	.	Name=operon ID = 2084648;COG4166E;putative extracellular solute-binding protein
+scaffold12|size196425:80152-80904	DOOR	operon	903524	903773	0.0	.	.	Name=operon ID = 471044;COG1121P;high-affinity zinc transporter ATPase
+scaffold2|size372913:59217-59765	DOOR	operon	47528	47700	2.40e-119	.	.	Name=operon ID = 328599;COG3539NU;major type 1 subunit fimbrin (pilin)
+scaffold24|size50450:22861-23637	DOOR	operon	22891	23118	2.88e-171	.	.	Name=operon ID = 2386420;-;hypothetical protein
+scaffold3|size372531:130527-133016	DOOR	operon	131077	131881	0.0	.	.	Name=operon ID = 328914;-;outer membrane protein PgaA
+scaffold16|size101655:90833-91285	DOOR	operon	150378	150527	5.16e-108	.	.	Name=operon ID = 2387307;-;hypothetical protein
+scaffold7|size330267:112831-113739	DOOR	operon	580262	580549	0.0	.	.	Name=operon ID = 2084999;COG0583K;LysR family transcriptional regulator
+scaffold21|size73086:43501-46734	DOOR	operon	44607	45680	0.0	.	.	Name=operon ID = 2084691;COG1530J;ribonuclease E
+scaffold1|size534453:166144-166845	DOOR	operon	137040	137272	2.37e-175	.	.	Name=operon ID = 328232;COG2360O;leucyl/phenylalanyl-tRNA--protein transferase
+scaffold6|size331507:142439-145132	DOOR	operon	232371	233265	0.0	.	.	Name=operon ID = 471241;COG0642T;sensory box histidine kinase/response regulator
+scaffold14|size153592:621-2594	DOOR	operon	626	1278	0.0	.	.	Name=operon ID = 328315;COG0270L;putative site-specific DNA methylase
+scaffold5|size342116:223001-224449	DOOR	operon	34448	34929	0.0	.	.	Name=operon ID = 2084399;COG0301H;thiamine biosynthesis protein ThiI
+scaffold2|size372913:184818-187385	DOOR	operon	180939	181786	0.0	.	.	Name=operon ID = 2085605;COG0249L;DNA mismatch repair protein MutS
+scaffold29|size25607:25400-25588	DOOR	operon	25401	25459	1.24e-37	.	.	Name=operon ID = 329015;COG5499K;putative DNA-binding protein
+scaffold15|size110091:42340-43593	DOOR	operon	337674	338089	0.0	.	.	Name=operon ID = 2085697;-;MFS family nucleoside transporter
+scaffold10|size313203:236861-237616	DOOR	operon	862219	862468	0.0	.	.	Name=operon ID = 328431;-;hypothetical protein
+scaffold16|size101655:95546-96265	DOOR	operon	39843	40074	1.10e-172	.	.	"Name=operon ID = 2085939;COG2188K;""2-aminoethylphosphonate transport, repressor"""
+scaffold7|size330267:259586-260713	DOOR	operon	33572	33944	0.0	.	.	Name=operon ID = 2386834;-;hypothetical protein
+scaffold13|size193725:26134-27513	DOOR	operon	18940	19397	0.0	.	.	Name=operon ID = 2387633;COG4992E;putrescine--2-oxoglutarate aminotransferase
+scaffold4|size355720:163866-164525	DOOR	operon	69668	69964	0.0	.	.	Name=operon ID = 2084297;COG0583K;LysR family transcriptional regulator
+scaffold9|size290541:135740-136684	DOOR	operon	114038	114350	0.0	.	.	Name=operon ID = 470726;COG0601EP;nickel transporter permease NikB
+scaffold11|size211557:112104-113726	DOOR	operon	353848	354387	0.0	.	.	Name=operon ID = 328511;COG0747E;putative ABC transport system periplasmic binding protein
+scaffold8|size300842:79918-80901	DOOR	operon	217852	218157	0.0	.	.	Name=operon ID = 2387946;COG0777I;acetyl-CoA carboxylase subunit beta
+scaffold8|size300842:115057-116292	DOOR	operon	73624	74026	0.0	.	.	Name=operon ID = 2085475;COG0038P;hypothetical protein
+scaffold8|size300842:22922-24214	DOOR	operon	23642	24070	0.0	.	.	Name=operon ID = 328534;COG2271G;putative transport protein
+scaffold7|size330267:5762-6823	DOOR	operon	17773	18100	0.0	.	.	Name=operon ID = 2085049;COG1485R;putative ATPase
+scaffold1|size534453:247576-248565	DOOR	operon	221230	221533	0.0	.	.	Name=operon ID = 2084583;COG1376S;hypothetical protein
+scaffold12|size196425:161837-162850	DOOR	operon	28936	29272	0.0	.	.	Name=operon ID = 2085272;COG3239I;putative fatty acid desaturase
+scaffold4|size355720:70663-71649	DOOR	operon	24045	24361	0.0	.	.	Name=operon ID = 328078;COG3156U;pullulanase K protein
+scaffold12|size196425:43444-44100	DOOR	operon	529738	529954	4.66e-161	.	.	Name=operon ID = 471033;COG2197TK;response regulator
+scaffold10|size313203:238549-238764	DOOR	operon	205460	205527	2.74e-38	.	.	Name=operon ID = 2388088;-;hypothetical protein
+scaffold14|size153592:112845-113729	DOOR	operon	17	310	0.0	.	.	Name=operon ID = 328453;COG0600P;putative nitrate transporter component; NasE
+scaffold8|size300842:68932-69825	DOOR	operon	237362	237657	0.0	.	.	Name=operon ID = 470961;COG1090R;NAD dependent epimerase/dehydratase family protein
+scaffold24|size50450:40632-42626	DOOR	operon	40633	41295	0.0	.	.	Name=operon ID = 2386474;COG0021G;transketolase
+scaffold15|size110091:81201-81596	DOOR	operon	33833	33961	3.67e-90	.	.	Name=operon ID = 328693;COG3111S;hypothetical protein
+scaffold7|size330267:140910-141608	DOOR	operon	202159	202390	5.93e-173	.	.	Name=operon ID = 2084985;COG2188K;putative transcriptional regulator
+scaffold9|size290541:264513-265769	DOOR	operon	81699	82115	0.0	.	.	Name=operon ID = 470701;COG4942D;hypothetical protein
+scaffold4|size355720:46070-47581	DOOR	operon	46022	46493	0.0	.	.	Name=operon ID = 328081;COG0038P;chloride channel protein
+scaffold4|size355720:152068-153018	DOOR	operon	57876	58191	0.0	.	.	Name=operon ID = 2386482;COG0583K;leucine transcriptional activator
+scaffold19|size81559:77736-78653	DOOR	operon	179397	179700	0.0	.	.	"Name=operon ID = 328810;COG1131V;""putative ABC-type multidrug transport system, ATPase component"""
+scaffold3|size372531:259277-259585	DOOR	operon	276676	276766	2.31e-59	.	.	Name=operon ID = 2086175;COG1440G;putative phosphotransferase protein
+scaffold4|size355720:297250-298086	DOOR	operon	1409	1684	4.11e-173	.	.	Name=operon ID = 2086224;COG0456R;putative N-acetyltransferase
+scaffold9|size290541:272132-273094	DOOR	operon	257779	258096	0.0	.	.	Name=operon ID = 470699;COG0859M;ADP-heptose:LPS heptosyl transferase I
+scaffold12|size196425:142574-144124	DOOR	operon	54671	55200	0.0	.	.	Name=operon ID = 2085280;COG3067P;sodium/proton antiporter
+scaffold1|size534453:187520-188659	DOOR	operon	122636	122985	0.0	.	.	Name=operon ID = 328227;COG3706T;hypothetical protein
+scaffold9|size290541:58668-59342	DOOR	operon	325246	325457	9.53e-150	.	.	Name=operon ID = 328770;COG1040R;putative periplasmic gluconate-binding protein in GNT I transport system
+scaffold15|size110091:33056-34195	DOOR	operon	56194	56571	0.0	.	.	Name=operon ID = 328683;COG0635H;coproporphyrinogen III oxidase
+scaffold6|size331507:131982-132320	DOOR	operon	15486	15596	3.56e-73	.	.	Name=operon ID = 471240;COG1366T;anti-anti-sigma factor
+scaffold4|size355720:70070-70666	DOOR	operon	70075	70268	4.60e-138	.	.	Name=operon ID = 328079;COG4795U;pullulanase J protein
+scaffold6|size331507:288217-289098	DOOR	operon	57104	57396	0.0	.	.	Name=operon ID = 2387552;COG0583K;transcriptional regulator LysR family
+scaffold16|size101655:75854-77182	DOOR	operon	75818	76258	0.0	.	.	Name=operon ID = 328832;COG3048E;D-serine dehydratase
+scaffold27|size34645:19954-21294	DOOR	operon	19968	20413	0.0	.	.	Name=operon ID = 2086046;COG2704R;anaerobic C4-dicarboxylate transporter
+scaffold13|size193725:59472-60884	DOOR	operon	52282	52747	0.0	.	.	Name=operon ID = 328716;COG1904G;glucuronate isomerase
+scaffold28|size26219:984-1562	DOOR	operon	1957	2117	1.80e-111	.	.	Name=operon ID = 2085807;COG1989NOU;bifunctional prepilin peptidase: leader peptidase; N-methyltransferase; part of general secretion pathway (GSP)
+scaffold8|size300842:250422-251060	DOOR	operon	42612	42810	3.37e-148	.	.	Name=operon ID = 328578;COG3683R;ABC transporter membrane protein
+scaffold1|size534453:432461-433732	DOOR	operon	129068	129466	0.0	.	.	Name=operon ID = 2084523;COG1686M;D-alanyl-D-alanine carboxypeptidase fraction A
+scaffold5|size342116:341758-342114	DOOR	operon	341759	341870	4.72e-76	.	.	Name=operon ID = 328101;-;putative fimbriae; usher
+scaffold6|size331507:80678-81796	DOOR	operon	42207	42570	0.0	.	.	Name=operon ID = 328310;COG0673R;putative oxidoreductase
+scaffold1|size534453:514131-515549	DOOR	operon	550309	550771	0.0	.	.	"Name=operon ID = 328165;COG2407G;""putative L-fucose isomerase, C-terminal"""
+scaffold7|size330267:85514-86194	DOOR	operon	912283	912497	8.59e-164	.	.	Name=operon ID = 328374;COG0036G;allulose-6-phosphate 3-epimerase
+scaffold8|size300842:118131-119123	DOOR	operon	19387	19704	0.0	.	.	Name=operon ID = 2085477;COG0667C;putative oxidoreductase
+scaffold3|size372531:209970-211373	DOOR	operon	90821	91286	0.0	.	.	Name=operon ID = 2086156;COG1113E;D-alanine/D-serine/glycine permease
+scaffold26|size41865:37625-38431	DOOR	operon	237257	237521	0.0	.	.	Name=operon ID = 471506;COG3021S;hypothetical protein
+scaffold20|size79518:7945-8649	DOOR	operon	38156	38383	9.35e-171	.	.	Name=operon ID = 328661;COG3121NU;periplasmic chaperone
+scaffold8|size300842:210644-211711	DOOR	operon	93178	93532	0.0	.	.	Name=operon ID = 328571;COG0641R;putative arylsulfatase regulator
+scaffold9|size290541:169428-171434	DOOR	operon	169071	169727	0.0	.	.	Name=operon ID = 2085873;COG2200T;putative phosphodiesterase
+scaffold9|size290541:147289-148041	DOOR	operon	146923	147171	0.0	.	.	Name=operon ID = 328783;-;putative methyltransferase
+scaffold12|size196425:88886-90697	DOOR	operon	106206	106804	0.0	.	.	Name=operon ID = 328480;COG0129EG;phosphogluconate dehydratase
+scaffold25|size47896:1807-2457	DOOR	operon	46208	46417	9.69e-157	.	.	Name=operon ID = 328999;COG3464L;putative transposase
+scaffold6|size331507:42137-42544	DOOR	operon	110579	110713	1.06e-97	.	.	Name=operon ID = 328330;COG3791S;hypothetical protein
+scaffold1|size534453:215714-216925	DOOR	operon	271907	272306	0.0	.	.	Name=operon ID = 2084594;COG1686M;D-alanyl-D-alanine carboxypeptidase fraction C
+scaffold6|size331507:223647-225932	DOOR	operon	428672	429432	0.0	.	.	Name=operon ID = 471260;COG4774P;catecholate siderophore receptor Fiu
+scaffold35|size15089:917-4063	DOOR	operon	26454	27497	0.0	.	.	Name=operon ID = 471589;COG3696P;cation efflux system protein CusA
+scaffold1|size534453:239708-240781	DOOR	operon	275056	275412	0.0	.	.	Name=operon ID = 2084586;COG1609K;putative periplasmic binding protein/LacI transcriptional regulator
+scaffold12|size196425:191695-194394	DOOR	operon	2865	3636	0.0	.	.	Name=operon ID = 328464;COG3501S;hypothetical protein
+scaffold6|size331507:129173-129934	DOOR	operon	120438	120681	9.40e-179	.	.	Name=operon ID = 2084801;COG1028IQR;7-alpha-hydroxysteroid dehydrogenase
+scaffold11|size211557:203331-203654	DOOR	operon	106723	106828	5.52e-72	.	.	Name=operon ID = 2387225;COG2926S;hypothetical protein
+scaffold8|size300842:15338-16408	DOOR	operon	24073	24427	0.0	.	.	Name=operon ID = 328532;COG0584C;glycerophosphodiester phosphodiesterase
+scaffold7|size330267:118271-118657	DOOR	operon	27603	27906	0.0	.	.	Name=operon ID = 2084990;COG2207K;putative ARAC-type regulatory protein
+scaffold10|size313203:151797-152963	DOOR	operon	490878	491265	0.0	.	.	Name=operon ID = 2386907;COG2814G;transporter major facilitator family
+scaffold3|size372531:188519-188812	DOOR	operon	188475	188570	4.27e-60	.	.	Name=operon ID = 2086143;-;hypothetical protein
+scaffold6|size331507:114092-116791	DOOR	operon	31015	31834	0.0	.	.	Name=operon ID = 328304;COG3501S;hypothetical protein
+scaffold38|size11216:9113-9838	DOOR	operon	47534	47765	4.53e-159	.	.	Name=operon ID = 470621;-;type-F conjugative transfer system pilin acetylase TraX
+scaffold6|size331507:229699-231882	DOOR	operon	834310	835036	0.0	.	.	Name=operon ID = 471262;COG4771P;outer membrane receptor FepA
+scaffold18|size86716:71032-73053	DOOR	operon	68137	68808	0.0	.	.	Name=operon ID = 2086025;COG0210L;ATP-dependent DNA helicase Rep
+scaffold4|size355720:330703-331944	DOOR	operon	347521	347934	0.0	.	.	Name=operon ID = 471578;COG2814G;multidrug resistance protein MdtM
+scaffold3|size372531:106280-106648	DOOR	operon	106459	106575	1.79e-47	.	.	Name=operon ID = 2386956;-;hypothetical protein
+scaffold10|size313203:181936-183468	DOOR	operon	183770	184258	0.0	.	.	Name=operon ID = 2085154;COG2814G;putative transport protein
+scaffold11|size211557:86581-88623	DOOR	operon	77713	78389	0.0	.	.	Name=operon ID = 2085396;COG0143J;methionyl-tRNA synthetase
+scaffold1|size534453:107239-108450	DOOR	operon	164985	165367	0.0	.	.	Name=operon ID = 2084629;COG1171E;diaminopropionate ammonia-lyase
+scaffold5|size342116:111754-112092	DOOR	operon	590997	591097	5.51e-69	.	.	Name=operon ID = 2084447;-;hypothetical protein
+scaffold4|size355720:257023-258345	DOOR	operon	268376	268815	0.0	.	.	Name=operon ID = 2086239;COG0213F;thymidine phosphorylase
+scaffold7|size330267:199567-200451	DOOR	operon	154297	154589	0.0	.	.	Name=operon ID = 471191;COG0329EM;dihydrodipicolinate synthase
+scaffold3|size372531:37717-38325	DOOR	operon	237537	237737	6.39e-145	.	.	Name=operon ID = 2086068;COG1974KT;LexA repressor
+scaffold6|size331507:330919-331467	DOOR	operon	24830	25015	4.75e-127	.	.	Name=operon ID = 2387883;COG1961L;DNA-invertase hin
+scaffold9|size290541:187345-190077	DOOR	operon	187744	189085	0.0	.	.	Name=operon ID = 328788;COG3118O;putative cellulose synthase
+scaffold9|size290541:190117-191397	DOOR	operon	187744	189085	0.0	.	.	Name=operon ID = 328788;COG3118O;putative cellulose synthase
+scaffold5|size342116:58521-60254	DOOR	operon	58410	58981	0.0	.	.	Name=operon ID = 328153;COG3119P;putative arylsulfatase
+scaffold3|size372531:334353-334895	DOOR	operon	185891	186051	3.05e-116	.	.	Name=operon ID = 471595;COG2003L;DNA repair protein RadC
+scaffold6|size331507:110785-110976	DOOR	operon	36835	36892	3.31e-34	.	.	Name=operon ID = 471593;-;IS3 family element, transposase orfA
+scaffold18|size86716:190-723	DOOR	operon	63	239	2.03e-130	.	.	Name=operon ID = 471666;COG4635CH;protoporphyrinogen oxidase
+scaffold7|size330267:134382-135752	DOOR	operon	106074	106518	0.0	.	.	Name=operon ID = 328363;COG2271G;putative general substrate transporter
+scaffold14|size153592:55681-56049	DOOR	operon	215643	215759	1.95e-83	.	.	Name=operon ID = 328446;COG0251J;putative translation initiation inhibitor
+scaffold29|size25607:17515-19572	DOOR	operon	6497	7170	0.0	.	.	Name=operon ID = 2086310;COG1475K;parB-like nuclease domain-containing protein
+scaffold18|size86716:34200-36362	DOOR	operon	35582	36301	0.0	.	.	Name=operon ID = 471675;COG0210L;DNA-dependent helicase II
+scaffold7|size330267:49509-50282	DOOR	operon	77667	77932	0.0	.	.	Name=operon ID = 2387378;COG2207K;AraC family transcriptional regulator
+scaffold11|size211557:109870-110532	DOOR	operon	618260	618476	6.34e-145	.	.	Name=operon ID = 328512;COG0637R;putative enzyme
+scaffold16|size101655:3383-4315	DOOR	operon	3438	3746	0.0	.	.	Name=operon ID = 471703;COG0524G;ribokinase
+scaffold12|size196425:41968-42690	DOOR	operon	176534	176761	2.31e-174	.	.	Name=operon ID = 2085327;COG2771K;DNA-binding transcriptional activator SdiA
+scaffold39|size9920:6938-8221	DOOR	operon	53581	54006	0.0	.	.	Name=operon ID = 328997;COG1055P;hypothetical protein
+scaffold15|size110091:73142-75325	DOOR	operon	66483	67208	0.0	.	.	Name=operon ID = 470810;COG1032C;hypothetical protein
+scaffold5|size342116:213231-214928	DOOR	operon	123964	124520	0.0	.	.	Name=operon ID = 328125;COG1053C;hypothetical protein
+scaffold1|size534453:300842-302149	DOOR	operon	228672	229100	0.0	.	.	Name=operon ID = 2084567;COG0161H;adenosylmethionine--8-amino-7-oxononanoate transaminase
+scaffold7|size330267:175379-176050	DOOR	operon	136940	137158	1.31e-153	.	.	Name=operon ID = 471186;COG2011P;methionine uptake ABC transporter (MUT) family, permease
+scaffold9|size290541:204563-205957	DOOR	operon	166155	166606	0.0	.	.	Name=operon ID = 2085875;COG0666R;hypothetical protein
+scaffold7|size330267:179416-179838	DOOR	operon	151216	151350	5.31e-100	.	.	Name=operon ID = 2084970;-;putative glyoxalase/bleomycin resistance protein/dioxygenas
+scaffold12|size196425:164421-165362	DOOR	operon	213092	213403	0.0	.	.	Name=operon ID = 2085270;COG0583K;DNA-binding transcriptional activator TdcA
+scaffold7|size330267:24370-25560	DOOR	operon	8495	8880	0.0	.	.	Name=operon ID = 2085043;COG0526OC;putative cytochrome c biogenesis protein
+scaffold2|size372913:58412-59113	DOOR	operon	46748	46952	1.26e-147	.	.	Name=operon ID = 2085570;COG2197TK;putative transcriptional regulator of fimbrial expression
+scaffold36|size14978:4722-5279	DOOR	operon	20192	20376	2.81e-135	.	.	Name=operon ID = 329021;COG0526OC;conjugal transfer protein TrbB
+scaffold9|size290541:257637-258821	DOOR	operon	86153	86546	0.0	.	.	Name=operon ID = 470704;COG1304C;L-lactate dehydrogenase
+scaffold6|size331507:180739-182169	DOOR	operon	473733	474191	0.0	.	.	Name=operon ID = 2084784;COG1457F;putative allantoin permease
+scaffold10|size313203:312664-313203	DOOR	operon	312665	312834	2.54e-119	.	.	Name=operon ID = 471250;-;hypothetical protein
+scaffold3|size372531:158839-159513	DOOR	operon	158797	159002	2.57e-146	.	.	Name=operon ID = 2086129;COG3710K;putative transcriptional regulatory protein
+scaffold10|size313203:183585-184508	DOOR	operon	426481	426783	0.0	.	.	Name=operon ID = 2085155;COG0583K;LysR family transcriptional regulator
+scaffold4|size355720:304767-305987	DOOR	operon	222789	223179	0.0	.	.	Name=operon ID = 2086223;COG3616E;hypothetical protein
+scaffold8|size300842:153393-154052	DOOR	operon	146804	147021	4.31e-157	.	.	Name=operon ID = 470944;COG4816E;ethanolamine utilization protein EutL
+scaffold1|size534453:212662-213894	DOOR	operon	188241	188649	0.0	.	.	Name=operon ID = 2387503;COG2814G;multidrug translocase MdfA
+scaffold24|size50450:8613-10097	DOOR	operon	404	826	0.0	.	.	Name=operon ID = 2086306;COG3344L;putative reverse transcriptase
+scaffold25|size47896:38051-38707	DOOR	operon	3	204	2.80e-120	.	.	Name=operon ID = 470608;COG2801L;IS3 family element, transposase OrfB
+scaffold1|size534453:340512-341594	DOOR	operon	413723	414072	0.0	.	.	Name=operon ID = 2084548;COG0722E;phospho-2-dehydro-3-deoxyheptonate aldolase
+scaffold5|size342116:295683-296819	DOOR	operon	194158	194525	0.0	.	.	Name=operon ID = 471484;COG0683E;branched-chain amino acid ABC transporter periplasmic amino acid-binding protein
+scaffold10|size313203:70941-71600	DOOR	operon	676628	676825	1.73e-133	.	.	Name=operon ID = 2085093;COG1957F;ribonucleoside hydrolase 1
+scaffold36|size14978:12508-14976	DOOR	operon	12518	13330	0.0	.	.	Name=operon ID = 329046;COG3451U;conjugal transfer ATP-binding protein TraC
