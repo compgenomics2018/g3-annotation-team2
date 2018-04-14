@@ -1,0 +1,362 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>LipoP 1.0a</title>
+  <meta http-equiv="content-type"
+ content="text/html; charset=ISO-8859-1">
+</head>
+<body>
+<h1></h1>
+<h1><font color="#000099"><font size="+4">LipoP 1.0a User's guide</font></font></h1>
+This program  is for prediction of lipoproteins and for discriminating between
+lipoprotein signalpetides, other signal peptides and n-terminal membrane helices
+in Gram negative bacteria.<br>
+<br>
+The method is described in:<br>
+A. Sierakowska, H. Willenbrock, G. von Heijne, H.&nbsp; Nielsen, S. brunak
+and A. Krogh (2003)<br>
+Prediction of lipoprotein signal peptides in Gram-negative bacteria.
+<br>
+Protein Sci., 12(8):1652-1662, 2003.
+<br>
+<br>
+For more information, please contact krogh@binf.ku.dk.<br>
+
+<br>
+<br>
+
+<h4><font color="#000099"><font size="+2">Setup</font></font></h4>
+The LipoP script and the auxiliary script LipoPformat are written in perl
+and requires perl 5.0 or higher. The main program is written in C and runs
+on Unix computers. An executable version is needed for your platform. See
+the README file for instructions on how to set up the package. For graphics,
+the package uses <a href="http://www.cs.dartmouth.edu/gnuplot_info.html">gnuplot</a>
+and <a href="http://www.cs.wisc.edu/%7Eghost/">ghostscript</a>.
+
+<br>
+<br>
+
+<h2><a name="input"></a><font color="#000099">Input</font></h2>
+The program takes proteins in <b>FASTA format.</b> It&nbsp; recognizes the
+20 amino acids and B, Z, and X, which are all treated equally as unknown.
+Any other character is changed to X, so please make sure the sequences are
+sensible proteins
+<p>This is an example (one protein):</p>
+<p><tt>&gt;5H2A_CRIGR you can have comments after the ID</tt><br>
+<tt>MEILCEDNTSLSSIPNSLMQVDGDSGLYRNDFNSRDANSSDASNWTIDGENRTNLSFEGYLPPTCLSILHL</tt>
+<br>
+<tt>QEKNWSALLTAVVIILTIAGNILVIMAVSLEKKLQNATNYFLMSLAIADMLLGFLVMPVSMLTILYGYRWP</tt>
+<br>
+<tt>LPSKLCAVWIYLDVLFSTASIMHLCAISLDRYVAIQNPIHHSRFNSRTKAFLKIIAVWTISVGVSMPIPVF</tt>
+<br>
+<tt>GLQDDSKVFKQGSCLLADDNFVLIGSFVAFFIPLTIMVITYFLTIKSLQKEATLCVSDLSTRAKLASFSFL</tt>
+<br>
+<tt>PQSSLSSEKLFQRSIHREPGSYTGRRTMQSISNEQKACKVLGIVFFLFVVMWCPFFITNIMAVICKESCNE</tt>
+<br>
+<tt>HVIGALLNVFVWIGYLSSAVNPLVYTLFNKTYRSAFSRYIQCQYKENRKPLQLILVNTIPALAYKSSQLQA</tt>
+<br>
+<tt>GQNKDSKEDAEPTDNDCSMVTLGKQQSEETCTDNINTVNEKVSCV</tt><br>
+</p>
+<p>
+<b>Only the first 70 amino acids are used for prediction</b>.
+
+<br>
+<br>
+
+
+<h2><font color="#000099">How to run it</font></h2>
+
+If your proteins are in file 'seq.fasta' you run it like this
+<blockquote><tt>cat seq.fasta | LipoP</tt></blockquote>
+or
+<blockquote><tt>LipoP seq.fasta</tt></blockquote>
+Both versions can take several files with several proteins in each. You can
+edit the scripts (perl) to your liking.<br>
+<br>
+You can also by-pass the script and run the program directly
+<blockquote>  
+  <pre><tt>cat seq.fasta&nbsp; | lipop_decode &lt;path&gt;/Lipo1.0.model -SignalCutoff &lt;cut-off value&gt;</tt></pre>
+</blockquote>
+where &lt;path&gt; is the directory of the LipoP files and &lt;cut-off value&gt;
+is the cut-off on log-odds. If you do that, please remember to truncate the
+proteins after 70 amino acids. This essentially corresponds to running the
+LipoP script with the option -noformat.<br>
+<br>
+The script takes the following options:<br>
+<br>
+<table cellpadding="2" cellspacing="2" border="0" width="80%"
+ align="center">
+  <tbody>
+    <tr>
+      <td valign="top" width="15%" nowrap="nowrap">-plot<br>
+      </td>
+      <td valign="middle">Make plots of predicted cleavage sites (default:
+on), see below.</td>
+    </tr>
+    <tr>
+      <td valign="top" width="15%" nowrap="nowrap">-short</td>
+      <td valign="middle">Short output format (one line per protein), see
+below. Implies -noplot.</td>
+    </tr>
+    <tr>
+      <td valign="top" width="15%" nowrap="nowrap">-html </td>
+      <td valign="middle">Make html output.</td>
+    </tr>
+    <tr>
+      <td valign="top" width="15%" nowrap="nowrap">-format<br>
+      </td>
+      <td valign="middle">Run the LipoPformat script (-noformat will over-rule
+many other options).<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="15%" nowrap="nowrap">-cutoff<br>
+      </td>
+      <td valign="middle">Set the log-odds cut-off (default: -3).<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" nowrap="nowrap" width="15%">-d<br>
+      </td>
+      <td valign="top">Debug. By default stderr is sent to /dev/null.<br>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" nowrap="nowrap" width="15%">-workdir<br>
+      </td>
+      <td valign="top">Name of (existing) directory where working directories
+are created.<br>
+      </td>
+    </tr>
+  
+  </tbody>
+</table>
+<br>
+<br>
+These options are essentially the same for LipoPformat (except -format, -d).
+There are a few other options that are used when setting up a web server (see
+the scripts).
+
+<br>
+<br>
+
+<a name="Output"><h2><font color="#000099"></a>Output</font></h2>
+
+The output format is essentially in GFF format. The default (long) output
+format looks like this:
+<pre>
+# ANIA_NEIGO SpII score=29.6052 margin=11.2327 cleavage=18-19 Pos+2=G
+# Cut-off=-3
+ANIA_NEIGO	LipoP1.0:Best	SpII	1	1	29.6052
+ANIA_NEIGO	LipoP1.0:Margin	SpII	1	1	11.2327
+ANIA_NEIGO	LipoP1.0:Class	SpI	1	1	18.3725
+ANIA_NEIGO	LipoP1.0:Class	CYT	1	1	-0.200913
+ANIA_NEIGO	LipoP1.0:Signal	CleavII	18	19	29.6052	# FALAA|CGGEQ Pos+2=G
+ANIA_NEIGO	LipoP1.0:Signal	CleavI	24	25	18.0333	# GGEQA|AQAPA
+ANIA_NEIGO	LipoP1.0:Signal	CleavI	20	21	15.9259	# LAACG|GEQAA
+ANIA_NEIGO	LipoP1.0:Signal	CleavI	26	27	12.0794	# EQAAQ|APAET
+ANIA_NEIGO	LipoP1.0:Signal	CleavI	25	26	11.4077	# GEQAA|QAPAE
+ANIA_NEIGO	LipoP1.0:Signal	CleavI	27	28	9.40252	# QAAQA|PAETP
+</pre>
+(output trunctated)
+<p>
+The first line, which is the only line <font color="#ff0000">if short
+output is chosen</font>, summarizes the best prediction. In the example the
+best prediction is a lipoprotein with a cleavage site between amino acid
+18 and 19 and amino acid G (glycine) in position +2 after the cleavage site.
+The second line gives the cut-off used. In the following the columns contain<br>
+</p>
+<ol>
+  <li>Sequence ID</li>
+  <li>Type of prediction. Best means the highest scoring class, Margin gives
+the difference between the best score and the second best score, Class gives
+the score of other classes and Signal lines contain predicted cleavage sites.</li>
+  <li>Feature type, see below</li>
+  <li>Location in the sequence. For lines with a class prediction it is always
+1. For cleavage sites it is the last amino acid of the signal peptide relative
+to the predicted cleavage site.</li>
+  <li>Location as above axcept that for cleavage sites it is the first amino
+acids after the cleavage site.</li>
+  <li>Score. For the "Margin" type it is the difference between the best
+and the second best class score. Otherwise the log-odds score.</li>
+  <li>For the cleavage sites the &plusmn;5 context is shown after the #,
+and for lipoprotein cleavage sites the amino acid in postition +2 is shown
+(which may determine whether the lipoprotein is attached to the inner or
+outer membrane, see below).<br>
+  </li>
+</ol>
+<p>These 4 clases are predicted<br>
+</p>
+<p><b>SpI</b>: signal peptide (signal peptidase I)</p>
+<p><b>SpII</b>: lipoprotein signal peptide (signal peptidase II)</p>
+<p><b>TMH</b>: n-terminal transmembrane helix. This is generally not a very
+reliable prediction and should be tested. This part of the model is mainly
+there to avoid tranmembrane helices being falsely predicted as signal peptides.</p>
+<p><tt></tt><b>CYT</b>: cytoplasmic. It really just means all the rest.<br>
+</p>
+<p>For technical reasons (see paper) the score for CYT is always the same.<br>
+</p>
+<p>These signals are predicted:<br>
+</p>
+<p><b>CleavI</b>: Cleavage sites for (signal peptidase I).</p>
+<p><b>CleavII</b>: Cleavage sites for (signal peptidase II).</p>
+<p><br>
+</p>
+
+<h3><font color="#000099">Plot of scores</font></h3>
+A plot of the cleavage site scores is made in postscript unless you have chosen
+the short output format or disabled the plot. For each predicted cleavage
+site, the score is shown. Two different colors are used for SpI and SpII.
+To the left is shown the scores of the classes scoring higher than the cut-off.
+The postscript is converted to an image (png format) and included in the html
+output (if selected).<br>
+<p>Below the plot there are links to</p>
+<ul>
+  <li>The plot in encapsulated postscript</li>
+  <li>A script for making the plot in&nbsp; <a
+ href="http://www.cs.dartmouth.edu/gnuplot_info.html">gnuplot</a>.</li>
+</ul>
+<br>
+If there are only few predictions of cleavage sites, no plot is made.<br>
+<br>
+<br>
+
+<h3><font color="#000099">Interpreting the output</font></h3>
+
+It is shown in the paper that the margin, i.e., the difference between the
+best and the second best prediction, correlates well with the number of falsely
+predicted signal peptides.<br>
+<br>
+
+An aspartic acid (D) in position +2 after the cleavage site of a lipoprotein
+means that it is attached to the inner membrane, and most other lipoproteins
+are attached to the outer membrane. Therefore we report the amino acid in
+this position for predicted lipoproteins. See e.g. <a
+ href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=10564520&amp;dopt=Abstract"
+ target="_blank">Seydel et al (1999) <i>Molecular Microbiology</i> <b>34</b>:
+810-821</a> for more details.<br>
+<br>
+
+The cross-validation test reported in the paper gave the results shown in
+the table below. The highest scoring class was predicted.
+For signal peptides, 309 out of 328 were correctly classified
+as such, whereas 2 where classified as lipoproteins, 14 as cytoplasmic and
+3 as having an n-terminal transmembrane helix. Of 63 lipoproteins, 61 were
+classified correctly.<br>
+<br>
+<table width="582" border="1" bordercolor="#000000" cellpadding="2" cellspacing="2" align="center">
+<col width="98"><col width="85"><col width="85"><col width="85"><col width="85"> <col width="84"> <tbody>
+    <tr valign="top">
+		<td rowspan="2" width="98" valign="middle">
+      <p align="center">Correct class</p>
+      </td>
+		<td colspan="5" width="462">
+      <p align="center">Predicted class</p>
+      </td>
+	</tr>
+	<tr valign="top">
+		<td width="85">
+      <p align="center">SPaseI</p>
+      </td>
+		<td width="85">
+      <p align="center">SPaseII</p>
+      </td>
+		<td width="85">
+      <p align="center">Cytoplasmic</p>
+      </td>
+		<td width="85">
+      <p align="center">TMH</p>
+      </td>
+		<td width="84">
+      <p align="center">Total</p>
+      </td>
+	</tr>
+	<tr valign="top">
+		<td width="98">
+      <p align="center">SPaseI</p>
+      </td>
+		<td width="85">
+      <p align="center">309</p>
+      </td>
+		<td width="85">
+      <p align="center">2</p>
+      </td>
+		<td width="85">
+      <p align="center">14</p>
+      </td>
+		<td width="85">
+      <p align="center">3</p>
+      </td>
+		<td width="84">
+      <p align="center">328</p>
+      </td>
+	</tr>
+	<tr valign="top">
+		<td width="98">
+      <p align="center">SPaseII</p>
+      </td>
+		<td width="85">
+      <p align="center">2</p>
+      </td>
+		<td width="85">
+      <p align="center">61</p>
+      </td>
+		<td width="85">
+      <p align="center">0</p>
+      </td>
+		<td width="85">
+      <p align="center">0</p>
+      </td>
+		<td width="84">
+      <p align="center">63</p>
+      </td>
+	</tr>
+	<tr valign="top">
+		<td width="98">
+      <p align="center">Cytoplasmic</p>
+      </td>
+		<td width="85">
+      <p align="center">5</p>
+      </td>
+		<td width="85">
+      <p align="center">1</p>
+      </td>
+		<td width="85">
+      <p align="center">382</p>
+      </td>
+		<td width="85">
+      <p align="center">0</p>
+      </td>
+		<td width="84">
+      <p align="center">388</p>
+      </td>
+	</tr>
+	<tr valign="top">
+		<td width="98">
+      <p align="center">TMH</p>
+      </td>
+		<td width="85">
+      <p align="center">8</p>
+      </td>
+		<td width="85">
+      <p align="center">0</p>
+      </td>
+		<td width="85">
+      <p align="center">21</p>
+      </td>
+		<td width="85">
+      <p align="center">142</p>
+      </td>
+		<td width="84">
+      <p align="center">171</p>
+      </td>
+	</tr>
+  </tbody>
+</table>
+<p style="margin-bottom: 0cm;"><br>
+</p>
+It is also shown in the paper that the prediction is more reliable the higher
+the margin is.<br>
+<br>
+</body>
+</html>

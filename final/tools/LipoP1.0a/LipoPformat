@@ -1,0 +1,372 @@
+#!/usr/bin/perl -w
+
+# Version 1.0a
+
+# This script parses the bare bones GFF putput from LipoP
+# and does all the formatting and plotting.
+
+# The image type (png seems like a good choice - also saves a call to
+# ppmtogif or similar)
+#$image = "gif";
+#$image = "jpg";
+#$image = "pgm";
+#$image = "ppm";
+$image = "png";
+
+$gnuplot = "/usr/bin/gnuplot ";
+$epsmove = "/bin/grep -v \'translate\$\' ";
+$ps2image = "/usr/bin/gs -dNOPAUSE -q -sDEVICE=png16 -g710x350 -r72 -sOutputFile=- - -c quit ";
+
+if ( $image eq "jpg") {
+    $ps2image =~ s/png16/ppm/;
+    $ps2image .= " | /usr/bin/ppmtojpeg - ";
+}
+elsif ( $image ne "png") {
+    $ps2image =~ s/png16/ppm/;
+    $ps2image .= " | /usr/bin/ppmto$image - ";
+}
+
+
+# OPTION PARSING ##########################################
+use Getopt::Long;
+
+$opt_workdir = ".";  # Working dir.
+$opt_wwwdir = ".";   # The place where the www server looks for files
+                     # (The www name for the working dir)
+$opt_serverhome = ".";
+$opt_html = 0;       # Produce HTML output
+$opt_htmlhead = 0;   # Produce HTML head and foot
+$opt_short = 0;      # Short output format
+$opt_plot = 1;       # Produce graphics
+$opt_cutoff = -3;    # Cut-off value for LipoP - use the actual cut-off,
+                     # otherwise output is confusing and the graphs might
+                     # look strange
+
+# Process options
+$result = GetOptions ('workdir=s','wwwdir=s','serverhome=s','html!','htmlhead!','short!','plot!','cutoff=f');
+die ("Error on command line") unless $result;
+
+###########################################
+
+# If short turn off plotting!
+$opt_plot = 0 if ($opt_short);
+
+# Make working dir (initail path MUST exist) etc
+if ($opt_plot) {
+    $wd = "LipoP_$$";
+    $opt_wwwdir .= "/" if ($opt_wwwdir =~ /[^\/]$/);
+    $opt_wwwdir .= $wd;
+    $opt_workdir .= "/" if ($opt_workdir =~ /[^\/]$/);
+    mkdir "$opt_workdir$wd",0777;
+    chdir "$opt_workdir$wd";
+}
+
+
+# HTML header
+if ($opt_html && $opt_htmlhead) {
+    print <<END;
+<HTML>
+<HEAD>
+<TITLE>LipoP 1.0 - prediction results</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<h2>LipoP 1.0 result</h2>
+<A HREF="$opt_serverhome/LipoP1.0server.html#Output">HELP</A>
+with output formats
+<P>
+END
+    print "<hr><pre>\n" if ($opt_short);
+}
+
+$id = "";
+
+while (<>) {
+    # Skip Comments
+    next if (/^\#/);
+
+    # Split and check GFF
+    @x = split(/\s+/);
+    next if ( @x<6 );
+
+    # If it is type ContextI or ContextII, show the context
+    # of the cleavage site and the +2 AA for lipoproteins
+    # NOTE: This relies on the context being +/- 5!!!!
+    if ( $x[2] =~ "CleavI" ) {
+	# Ignore CleavI and II and use ContextI and II instead
+	next;
+    }
+    elsif ( $x[2] =~ "ContextI" ) {
+	$x[2] =~ s/Context/Cleav/;
+	$x[3] += 4;
+	$x[4] = $x[3]+1;
+	if ( $#x>=8 ) {
+	    $comment = $x[8];
+	    $comment =~ s/\#//;
+	    # New comment field:
+	    $#x=5;
+	    $x[6] = "# ";
+	    # Show cleavage site:
+	    $x[6] .= substr($comment,0,5) ."|". substr($comment,5);
+	    if ( $x[2] =~ "CleavII" ) {
+		$x[6] .= " Pos+2=" .substr($comment,6,1);
+	    }
+	}
+	else {
+	    $#x=5;
+	}
+    }
+    # Else truncate GFF
+    else {
+	$#x=5;
+    }
+
+    # Check for new sequence
+    if ( $x[0] ne $id ) {
+	if (@type) {
+	    find_best();
+	    sort_cleav();
+	    print_gff();
+	    histogram() if ($opt_plot);
+#	    endofentry();
+	}
+	@type = ();
+	@cleavI = ();
+	@cleavII = ();
+	$id = $x[0];
+    }
+
+    # Make lists
+    if ( $x[2] =~ /SpI|TMH|CYT/ ) { push( @type, [ @x ] ); }
+    elsif ( $x[2] eq "CleavII" ) { push( @cleavII, [ @x ] ); }
+    elsif ( $x[2] eq "CleavI" ) { push( @cleavI, [ @x ] ); }
+}
+
+# Process the last:
+if (@type) {
+    find_best();
+    sort_cleav();
+    print_gff();
+    histogram() if ($opt_plot);
+#    endofentry();
+}
+
+# HTML footer
+if ($opt_html && $opt_htmlhead) {
+    print "</pre><P>" if ($opt_short );
+    print "<hr>\n</BODY>\n</HTML>\n"
+}
+
+
+
+#############################################################
+
+# Best scoring type
+# Find also Margin
+sub find_best {
+    return if (!@type);
+    @type = sort { $b->[5] <=> $a->[5] } @type;
+    @best = @{$type[0]};
+    $best[1] =~ s/Signal/Best/;
+    if ( @type>1 ) {
+	@margin = @{$type[1]};
+	$margin[1] =~ s/Signal/Margin/;
+	$margin[2] = $best[2];
+	$margin[5] = $best[5]-$margin[5];
+    }
+    else { @margin = (); }
+    for $c ( @type ) {
+	$c->[1] =~ s/Signal/Class/;;
+    }
+}
+
+
+# Sort cleavage sites
+sub sort_cleav {
+    @cleavI = sort { $b->[5] <=> $a->[5] } @cleavI if (@cleavI);	
+    @cleavII = sort { $b->[5] <=> $a->[5] } @cleavII if (@cleavII);	
+}
+
+#sub endofentry {
+#    print "<hr>\n" if ($opt_html && !$opt_short);
+#}
+
+# Print results
+sub print_gff {
+
+    print "<hr>\n<pre>\n" if ($opt_html && !$opt_short);
+
+    # Print a one line summary:
+    print "\# $best[0] $best[2] score=$best[5]";
+    print " margin=$margin[5]" if (@margin);
+    if ( @best && $best[2] eq "SpII" ) {
+	print " cleavage=$cleavII[0]->[3]-$cleavII[0]->[4]" if (@cleavII);
+	print " $&" if ( @cleavII && $cleavII[0]->[6] =~ /Pos\+2\=./);
+    }
+    elsif ( @best && $best[2] eq "SpI" ) {
+	print " cleavage=$cleavI[0]->[3]-$cleavI[0]->[4]" if (@cleavI);
+    }
+    print "\n";
+
+
+    if (!$opt_short) {
+
+	print "\# Cut-off=$opt_cutoff\n";
+	print join("\t",@best)."\n";
+	print join("\t",@margin)."\n" if (@margin);
+	for ( $i=1; $i<@type; ++$i ) {
+	    print join("\t",@{$type[$i]})."\n";
+	}
+	$II = 1;
+	if ( @best && @cleavII && $best[2] eq "SpII" ) {
+	    for $c ( @cleavII ) {
+		print join("\t",@{$c})."\n";
+	    }
+	    $II=0;
+	}
+	for $c ( @cleavI ) {
+	    print join("\t",@{$c})."\n";
+	}
+	if ($II) {
+	    for $c ( @cleavII ) {
+		print join("\t",@{$c})."\n";
+	    }
+	}
+	print "</pre><P>\n" if ($opt_html);
+	print "<P>\n" if ($opt_html);
+    }
+}
+
+
+
+sub histogram {
+
+    # Only make plot if there is something interesting
+    if ( @cleavI+@cleavII<4) {
+	print "\# NO PLOT made - less than 4 putative cleavage sites predicted\n";
+	print "<P>\n" if ($opt_html && !$opt_short);
+	return;
+    }
+
+    $lt{"SpI"} = 1;
+    $lt{"SpII"} = 2;
+    $lt{"CYT"} = 3;
+    $lt{"TMH"} = 4;
+
+    # Calculate y range
+    $maxy=1.05*$type[0]->[5];
+    $maxy = 5*int($maxy/5)+5;
+    $maxy = 5 if ($maxy<5);
+    $maxy2 = $maxy-$opt_cutoff;
+
+    # Order the CleavII entries in those that are greater than
+    # CleavI and those that are smaller:
+    @front = @back = ();
+    for $c ( @cleavII ) {
+	$i= $c->[3];
+	undef($d);
+	for $d ( @cleavI ) { last if ( $d->[3]==$i); }
+	if ( $d && $d->[3]==$i ) {
+	    if ( $c->[5] < $d->[5] ) { push(@front,$c); }
+#	    if ( $c->[5] >0 && $c->[5] < $d->[5] ) { push(@front,$c); }
+#	    elsif ( $c->[5] < 0 && $c->[5] > $d->[5] ) { push(@front,$c); }
+	}
+	else { push(@back,$c); }
+    }
+
+    # Make a filename
+    $id = $type[0]->[0];
+    $filename = id2filename($id);
+    # Make plot file
+    open(PLOTFILE,">$filename.gnuplot");
+    print PLOTFILE <<END;
+set title \"LipoP predictions for $id\"
+set size 2., 1.4
+set xrange [1:70] 
+set mxtics 10
+set yrange [$opt_cutoff:$maxy]
+set y2range [0:$maxy2]
+set ylabel \"log-odds\"
+set term postscript eps color solid \"Helvetica\" 30
+set output \"$filename.eps\"
+END
+    # Make lines for TMH, CYT, SpI, SpII
+    $b=2;
+    $e=6;
+    $xtext = $e+1;
+    push(@type,[@best]);
+    for $c (@type) {
+	$t = $c->[2];
+	$y = $c->[5];
+	print PLOTFILE "set arrow from $b,$y to $e,$y nohead lt $lt{$t} lw 20\n";
+	print PLOTFILE "set label \"$t\" at $xtext,$y\n";
+    }
+
+    $n=0;
+    print PLOTFILE <<END;
+\# NOTE: The scores below are the log-odds scores with the threshold
+\# NOTE: subtracted (a hack to make gnuplot make the histogram all
+\# NOTE: look nice).
+END
+    print PLOTFILE "plot ";
+    if ( @back ) {
+	print PLOTFILE "\"-\" axes x1y2 title \"\" with impulses lt 2 lw 20";
+	++$n;
+    }
+    if ( @cleavI ) {
+	print PLOTFILE ", " if ($n++);
+	print PLOTFILE "\"-\" axes x1y2 title \"\" with impulses lt 1 lw 20";
+    }
+    if ( @front ) {
+	print PLOTFILE ", " if ($n++);
+	print PLOTFILE "\"-\" axes x1y2 title \"\" with impulses lt 2 lw 20";
+    }
+#    print PLOTFILE ", \"<nawk 'BEGIN{for (i=10;i<70;++i) print i,0}'\" title \"\" with dots";
+#    print PLOTFILE ", \"<nawk 'BEGIN{for (i=10;i<70;i+=5) print i,0}'\" title \"\" with points";
+    print PLOTFILE "\n";
+
+    if ( @back ) {
+	for $c (@back) { printf PLOTFILE "%f %f\n", $c->[3]+0.5, $c->[5]-$opt_cutoff; }
+	print PLOTFILE "e\n";
+    }
+    if ( @cleavI ) {
+	for $c (@cleavI) { printf PLOTFILE "%f %f\n", $c->[3]+0.5, $c->[5]-$opt_cutoff; }
+	print PLOTFILE "e\n";
+    }
+    if ( @front ) {
+	for $c (@front) { printf PLOTFILE "%f %f\n", $c->[3]+0.5, $c->[5]-$opt_cutoff; }
+	print PLOTFILE "e\n";
+    }
+
+    print PLOTFILE "exit\n";;
+    close(PLOTFILE);
+    # Make plot etc
+    system("$gnuplot $filename.gnuplot");
+    if ($opt_html) {
+	# Make gif file
+	system("$epsmove $filename.eps | $ps2image > $filename.$image");
+	print "<IMG SRC=\"$opt_wwwdir/$filename.$image\"><P>\n";
+	print "# <A HREF=\"$opt_wwwdir/$filename.eps\">plot</A> in postscript, ";
+	print "<A HREF=\"$opt_wwwdir/$filename.gnuplot\">script</A> for making the plot in gnuplot\n";
+	print "<P>\n";
+    }
+}
+
+
+sub id2filename {
+    $fn = $_[0];
+    $fn =~ s/^>\s*//;
+    $fn =~ s/\s.*\n*$//;
+    $fn =~ s/[^0-9a-zA-Z_%-\.\~]/_/g;
+    $fn = "x" if ( length($fn)==0 );
+    $newfn = $fn;
+
+    # Check if filename is already used
+    if ( defined($filenames{$fn}) ) {
+        $newfn .= $filenames{$fn};
+        $filenames{$fn} += 1;
+    }
+    else {
+        $filenames{$fn} = 1;
+    }
+    return $newfn;
+}

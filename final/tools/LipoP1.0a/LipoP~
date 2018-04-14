@@ -1,0 +1,127 @@
+#!/usr/bin/perl -w
+
+# The LipoP1.0a prediction program
+
+# Input:  Protein sequences in FASTA format
+# Output: Predictions in GFF format
+
+# Make sure that these variables are set correctly:
+# libdir is the name of the directory where you have put the
+# LipoP package.
+$libdir = ".";
+$decoder = "$libdir/lipop_decode";
+$format = "$libdir/LipoPformat";
+
+# These options should be the same as LipoPformat
+# Except from "opt_format"
+
+# OPTION PARSING ##########################################
+use Getopt::Long;
+
+$opt_d = 0;          # DEBUGGING
+$opt_format = 1;     # Run the formatting script - or -noformat
+$opt_workdir = ".";  # Working dir.
+$opt_wwwdir = ".";   # The place where the www server looks for files
+                     # (The www name for the working dir)
+$opt_serverhome = ".";
+$opt_html = 0;       # Produce HTML output
+$opt_htmlhead = 0;   # Produce HTML head and foot
+$opt_short = 0;      # Short output format
+$opt_plot = 1;       # Produce graphics
+$opt_cutoff = -3;    # Cut-off value for LipoP
+
+# Process options
+$result = GetOptions ('d!','format!','workdir=s','wwwdir=s','serverhome=s','html!','htmlhead!','short!','plot!','cutoff=f');
+die ("Error on command line") unless $result;
+
+###########################################
+
+# Use the first 70 amino acids
+$N = 70;
+
+# Input file:
+if (@ARGV) {
+    open(INP,"<$ARGV[0]") or die "Couldn't open $ARGV[0]";
+    $fh = \*INP;
+}
+else {$fh = \*STDIN;}
+
+# Debugging?
+if ($opt_d) { $err = ""; }
+else { $err = "2>/dev/null"; }
+
+$cmdline = "$decoder -SignalCutoff $opt_cutoff $libdir/LipoP1.0.mod ";
+if ( $opt_format ) {
+    $cmdline .= "$err |$format -cutoff $opt_cutoff -workdir $opt_workdir ";
+    $cmdline .= "-wwwdir $opt_wwwdir -serverhome $opt_serverhome ";
+    $cmdline .= "-html " if ($opt_html);
+    $cmdline .= "-nohtml " if (!$opt_html);
+    $cmdline .= "-htmlhead " if ($opt_htmlhead);
+    $cmdline .= "-nohtmlhead " if (!$opt_htmlhead);
+    $cmdline .= "-short " if ($opt_short);
+    $cmdline .= "-noshort " if (!$opt_short);
+    $cmdline .= "-plot " if ($opt_plot);
+    $cmdline .= "-noplot " if (!$opt_plot);
+    $cmdline .= "-short " if ($opt_short);
+    $cmdline .= "-noshort " if (!$opt_short);
+    $cmdline .= "$err ";
+}
+else {
+       $cmdline .= "-SignalList 'TMH CYT SpI SpII CleavI CleavII' $err "; 
+}
+
+open(PRED,"|$cmdline");
+while ( @entry = &read_fasta($fh) ) {
+    $entry[1] = uc(substr($entry[1],0,$N));
+    print PRED "$entry[0]\n$entry[1]\n";
+}
+close(PRED);
+close($fh);
+
+# Read a FASTA entry
+$flastline = "";
+sub read_fasta {
+    if (defined($_[0])) { $fh = $_[0]; }
+    else {$fh = \*STDIN;}
+    @entry = ();
+
+    # Comments: Lines fitting this regular expression are ignored:
+    $comments = '^[#;%]';
+
+    # Individual characters in the sequence fitting this reg. exp.
+    # are deleted
+    $ignore = '[^a-zA-Z]';
+
+    $nr=0;
+    $entry[0] = "";
+    $nid = 0;
+    if ($flastline) {
+	$entry[0]=$flastline;
+	$flastline = "";
+	$nid=1;
+    }
+    else {$nid=0;}
+    $entry[1] = "";
+    $entry[2] = "";
+
+    while (<$fh>) {
+	next if ( $_ =~ $comments );
+	if ($_ =~ /^>/) {
+	    chop $_;
+	    if ($nid==1) {
+		$flastline = $_;
+		return @entry;
+	    }
+	    $entry[0] = $_;
+	    ++$nid;
+	    ++$nr;
+	}
+	elsif ($nid) {
+	    $_ =~ s/$ignore//g;
+	    $entry[1] .= $_;
+	    ++$nr;
+	}
+    }
+    if (!$nr) { @entry = () ;}
+    return @entry;
+}

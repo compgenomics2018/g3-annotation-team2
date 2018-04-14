@@ -1,0 +1,59 @@
+
+This is the LipoP 1.0a package
+
+Copyright A. Juncker, H. Willenbrock, and A. Krogh
+
+The package is obtained from Anders Krogh, krogh@binf.ku.dk
+
+
+       ******   PLEASE DO NOT REDISTRIBUTE  ******
+
+This software is provided "AS IS" and any express or implied
+warranties, including, but not limited to, the implied warranties of
+merchantability and fitness for a particular purpose, are disclaimed.
+In no event shall the author be liable for any direct, indirect,
+incidental, special, exemplary, or consequential damages (including,
+but not limited to, procurement of substitute goods or services; loss
+of use, data, or profits; or business interruption) however caused and
+on any theory of liability, whether in contract, strict liability, or
+tort (including negligence or otherwise) arising in any way out of the
+use of this software, even if advised of the possibility of such
+damage.
+
+LipoP is described in:
+A. Juncker, H. Willenbrock, G. von Heijne, S. Brunak, H. Nielsen, and A. Krogh.
+Prediction of lipoprotein signal peptides in Gram-negative bacteria.
+Protein Sci., 12(8):1652-1662, 2003.
+
+
+The package contains these files:
+
+README           - This file
+LipoP            - Perl script for running the predictor
+LipoPformat      - Perl script for formatting the output
+lipop_decode     - binary hmm program used by the script
+LipoP1.0.mod     - model file used by decodeanhmm
+LipoP1.0a.html   - LipoP user's guide
+
+For plotting gnuplot is needed (making postscript plots).
+
+When generating html output the postscript plots are converted to
+gif, and for this you need the programs ghostscript (gs) and ppmto...
+
+=====================================
+Installation:
+
+Place decodeanhmm and LipoP1.0.mod where you
+would like them to reside (e.g. in the LipoP1.0a directory).
+
+Check that the perl path is correct in LipoP and LipoPformat
+(first line in the scripts, e.g. "#!/usr/bin/perl").
+Put LipoP in your path.
+
+Make sure that paths for decodeanhmm and LipoPformat are
+set correctly in LipoP. Also make sure that $libdir is the
+correct path for LipoP1.0.mod.
+
+Make sure that paths for gnuplot, gs, and perhaps a ppmto...
+are set correctly in LipoPformat.
+
