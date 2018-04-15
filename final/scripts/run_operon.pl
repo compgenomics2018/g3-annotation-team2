@@ -6,11 +6,11 @@ use strict;
 # this script will require the fasta file to build blast DB
 # this script will also require the operon table
 
-my $DB = "/projects/data/Func_Annotation/g3-annotation-team2/final/scripts/database/db.fasta"; #required
-my $opr_table = "/projects/data/Func_Annotation/g3-annotation-team2/final/scripts/database/operon.opr"; #required
+my $DB = "./scripts/database/db.fasta"; #required
+my $opr_table = "./scripts/database/operon.opr"; #required
 my $blast_threshold = 80;
 
-my $query = "/projects/data/Func_Annotation/g3-annotation-team2/final/clusters/assembled97_proteins.faa"; #required
+my $query = "./clusters/assembled97_proteins.faa"; #required
 
 
 #if ($ARGV[0]) {$opr_table = $ARGV[0];}
@@ -87,14 +87,14 @@ close FILE;
 
 # call script to rearrange the columns
 my $changecol_file = $final_output.".col";
-system "/projects/data/Func_Annotation/g3-annotation-team2/final/scripts/changecol_operons.pl $final_output $changecol_file";
+system "./scripts/changecol_operons.pl $final_output $changecol_file";
 
 # call script to convert tabular form to gff
 my $operon_gff = $final_output.".operon.gff";
-system "/projects/data/Func_Annotation/g3-annotation-team2/final/scripts/converttogff_operons.py $changecol_file $operon_gff";
+system "./scripts/converttogff_operons.py $changecol_file $operon_gff";
 
 # map the genes back to the original gff
-system "/projects/data/Func_Annotation/g3-annotation-team2/final/scripts/mapper_proteins.pl -i $operon_gff -u /projects/data/Func_Annotation/g3-annotation-team2/final/clusters/assembled97_proteins.uc -t DOOR";
+system "./scripts/mapper_proteins.pl -i $operon_gff -u /projects/data/Func_Annotation/g3-annotation-team2/final/clusters/assembled97_proteins.uc -t DOOR";
 
 print "FINALLY done with operon.gff";
 

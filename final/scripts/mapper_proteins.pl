@@ -38,7 +38,7 @@ print "size of gff: ";
 print scalar(@exists);
 print "\n";
 open (my $fh2, "<", $uc);
-my $removable_files = "./$tool/SRR*_".$tool.".gff";
+my $removable_files = "./tool_gff/$tool/SRR*_".$tool.".gff";
 `rm $removable_files`;
 my $sum = 0; 
 my @uc_array=();

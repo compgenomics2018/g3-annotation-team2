@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+
+
+./scripts/run_eggnog.sh -i ./clusters/test_proteins97.faa -d gproNOG -t -o ./tmp/test -c 5 -e hmmer
+rm ./tool_gff/eggNOG/*.gff
+
+echo "end of server file"

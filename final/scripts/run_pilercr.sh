@@ -4,7 +4,7 @@
 #output_directory will store output gff files
 #script_directory have script pilercr2gff.pl in it
 mkdir -p ./tmp/pilercr
-
+rm ./tmp/pilercr/*.out
 install_path="/projects/data/Func_Annotation/Tools/Non_coding/pilercr1.06"
 input_directory="/projects/data/Final_Results_AllGroups/Final_Assemblies"
 output_directory="./tool_gff/Pilercr"

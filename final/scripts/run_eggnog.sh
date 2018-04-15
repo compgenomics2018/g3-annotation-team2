@@ -41,9 +41,9 @@ if [ $mode == "diamond"  ]; then
 usemem="--usemem"
 database=""
 else
-usemem=""
+usemem="--usemem"
 fi 
-
+trap "trapped exit signal from server" SIGTERM
 python /projects/data/Func_Annotation/eggNog/eggnog-mapper/emapper.py  $database -m $mode -i $input_file --output $output_file --override  $cpu $usemem
 
-
+echo "done using eggNOG"
