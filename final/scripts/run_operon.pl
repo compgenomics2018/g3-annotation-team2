@@ -101,4 +101,4 @@ print "FINALLY done with operon.gff";
 system "rm $blast_out";
 system "rm $final_output";
 system "rm $changecol_file";
-system "rm $operon_gff";
+#system "rm $operon_gff";

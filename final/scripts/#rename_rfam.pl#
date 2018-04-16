@@ -1,0 +1,26 @@
+#!/usr/bin/perl
+
+use strict; use warnings;
+use Getopt::Long;
+my $gff="";
+my $tool="";
+GetOptions ("t=s" => \$tool,    
+              "i=s"   => \$gff     
+              )  
+    or die("Error in command line arguments\n");
+my @array_filenames = `ls $gff`;
+
+foreach (@array_filenames){
+    print $_."\n";
+}
+
+
+foreach my $files (@ARGV){
+    
+    my $file_new = $files;
+    $file_new =~ s/\.gff$/_rfam\.gff/;
+    `mv $files $file_new`;
+
+
+
+}

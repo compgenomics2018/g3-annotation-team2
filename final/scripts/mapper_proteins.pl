@@ -23,7 +23,7 @@ while (my $row = <$fh>){
 	$centroid =~ s/_[\d]+:/:/;
 	$row =~ s/^.+?\t//;
 	$hash{$centroid} = $row;
-	#print $hash{$centroid}."\t".$centroid."\n";
+	
 	push @exists, $centroid;
 
 
@@ -69,9 +69,9 @@ my $size = keys %cluster_files;
 print "size of uc seeds: ".$size."\n";
 
 foreach my $keys (keys %cluster_files){
-    #print $keys."\n";
+    
     foreach my $keys2 (@{$cluster_files{$keys}}){
-	#print $keys2."\t";
+	
 	my ( $SRR ) = $keys2 =~ /^(SRR.+?)_/;
         my ( $header) = $keys2 =~ /^SRR.+?_(.+?)$/;
 	my $anno="";
@@ -80,13 +80,18 @@ foreach my $keys (keys %cluster_files){
 	my @splitrow = split("\t", $hash{$keys});
 	my ( $start ) = $header =~ /:(.+?)\-/;
 	my ( $end ) = $header =~ /\-(.+?)$/;
-	#print $start."\t".$end."\t".$header."\n".$hash{$keys}."\n";
+	if ($tool eq "signalP"){
+	    my $signal_start = $splitrow[2];
+	    my $signal_end = $splitrow[3];
+	    $splitrow[8] .= "signal_peptide region:".$signal_start."-".$signal_end.";";
+
+	}
 	$anno = $header."\t";
 	$splitrow[2] = $start;
         $splitrow[3] = $end;
 	foreach my $col (@splitrow){
-	    #print $anno."\n";
-	    #print $col."\n";
+	    
+	    
 	    $anno .= $col."\t";
 	}
 	open (my $fh_output, ">>", "./tool_gff/".$tool."/".$SRR."_".$tool.".gff");
@@ -95,5 +100,5 @@ foreach my $keys (keys %cluster_files){
 	close $fh_output;
 	}
     }
-    #print "\n";
+    
 }
