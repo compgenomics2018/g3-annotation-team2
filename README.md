@@ -13,6 +13,9 @@ This repository contains a pipeline to annotate features of predicted genes from
       (move to final directory first)
       ./pipeline.sh -d diamond (runs all tools and eggNOG-mapper in diamond mode)
       ./pipeline.sh -d hmmer -t gproNOG -f (runs all tools (including phaster) and eggNOG-mapper in hmmer mode)
+      	-f Enable PHASTER to screen for prophage regions
+	-p Path to query genomes (Required for PHASTER)
+	-r Path to ncRNA .gff files
 ##### Inputs and Outputs
       Inputs: Automated. Takes in Nucleotide sequences and Translated proteins files from Gene Prediction and genome files from Genome Assembly.
       Output(s): GFF files for each tool (divided by SRR)
