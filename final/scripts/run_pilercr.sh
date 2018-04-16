@@ -6,7 +6,7 @@
 mkdir -p ./tmp/pilercr
 rm ./tmp/pilercr/*.out
 install_path="/projects/data/Func_Annotation/Tools/Non_coding/pilercr1.06"
-input_directory="/projects/data/Final_Results_AllGroups/Final_Assemblies"
+input_directory="/projects/data/Final_Results_AllGroups/Final_Assemblies/"
 output_directory="./tool_gff/Pilercr"
 tmp_directory="./tmp/pilercr"
 script_directory="./scripts"
@@ -14,11 +14,11 @@ script_directory="./scripts"
 
 
 #perfrom pilercr
-for f in $input_directory/*.fasta
+for f in $input_directory*.fasta
 do
   f1=$(basename $f);
   f2=${f1%.fasta}.out;
- # $install_path/pilercr -in $f -out $tmp_directory/$f2 -noinfo -quiet;
+  $install_path/pilercr -in $f -out $tmp_directory/$f2 -noinfo -quiet;
 done
 
 

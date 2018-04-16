@@ -32,7 +32,7 @@ close $fh;
 #print scalar(@exists);
 #print "\n";
 open (my $fh2, "<", $uc);
-my $removable_files = "/projects/data/Func_Annotation/g3-annotation-team2/final/tool_gff/VFDB/SRR*_".$tool.".gff";
+my $removable_files = "./tool_gff/VFDB/SRR*_".$tool.".gff";
 `rm $removable_files`;
 my $sum = 0; 
 my @uc_array=();

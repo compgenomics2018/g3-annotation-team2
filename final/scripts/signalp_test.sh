@@ -1,0 +1,8 @@
+#!/bin/bash
+
+./tools/signalp -f long -t gram- -n ./test_signalp.gff ./clusters/test_signalp.faa > ./test_signalp.out
+
+#./scripts/mapper_proteins.pl -i ./tmp/assembled100_proteins_signalp.gff -u ./clusters/test_proteins97.uc -t signalP
+
+#rm ./tmp/assembled100_proteins_signalp.gff 
+#rm ./tmp/assembled100_proteins_signalp.out

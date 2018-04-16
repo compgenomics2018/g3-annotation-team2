@@ -29,7 +29,6 @@ while (my $row = <$fh>){
 
 }
 
-#print $hash{"SRR5666611_scaffold36|size19481:18625-19479"}."\n";
 
 
 
@@ -75,10 +74,24 @@ foreach my $keys (keys %cluster_files){
 	#print $keys2."\t";
 	my ( $SRR ) = $keys2 =~ /^(SRR.+?)_/;
         my ( $header) = $keys2 =~ /^SRR.+?_(.+?)$/;
+	my $anno="";
+	
 	if (defined $hash{$keys}){
+	my @splitrow = split("\t", $hash{$keys});
+	my ( $start ) = $header =~ /:(.+?)\-/;
+	my ( $end ) = $header =~ /\-(.+?)$/;
+	#print $start."\t".$end."\t".$header."\n".$hash{$keys}."\n";
+	$anno = $header."\t";
+	$splitrow[2] = $start;
+        $splitrow[3] = $end;
+	foreach my $col (@splitrow){
+	    #print $anno."\n";
+	    #print $col."\n";
+	    $anno .= $col."\t";
+	}
 	open (my $fh_output, ">>", "./tool_gff/".$tool."/".$SRR."_".$tool.".gff");
 	
-	print $fh_output $header."\t".$hash{$keys}."\n"; 
+	print $fh_output $anno."\n"; 
 	close $fh_output;
 	}
     }
