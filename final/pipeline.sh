@@ -163,8 +163,17 @@ cp "$ncRNA"*.gff ./tool_gff/rfam/
 
 ###############################################################################
 #merge and sort results
+
 rm ./merged_GFF/*
 rm ./merged_GFF/unsorted/*
+rm ../final_results/*.gff
 echo "merging and sorting"
 ./scripts/mergensort.py
+echo "finalizing the merged gff file"
+./scripts/correct_header.pl ./merged_GFF/*merged.gff
+
+cp ./merged_GFF/*cleaned.gff ../final_results/
+echo "Done. Your results are in final_results"
+rm ./merged_GFF/*.gff
+rm ./merged_GFF/unsorted/*.gff
 
