@@ -83,7 +83,7 @@ foreach my $keys (keys %cluster_files){
 	if ($tool eq "signalP"){
 	    my $signal_start = $splitrow[2];
 	    my $signal_end = $splitrow[3];
-	    $splitrow[8] .= "signal_peptide region:".$signal_start."-".$signal_end.";";
+	    $splitrow[7] .= ";signal_peptide region:".$signal_start."-".$signal_end.";";
 
 	}
 	$anno = $header."\t";

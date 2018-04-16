@@ -1,0 +1,30 @@
+#!/usr/bin/perl
+use strict; use warnings;
+
+foreach my $file (@ARGV){
+    my @array = ();
+    open (my $fh, "<", $file);
+    while (my $row = <$fh>){
+	chomp $row;
+	my @splitrow = split("\t", $row);
+	my ( $scaffold ) = $splitrow[0] =~ /(scaffold[\d]*)/;
+	
+	$splitrow[0] = $scaffold;
+	my $anno = "";
+	foreach (@splitrow){
+	    $anno .= $_."\t";
+	}
+	$anno =~ s/\s*$//;
+	#print $row."\n";
+	#print $anno."\n";
+	push @array, $anno;
+
+    }
+    close $fh;
+    $file =~ s/_merged.gff/_cleaned.gff/;
+    open (my $fh_output, ">", $file);
+    foreach (@array){
+	print $_."\n";
+    }
+    close $fh_output;
+}
