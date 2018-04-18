@@ -124,3 +124,4 @@ This repository contains a pipeline to annotate features of predicted genes from
 
 ##### Installation & Dependencies
       biopython
+      diamond (already installed in eggNOG. However, ensure that diamond isn't being called from any place other than located in the bin folder of eggnog-mapper)
