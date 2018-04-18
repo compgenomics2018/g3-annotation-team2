@@ -32,7 +32,7 @@ do
 		wget http://phaster.ca/phaster_api?acc=$ID -O $status & sleep 600
 	done
 	ID="$(head -n1 $status | grep -o ZZ_[0-9a-z]* | head -n1)"
-	status="$(echo $status | awk -F  "/" '{print $9}')"
+	status="$(echo $status | awk -F  "/" '{print $4}')"
 	wget phaster.ca/submissions/$ID.zip -O "$outpath"phaster_result/$status.zip
 	chmod 755 "$outpath"phaster_result/$status.zip
 	unzip -d "$outpath"phaster_result/$status "$outpath"phaster_result/$status.zip
