@@ -124,8 +124,8 @@ echo "running phaster"
     mkdir -p ./tmp/phaster;
     mkdir -p ./tmp/phaster/phaster_result;
 
-    ./scripts/run_phaster.sh -g ./tmp/genomeList.txt -p $path -o ./tmp/phaster/;
-    ./scripts/phaster2gff.sh -g ./tmp/genomeList.txt -r ./tmp/phaster/phaster_result -o ./tool_gff/phaster;
+    ./scripts/run_phaster.sh -g /projects/data/Func_Annotation/g3-annotation-team2/final/tmp/genomeList.txt -p $path -o /projects/data/Func_Annotation/g3-annotation-team2/final/tmp/phaster/;
+    ./scripts/phaster2gff.sh -g /projects/data/Func_Annotation/g3-annotation-team2/final/tmp/genomeList.txt -r /projects/data/Func_Annotation/g3-annotation-team2/final/tmp/phaster/phaster_result/ -o /projects/data/Func_Annotation/g3-annotation-team2/final/tool_gff/phaster/;
 fi
 ###############################################################################
 #pilerCR
