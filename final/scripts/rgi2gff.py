@@ -2,7 +2,7 @@
 import re
 
 inFile = open("tmp/rgiOUT.txt","r")
-outFile = open("tool_gff/rgi.gff","w")
+outFile = open("tmp/rgi.gff","w")
 
 for lines in inFile:
     lineList = lines.split("\t")
