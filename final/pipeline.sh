@@ -36,40 +36,40 @@ while getopts "fd:t:p:r:" opt; do
   esac
 done
 echo "clustering files"
-#rm ./tmp/merged_files.faa
-#rm ./tmp/merged_files.fna
-#./scripts/append_headers.pl /projects/data/gene_prediction_team2/tools/ab_initio/Prodigal-2.6.3/prodigal_fasta/*.gff.fasta >> ./tmp/merged_files.faa
-#./scripts/append_headers.pl /projects/data/Final_Results_AllGroups/Final_GenePredictions/Final_Predictions_Merged_Fasta/*genes.fa >> ./tmp/merged_files.fna
+rm ./tmp/merged_files.faa
+rm ./tmp/merged_files.fna
+./scripts/append_headers.pl /projects/data/gene_prediction_team2/tools/ab_initio/Prodigal-2.6.3/prodigal_fasta/*.gff.fasta >> ./tmp/merged_files.faa
+./scripts/append_headers.pl /projects/data/Final_Results_AllGroups/Final_GenePredictions/Final_Predictions_Merged_Fasta/*genes.fa >> ./tmp/merged_files.fna
 
-#rm ./partitioned/*.faa 
-#./scripts/sort_by_length.pl ./tmp/merged_files.faa
+rm ./partitioned/*.faa 
+./scripts/sort_by_length.pl ./tmp/merged_files.faa
 
-#rm ./tmp/sorted_by_length.faa
-#./scripts/reput.pl ./partitioned/*.faa
+rm ./tmp/sorted_by_length.faa
+./scripts/reput.pl ./partitioned/*.faa
 
-#rm ./partitioned/*.fna
-#./scripts/sort_by_length.pl ./tmp/merged_files.fna 
+rm ./partitioned/*.fna
+./scripts/sort_by_length.pl ./tmp/merged_files.fna 
 
-#rm ./tmp/sorted_by_length.fna
-#./scripts/reput.pl ./partitioned/*.fna 
+rm ./tmp/sorted_by_length.fna
+./scripts/reput.pl ./partitioned/*.fna 
 
 
-#./tools/usearch -id 1 -cluster_fast ./tmp/sorted_by_length.fna -centroids ./clusters/assembled100_nucl.fna -uc ./clusters/assembled100_proteins_nucl.uc
-#./tools/usearch -id 0.97 -cluster_fast ./tmp/sorted_by_length.fna -centroids ./clusters/assembled97_nucl.fna -uc ./clusters/assembled97_nucl.uc
-#./tools/usearch -id 1 -cluster_fast ./tmp/sorted_by_length.faa -centroids ./clusters/assembled100_proteins.faa -uc ./clusters/assembled100_proteins.uc
-#./tools/usearch -id 0.97 -cluster_fast ./tmp/sorted_by_length.faa -centroids ./clusters/assembled97_proteins.faa -uc ./clusters/assembled97_proteins.uc
+./tools/usearch -id 1 -cluster_fast ./tmp/sorted_by_length.fna -centroids ./clusters/assembled100_nucl.fna -uc ./clusters/assembled100_proteins_nucl.uc
+./tools/usearch -id 0.97 -cluster_fast ./tmp/sorted_by_length.fna -centroids ./clusters/assembled97_nucl.fna -uc ./clusters/assembled97_nucl.uc
+./tools/usearch -id 1 -cluster_fast ./tmp/sorted_by_length.faa -centroids ./clusters/assembled100_proteins.faa -uc ./clusters/assembled100_proteins.uc
+./tools/usearch -id 0.97 -cluster_fast ./tmp/sorted_by_length.faa -centroids ./clusters/assembled97_proteins.faa -uc ./clusters/assembled97_proteins.uc
 
-#rm ./tmp/*
-#rm ./tool_gff/DOOR/*.gff
-#rm ./tool_gff/eggNOG/*.gff
-#rm ./tool_gff/signalP/*.gff
-#rm ./tool_gff/VFDB/*.gff
-#rm ./tool_gff/rgi/*.gff
-#rm ./tool_gff/rfam/*.gff
-#rm ./tool_gff/Pilercr/*.gff
-#rm ./tool_gff/phaster/*.gff
-#rm ./tool_gff/lipoP/*.gff
-#rm ./tool_gff/signalP/*.gff
+rm ./tmp/*
+rm ./tool_gff/DOOR/*.gff
+rm ./tool_gff/eggNOG/*.gff
+rm ./tool_gff/signalP/*.gff
+rm ./tool_gff/VFDB/*.gff
+rm ./tool_gff/rgi/*.gff
+rm ./tool_gff/rfam/*.gff
+rm ./tool_gff/Pilercr/*.gff
+rm ./tool_gff/phaster/*.gff
+rm ./tool_gff/lipoP/*.gff
+rm ./tool_gff/signalP/*.gff
 
 ###############################################################################
 echo "running eggnog"
@@ -86,19 +86,19 @@ seed_orthologs_file=$egg_Name
 seed_orthologs_file+=".emapper.seed_orthologs"
 
 
-#trap "trapped exit signal from server" SIGTERM
+trap "trapped exit signal from server" SIGTERM
 
 
-#if [ $eggNOG_method == "hmmer" ]; then 
- #   sh ./scripts/run_eggnog.sh -i ./clusters/assembled97_proteins.faa -d $eggNOG_hmmer_database -t -o ./tmp/$egg_Name -c 5 -e hmmer     
-  #   ./scripts/eggnog_to_gff.pl ./tmp/$annotation_file  ./tmp/$hit_file $eggNOG_method > ./tmp/$gff
-#else
- #   ./scripts/run_eggnog.sh -i ./clusters/assembled97_proteins.faa -t -o ./tmp/$egg_Name -c 5 -e diamond
-  #  ./scripts/eggnog_to_gff.pl ./tmp/$annotation_file  ./tmp/$seed_orthologs_file $eggNOG_method > ./tmp/$gff
-#fi
+if [ $eggNOG_method == "hmmer" ]; then 
+    sh ./scripts/run_eggnog.sh -i ./clusters/assembled97_proteins.faa -d $eggNOG_hmmer_database -t -o ./tmp/$egg_Name -c 5 -e hmmer     
+    ./scripts/eggnog_to_gff.pl ./tmp/$annotation_file  ./tmp/$hit_file $eggNOG_method > ./tmp/$gff
+else
+    ./scripts/run_eggnog.sh -i ./clusters/assembled97_proteins.faa -t -o ./tmp/$egg_Name -c 5 -e diamond
+    ./scripts/eggnog_to_gff.pl ./tmp/$annotation_file  ./tmp/$seed_orthologs_file $eggNOG_method > ./tmp/$gff
+fi
 
-#rm ./tool_gff/eggNOG/*
-#./scripts/mapper_proteins.pl -i ./tmp/$gff -u ./clusters/assembled97_proteins.uc -t eggNOG
+rm ./tool_gff/eggNOG/*
+./scripts/mapper_proteins.pl -i ./tmp/$gff -u ./clusters/assembled97_proteins.uc -t eggNOG
 
 
 
@@ -106,14 +106,14 @@ seed_orthologs_file+=".emapper.seed_orthologs"
 #DOOR
 
 
-#./scripts/run_operon.pl
+./scripts/run_operon.pl
 
 
 ###############################################################################
 #lipoP
 echo "running lipoP"
 
-#./scripts/lipop.sh
+./scripts/lipop.sh
 
 ###############################################################################
 #phaster

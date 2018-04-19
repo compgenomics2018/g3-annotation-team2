@@ -6,11 +6,13 @@ foreach my $file (@ARGV){
     open (my $fh, "<", $file);
     while (my $row = <$fh>){
 	chomp $row;
+	if (!($row =~ /^#/)){
 	my @splitrow = split("\t", $row);
 	my ( $scaffold ) = $splitrow[0] =~ /(scaffold[\d]*)/;
 	
 	$splitrow[0] = $scaffold;
 	my $anno = "";
+
 	foreach (@splitrow){
 	    $anno .= $_."\t";
 	}
@@ -18,6 +20,7 @@ foreach my $file (@ARGV){
 	#print $row."\n";
 	#print $anno."\n";
 	push @array, $anno;
+	}
 
     }
     close $fh;
