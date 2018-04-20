@@ -2,10 +2,16 @@
 
 This repository contains a pipeline to annotate features of predicted genes from assembled genomes in fasta format and predicted genes or proteins in fasta and gff format.
 
-##### Tools Used by this Pipeline
+##### Tools and Databases Used by this Pipeline
 	Phaster
 	eggNOG-mapper hmmer/diamond
 	VFDB/Victor Database (virulence factors)
+	Pilercr
+	rgi
+	LipoP1.0
+	SignalP
+	DOOR (BLAST)
+	rfam
 ##### Usage
       master script located in ./final/pipeline.sh
       
